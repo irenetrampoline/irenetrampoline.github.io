@@ -479,7 +479,7 @@ function sliderProbe(){
     .style( "left", d3.mouse(this)[0] + sliderMargin + "px" )
     .style("display","block")
     .select("p")
-    .html( months[(d.getMonth() + 12) % 12] + " " + (parseInt(d.getFullYear()) + 1)  )
+    .html( months[d.getMonth()] + " " + (parseInt(d.getFullYear()))  )
 }
 
 // function resize(){
