@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="lib/d3.slider.css" />
+  <link rel="stylesheet" rel="stylesheet" href="css/colorbar.css" />
+  <title>Global Productivity</title>
+</head>
+<body>
+  <div id="container">
+    <h1>Global Productivity</h1>
+    <h2>Active Dropbox Usage by Country</h2>
+    <p id="intro">The Global Productivity map is a dynamic visualization of 
+    knowledge workers over the past 12 months. The intensity of the color 
+    represents the productivity of a country, measured by its Dropbox usage.
+     </p>
+    
+
+    <div id="top-bar">
+      <div id="date">
+        <p>Week of</p>
+        <p id="month"></p>
+      </div>
+      <div id="play"></div>
+      <div id="slider-container">
+        <div id="slider-div"></div>
+        <div id="slider-probe">
+          <p></p>
+          <div></div>
+        </div>
+      </div>
+
+  </div>
+    <div id="map-container"></div>
+    <p id="source">Source: Dropbox</p>
+  </div>
+  <script src="lib/d3.v3.min.js"></script>
+  <script src="lib/d3.geo.projection.v0.min.js"></script>
+  <script src="lib/topojson.v1.min.js"></script>
+  <script src="lib/d3.slider.js"></script>
+  <script src="lib/datamaps.world.min.js"></script>
+  <script src="js/main.js"></script>
+  <script type="text/javascript" src="lib/colorbar.js"></script>
+
+</body>
+</html>
