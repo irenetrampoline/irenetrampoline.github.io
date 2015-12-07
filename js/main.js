@@ -76,6 +76,9 @@ d3.json("json/world-topo-min.json", function(error, world) {
       .attr("id", function(d,i) { return d.properties.name});
       // .style("fill", function(d,i) { return d.properties.color});
 
+    probe = d3.select("#map-container").append("div")
+    .attr("id","probe");
+
     // not sure what's going on here
     // d3.select("body")
     // .append("div")
@@ -113,27 +116,28 @@ d3.json("json/world-topo-min.json", function(error, world) {
       });
 
     // extraneous probe stuff
-    // map.selectAll("path.land")
-    //   .on("mousemove",function(d){
-    //       if (typeof d !== "undefined") {
-    //         hoverData = d;
-    //         // setProbeContent(d);
-    //         probe
-    //           .style( {
-    //             "display" : "block",
-    //             "top" : (d3.event.pageY - 80) + "px",
-    //             "left" : (d3.event.pageX + 10) + "px"
-    //           })
-    //       }
+    map.selectAll("path.land")
+      // .attr("vector-effect","non-scaling-stroke")
+      .on("mousemove",function(d){
+          if (typeof d !== "undefined") {
+            hoverData = d;
+            setProbeContent(d);
+            probe
+              .style( {
+                "display" : "block",
+                "top" : (d3.event.pageY - 80) + "px",
+                "left" : (d3.event.pageX + 10) + "px"
+              })
+          }
           
-    //     })
-    //   .on("mouseout",function(){
-    //       if (typeof d !== "undefined") {
-    //         hoverData = null;
-    //       probe.style("display","none");  
-    //       }
+        })
+      .on("mouseout",function(){
+          if (typeof d !== "undefined") {
+            hoverData = null;
+          probe.style("display","none");  
+          }
           
-    //     })
+        })
     // createLegend();
 
     dateScale = createDateScale(orderedColumns).range([0,500]);
@@ -454,19 +458,17 @@ function createLegend(){
 function setProbeContent(d){
   if (typeof d !== "undefined") {
     // console.log(d.country);
-      var val = d[ orderedColumns[ currentFrame ] ],
-      m_y = getMonthYear( orderedColumns[ currentFrame ] ),
-      month = months_full[ months.indexOf(m_y[1]) ];
-      day = m_y[2]
-      var html = "";
-  // var html = "<strong>" + d.country + "</strong><br/>" +
-  //           format( Math.abs( Math.round(val*100)/100 ) ) + " percent productive " +  "<br/>" +
-  //           "<span>" + month + " " + " " + day + "</span>";
+      // var val = d[ orderedColumns[ currentFrame ] ],
+      // m_y = getMonthYear( orderedColumns[ currentFrame ] ),
+      // month = months_full[ months.indexOf(m_y[1]) ];
+      // day = m_y[2]
+      // var html = "";
+      var html = "<strong>" + d.country + "</strong>";
 
   // console.log(html);
 
-  // probe
-  //   .html( html );
+  probe
+    .html( html );
   }
 
 }
