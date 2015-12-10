@@ -266,7 +266,7 @@ function convertToColor(a) {
   x = (a - 1.5) / 7;
   r = Math.round(255 - Math.min((x * 255), 255));
   g = Math.round(255 - Math.min((x * 129), 255));
-  b = Math.round(255 - Math.min((x * 26), 255));
+  b = Math.round(224 - Math.min((x * 26), 255));
   
   // r = 0;
   // g = 136;
