@@ -5,7 +5,7 @@ var width = 650,
 
 
 var projection = d3.geo.kavrayskiy7()
-  .scale(100)
+  .scale(120)
     .translate([width / 2, height / 2]);
   
 
