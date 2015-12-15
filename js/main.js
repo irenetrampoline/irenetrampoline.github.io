@@ -1,10 +1,12 @@
 
 
-var width = 960,
-    height = 600;
+var width = 650,
+    height = 380;
 
 
-var projection = d3.geo.kavrayskiy7();
+var projection = d3.geo.kavrayskiy7()
+  .scale(100)
+    .translate([width / 2, height / 2]);
   
 
 var path = d3.geo.path()
@@ -263,7 +265,7 @@ function convertToColor(a) {
   // a = Math.min(x, 0.08);
   // b = x; // max around 0.45
 
-  x = (a - 1.5) / 7;
+  x = (a - 2) / 7;
   r = Math.round(255 - Math.min((x * 255), 255));
   g = Math.round(255 - Math.min((x * 129), 255));
   b = Math.round(224 - Math.min((x * 26), 255));
