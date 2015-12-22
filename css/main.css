@@ -3,8 +3,16 @@ html, body{
   font: 14px/16px "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+#super-container{
+  width: 650px;
+  height: 380px;
+  text-align: center;
+}
 #container{
-  min-width: 960px;
+  zoom: 0.85;
+  /*-moz-transform: scale(0.9);*/
+  /*width: 650px;
+  height: 380px;*/
 }
 
 .land {
@@ -45,16 +53,17 @@ circle.loss{
   display: inline-block;
   vertical-align: middle;
   text-align: center;
-  margin-top: 20px;
+  /*margin-top: 20px;*/
 }
 
 #top-bar{
   text-align: center;
+  width:300px;
 }
 #date{
   border-left: 5px solid #ccc;
   padding: 3px 0 3px 10px;
-  margin-left: 60px;
+  margin-left: 10px;
   color: #333;
 }
 #date p{
@@ -66,8 +75,8 @@ circle.loss{
   line-height: 13px;
 }
 #date p#month{
-  font-size: 30px;
-  line-height: 30px;
+  font-size: 24px;
+  line-height: 25px;
 }
 #date p#month span{
   float: left;
@@ -93,6 +102,7 @@ circle.loss{
 #slider-container{
   position: relative;
   text-align: center;
+  width: 150px;
 }
 
 #slider-div{
@@ -173,12 +183,12 @@ h1, h2, #intro{
   font-weight: normal;
 }
 h1{
-  font-size: 30px;
-  margin: 20px;
+  font-size: 32px;
+  margin: 18px;
   color: #1a1a1a;
 }
 h2{
-  font-size: 18px;
+  font-size: 24px;
   color: #999;
   margin: 15px;
 }
@@ -193,6 +203,7 @@ h2{
   font-size: 12px;
   margin-left: 60px;
   margin-top: 20px;
+  text-align: left;
 }
 
 #axis-maps{

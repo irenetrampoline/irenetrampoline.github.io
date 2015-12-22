@@ -14,13 +14,14 @@ var path = d3.geo.path()
 
 var svg = d3.select("#map-container").append("svg")
     .attr("width", width)
-    .attr("height", height);
+    // cut off Antartica
+    .attr("height", height - 70);
 
 var g = svg.append("g");
 
 g.append( "rect" )
-  .attr("width",width)
-  .attr("height",height)
+  .attr("width",width * 0.7)
+  .attr("height",height * 0.7)
   .attr("fill","white")
   .attr("opacity",0)
   .on("mouseover",function(){
@@ -408,7 +409,7 @@ function createSlider(){
   d3.select("#slider-container")
     .append("svg")
     .attr("id","axis")
-    .attr("width",dateScale.range()[1] + sliderMargin*2 )
+    .attr("width",dateScale.range()[1] + sliderMargin*2)
     .attr("height",25)
     .append("g")
       .attr("transform","translate(" + (sliderMargin+1) + ",0)")
