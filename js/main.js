@@ -146,19 +146,19 @@ d3.json("json/world-topo-min.json", function(error, world) {
 
     createSlider();
 
-    d3.select("#play")
-      .attr("title","Play animation")
-      .on("click",function(){
-        if ( !isPlaying ){
-          isPlaying = true;
-          d3.select(this).classed("pause",true).attr("title","Pause animation");
-          animate();
-        } else {
-          isPlaying = false;
-          d3.select(this).classed("pause",false).attr("title","Play animation");
-          clearInterval( interval );
-        }
-      });
+    // d3.select("#play")
+    //   .attr("title","Play animation")
+    //   .on("click",function(){
+    //     if ( !isPlaying ){
+    //       isPlaying = true;
+    //       d3.select(this).classed("pause",true).attr("title","Pause animation");
+    //       animate();
+    //     } else {
+    //       isPlaying = false;
+    //       d3.select(this).classed("pause",false).attr("title","Play animation");
+    //       clearInterval( interval );
+    //     }
+    //   });
     drawMonth( orderedColumns[currentFrame], false ); // initial map
     // window.onresize = resize;
     // resize();
