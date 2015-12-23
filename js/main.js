@@ -80,7 +80,7 @@ d3.json("json/world-topo-min.json", function(error, world) {
     // .style("top",d3.select("#play").node().offsetTop + "px")
     // .style("height",d3.select("#date").node().offsetHeight + d3.select("#map-container").node().offsetHeight + "px")
 
-    d3.csv("csv/d3_hours_worked_norm.csv",function(data){
+    d3.csv("csv/d3_hours_worked.csv",function(data){
       var first = data[0];
       // get columns
       // orderedColumns = ["Dec-14", "Jan-15", "Feb-15", "Mar-15", "Apr-15", "May-15",
