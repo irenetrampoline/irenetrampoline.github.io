@@ -1,5 +1,3 @@
-
-
 var width = 650,
     height = 380;
 
@@ -42,16 +40,9 @@ var format = d3.format(",");
 var months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
     months_full = ["January","February","March","April","May","June","July","August","September","October","November","December"],
     orderedColumns = [],
-    currentFrame = 0,
-    interval,
-    frameLength = 300,
-    isPlaying = false;
-
+    currentFrame = 0;
 var sliderMargin = 65;
 
-function circleSize(d){
-  return Math.sqrt( .02 * Math.abs(d) );
-};
 
 var color = d3.scale.category10()
 
@@ -73,26 +64,14 @@ d3.json("json/world-topo-min.json", function(error, world) {
     probe = d3.select("#map-container").append("div")
     .attr("id","probe");
 
-    // not sure what's going on here
-    // d3.select("body")
-    // .append("div")
-    // .attr("id","loader")
-    // .style("top",d3.select("#play").node().offsetTop + "px")
-    // .style("height",d3.select("#date").node().offsetHeight + d3.select("#map-container").node().offsetHeight + "px")
-
     d3.csv("csv/d3_hours_worked.csv",function(data){
       var first = data[0];
       // get columns
-      // orderedColumns = ["Dec-14", "Jan-15", "Feb-15", "Mar-15", "Apr-15", "May-15",
-      //  "Jun-15","Jul-15","Aug-15","Sep-15","Oct-15","Nov-15"];
       for ( var mug in first ){
         if ( mug != "country" ){
           orderedColumns.push(mug);
         } 
       }
-
-      // orderedColumns.sort(sortColumns);
-
     percentage_obj = new Object()
     for (var i in data) {
       country = data[i].country;
@@ -179,23 +158,8 @@ function drawMonth(m,tween){
       }
     })
   }
-    //   function(d){
-    //   // console.log(isNaN(d));
-    //   // console.log(d[m]);
-    //   if (typeof d !== "undefined") {
-    //     new_color = convertToColor(d[m],d[m],d[m]);
-    //     console.log("hello!");
-    //     return new_color;
-    //   }
-      
-    // });
-  
 
   d3.select("#date p#month").html( monthLabel(m) );
-
-  // if (hoverData){
-  //   setProbeContent(hoverData);
-  // }
 }
 
 function createSlider(){
