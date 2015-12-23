@@ -177,14 +177,10 @@ h1, h2, #intro{
   font-weight: normal;
 }
 h1{
-  font-size: 30px;
-  margin: 10px;
+  font-size: 26px;
+  margin-top: 10px;
+  margin-bottom: 15px;
   color: #1a1a1a;
-}
-h2{
-  font-size: 24px;
-  color: #999;
-  margin: 15px;
 }
 #intro{
   width: 800px;
