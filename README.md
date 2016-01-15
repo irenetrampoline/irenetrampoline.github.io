@@ -1,5 +1,14 @@
-hankquinlan.github.io
-=====================
-This is demo data created by [Jonathan McGlone](http://jmcglone.com) and used in a [step-by-step beginners guide](http://jmcglone.com/guides/github-pages) to creating and hosting a personal website using GitHub and Jekyll. You can view the demo data at <http://hankquinlan.github.io> and read the guide at <http://jmcglone.com/guides/github-pages>. 
+# Minimal Theme
 
-Users are free to copy and re-use any and all of the code contained here without contacting me.
+[Demo the Theme](http://orderedlist.github.com/minimal/)
+
+This is the raw HTML and styles that are used for the *minimal* theme on [GitHub Pages](http://pages.github.com/).
+
+Syntax highlighting is provided on GitHub Pages by [Pygments](http://pygments.org).
+
+# License
+
+This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/).
+
+
+
