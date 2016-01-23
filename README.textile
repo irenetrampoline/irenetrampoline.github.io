@@ -1,10 +1,10 @@
 h1. This is my (burgeoning) blog
 
-It is run using "Jekyll":http://github.com/mojombo/jekyll to turn Markdown into
-a static site whenever I push this repository to GitHub.
+It is run using "Jekyll":http://github.com/mojombo/jekyll to turn Markdown files
+into a static site whenever I push this repository to GitHub.
 
 It is heavily based on "this template":https://github.com/mojombo/mojombo.github.io
-that I found on the internet.
+thanks to "Tom Preston-Werner":http://tom.preston-werner.com/.
 
 h1. License
 
