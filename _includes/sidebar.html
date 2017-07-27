@@ -1,5 +1,4 @@
 <nav>
-  <h1>Hi.</h1>
   <a href="/">
     {% if site.data.theme.social.gravatar %}
     <img src="http://www.gravatar.com/avatar/{{ site.data.theme.social.gravatar }}?s=200" id="gravatar" alt="My photo"/>
@@ -7,9 +6,10 @@
     <img src="/logo.png" id="logo" alt="Blog logo"/>
     {% endif %}
   </a>
-  <h2>I'm <a href="/">{{ site.data.theme.name }}</a>.</h2>
+  <h2>Hi, I'm <a href="http://people.csail.mit.edu/iychen/">{{ site.data.theme.name }}</a>.</h2>
   <div id="bio">
-    <p>PhD candidate in Machine Learning at <a href="https://www.csail.mit.edu/">MIT CSAIL</a>. </p>
+    <p>
+    <p>PhD student at MIT. </p>
   </div>
   <div id="social">
     {% include social.html %}
