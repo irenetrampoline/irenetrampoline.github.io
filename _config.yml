@@ -1,6 +1,6 @@
 # General Jekyll Config
 highlighter: rouge
 url: http://irenechen.net
-baseurl: /blog
+baseurl: 
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]

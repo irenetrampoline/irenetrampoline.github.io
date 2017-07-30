@@ -120,6 +120,7 @@ nav h1, nav h2 {
   font-size: 13px;
 }
 
+
 #post pre {
   border: 1px solid #ddd;
   background-color: #eef;
@@ -132,6 +133,7 @@ nav h1, nav h2 {
   margin-left: 1.35em;
 }
 
+/*
 #post code {
   border: 1px solid #ddd;
   background-color: #eef;
@@ -142,6 +144,56 @@ nav h1, nav h2 {
 #post pre code {
   border: none;
 }
+
+*/
+
+/*--------------
+  Code Snippet
+  -------------- */
+
+code,
+pre {
+  font-family: Menlo, 'Ubuntu Mono', Monaco, 'Spoqa Han Sans', monospace;
+}
+
+code {
+  padding: .25em .5em;
+  font-size: 85%;
+  color: #343a40;
+  background-color: #f8f9fa;
+  border-radius: 3px;
+}
+
+pre {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding: .5rem;
+  font-size: .8rem;
+  line-height: 1.4;
+  white-space: pre;
+  overflow: auto;
+  background-color: #f8f9fa;
+}
+
+pre code {
+  padding: 0;
+  font-size: 100%;
+  color: inherit;
+  background-color: transparent;
+}
+
+.highlight {
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+
+.highlight pre {
+  margin-bottom: 0;
+}
+
+
+/* rest of original css */
 
 .sidebar {
   padding-top: 25px;
