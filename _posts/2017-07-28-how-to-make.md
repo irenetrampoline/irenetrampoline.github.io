@@ -19,6 +19,8 @@ If I can do it, you (yes you!) can make a blog too.
 
 # Envy is a great motivator
 
+If you're nervous about working with code, feel free to check out [Medium](medium.com) or [Wordpress](wordpress.com). But if you want more freedom---to make things simpler or more complicated---read on.
+
 Thanks to open source communities, we can now shamelessly rip off other people's blogs. In particular, [Jekyll](https://jekyllrb.com/) has become a popular static site generator useful for building websites out of Markdown and sharing them with others. 
 
 This [Lagom template](https://github.com/swanson/lagom) is courtesy of [Matt Swanson](https://mdswanson.com/about/), an Indiana software engineer. 
