@@ -3,4 +3,5 @@ highlighter: rouge
 url: http://irenechen.net
 baseurl: 
 lsi: false
+markdown: redcarpet
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]

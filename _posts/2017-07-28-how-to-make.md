@@ -38,7 +38,7 @@ The last one is particularly important since previous attempts to set up a blog 
 
 Look around the web for [other Jekyll themes](https://jekyllthemes.io/) you like. All Jekyll sites have similar installation instructions; the best way to motivate yourself through the agony that is front-end development is to have a beautiful website that you're working towards.
 
-# Start "borrowing" 
+# Start "borrowing"
 
 Let's start stealing! I mean, downloading through open source. Note that we are assuming that you have [Github](https://github.com/) at this point.
 
@@ -69,8 +69,9 @@ Beyond the basic changes, you can consider more advanced modifications
 
  * Changing the coding colors and syntax so that it isn't the Solarized theme
  * Adding Disqus commenting so that viewers can join the conversation
- * Adding more statis pages like an About page or a Contact page using the `404.html` page as a template
+ * Adding more static pages like an About page or a Contact page using the `404.html` page as a template
  * Pagination support 
+ * Add [MathJax](http://gastonsanchez.com/visually-enforced/opinion/2014/02/16/Mathjax-with-jekyll/) to be able to type math
 
 # Bring it online
 

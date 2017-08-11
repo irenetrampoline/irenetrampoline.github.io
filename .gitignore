@@ -4,4 +4,4 @@ _site/
 .idea
 .sass-cache
 .jekyll-metadata
-
+*_TEST.md
