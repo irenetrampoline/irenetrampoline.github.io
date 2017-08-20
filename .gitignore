@@ -5,3 +5,4 @@ _site/
 .sass-cache
 .jekyll-metadata
 *_TEST.md
+*_DRAFT.md
