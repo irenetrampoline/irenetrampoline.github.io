@@ -6,7 +6,12 @@ layout: default
 </script>
 
 <p class="meta">
-  {{ page.date | date: "%B %d, %Y" }} · {{page.length}}
+  {{ page.date | date: "%B %d, %Y" }} 
+
+{% if page.length %}
+ · {{page.length}}
+{% endif %}
+
   <a href="/">
     <i class="home fa fa-home"></i>
   </a>
