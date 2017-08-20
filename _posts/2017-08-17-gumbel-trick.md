@@ -69,4 +69,6 @@ P(\max_{x \in \mathcal{X}} \{ \phi(x) + \gamma(x) \}) &= \prod_{x \in \mathcal{X
 The first equality follows from multiplying the Gumbel CDF $F(t)$ of $\gamma(x)$ of all possible values to capture the maximum. The second equality comes from expanding out the Gumbel CDF. The third equality consolidates the potential functions such that $Z = \sum_{x \in \mathcal{X}} \phi(x)$. The fourth equality sticks the $\ln Z$ back into the $\exp$ function. The last equality compresses the probability back into the Gumbel CDF, except set at a different location. $\blacksquare$
 
 ## Other proofs
-I enjoyed and modeled this post after the proof from [Hazan and Jaakkola 2012](https://people.csail.mit.edu/tommi/papers/HazJaa-ICML12.pdf); however, [Matej et al 2017](https://arxiv.org/pdf/1706.04161.pdf) have another proof using a cleverly chosen $g$ function and competing exponential clocks. For more information, I wrote up [more details here.]({{site.url}}/pdfs/gumbel.pdf)
+I enjoyed and modeled this post after the proof from [Hazan and Jaakkola 2012](https://people.csail.mit.edu/tommi/papers/HazJaa-ICML12.pdf); however, [Matej et al 2017](https://arxiv.org/pdf/1706.04161.pdf) has another proof using a cleverly chosen $g$ function and competing exponential clocks. For more information, I wrote up [more details here.]({{site.url}}/pdfs/gumbel.pdf)
+
+Feel free to reach out with any questions to iychen@mit.edu! 
