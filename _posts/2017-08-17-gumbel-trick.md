@@ -12,7 +12,7 @@ Calculating log-partition functions for discrete probabiity distributions has ne
 
 # No, not gumballs
 
-Until I read the [recent paper at ICML 2017](https://arxiv.org/pdf/1706.04161.pdf), I hadn't heard of the Gumbel trick. There is surprisingly little online about the Gumbel trick---not to be confused with the [Gumbel-max trick](https://hips.seas.harvard.edu/blog/2013/04/06/the-gumbel-max-trick-for-discrete-distributions/)---so here we go.
+Until I read the [recent paper at ICML 2017](https://arxiv.org/pdf/1706.04161.pdf), I hadn't heard of the Gumbel trick. There is surprisingly little online about the Gumbel trick---related to the more popular [Gumbel-max trick](https://hips.seas.harvard.edu/blog/2013/04/06/the-gumbel-max-trick-for-discrete-distributions/)---so here we go.
 
 We often want to characterize probabilistic models in discrete situations. The Gumbel trick allows us to estimate as associated [partition function](https://en.wikipedia.org/wiki/Partition_function_(mathematics)) $Z$ with relative ease. At a high level, finding $Z$ or even $\ln Z$ is very difficult; however, we can add some noise and compute the [maximum a posteriori](https://en.wikipedia.org/wiki/Maximum_a_posteriori_estimation) (MAP) more easily through approximation methods. If we repeat this process enough times, we get a reliable estimate of $Z$.
 
