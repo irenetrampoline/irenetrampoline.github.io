@@ -2,6 +2,8 @@
 layout: post
 title: The Gumbel Trick
 use_math: true
+comments: true
+length: 6 min read
 categories:
 - blog
 ---

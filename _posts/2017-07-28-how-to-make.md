@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to make this blog
+length: 10 min read
 categories:
 - blog
 ---
