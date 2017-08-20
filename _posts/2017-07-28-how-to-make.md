@@ -2,6 +2,7 @@
 layout: post
 title: How to make this blog
 length: 10 min read
+comments: true
 categories:
 - blog
 ---
