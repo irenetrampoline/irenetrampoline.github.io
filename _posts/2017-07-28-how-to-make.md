@@ -3,12 +3,9 @@ layout: post
 title: How to make this blog
 length: 10 min read
 comments: true
+tagline: Here we outline the step-by-step process of how to make a blog like this.
 categories:
 - blog
----
-
-Here we outline the step-by-step process of how to make a blog like this.
-
 ---
 
 # Behold, a blog.
@@ -18,6 +15,8 @@ For a long time, I thought creating a personal website was too intimidating, too
 No more! Certainly every blog is different, but here's how I made this one. 
 
 If I can do it, you (yes you!) can make a blog too.
+
+<!--more-->
 
 # Envy is a great motivator
 

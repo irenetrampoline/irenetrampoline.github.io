@@ -4,14 +4,10 @@ title: The Gumbel Trick
 use_math: true
 comments: true
 length: 6 min read
+tagline: Calculating log-partition functions for discrete probabiity distributions has never been so easy
 categories:
 - blog
 ---
-
-Calculating log-partition functions for discrete probabiity distributions has never been so easy
-
----
-
 # No, not gumballs
 
 Until I read the [recent paper at ICML 2017](https://arxiv.org/pdf/1706.04161.pdf), I hadn't heard of the Gumbel trick. There is surprisingly little online about the Gumbel trick---related to the more popular [Gumbel-max trick](https://hips.seas.harvard.edu/blog/2013/04/06/the-gumbel-max-trick-for-discrete-distributions/)---so here we go.
@@ -19,6 +15,8 @@ Until I read the [recent paper at ICML 2017](https://arxiv.org/pdf/1706.04161.pd
 We often want to characterize probabilistic models in discrete situations. The Gumbel trick allows us to estimate as associated [partition function](https://en.wikipedia.org/wiki/Partition_function_(mathematics)) $Z$ with relative ease. At a high level, finding $Z$ or even $\ln Z$ is very difficult; however, we can add some noise and compute the [maximum a posteriori](https://en.wikipedia.org/wiki/Maximum_a_posteriori_estimation) (MAP) more easily through approximation methods. If we repeat this process enough times, we get a reliable estimate of $Z$.
 
 In complexity theory, we know that finding the MAP is [NP-hard](https://en.wikipedia.org/wiki/NP-hardness) but can be [approximated quickly in practice](http://cs.nyu.edu/~dsontag/papers/sontag_uai08.pdf). Note that the partition function is a harder even still, containing [\#P-hard](https://en.wikipedia.org/wiki/Sharp-P) problems.
+
+<!--more-->
 
 Let's formalize. For finite sample $\mathcal{X}$ of size $N$, we define an unnormalized mass function $\tilde{p} : \mathcal{X} \to [0, \infty)$ and let $Z:= \sum_{x \in \mathcal{X}} \tilde{p}(x)$ be the normalizing partition function. We then define $\phi(x) := \ln \tilde{p}(x)$ as the log-unnormalized probabilities or the potential function.
 
