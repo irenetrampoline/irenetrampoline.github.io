@@ -4,3 +4,6 @@ url: http://irenechen.net
 lsi: false
 markdown: kramdown
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
+excerpt_separator: <!--more-->
+paginate: 10
+paginate_path: "blog/page:num"
