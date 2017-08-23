@@ -68,8 +68,7 @@ You might also want to change the sidebar in [_includes/sidebar.html](https://gi
 
 Beyond the basic changes, you can consider more advanced modifications
 
- * Changing the coding colors and syntax so that it isn't the Solarized theme
- * Adding Disqus commenting so that viewers can join the conversation
+ * Adding [Disqus commenting](http://sgeos.github.io/jekyll/disqus/2016/02/14/adding-disqus-to-a-jekyll-blog.html) so that viewers can join the conversation
  * Adding more static pages like an About page or a Contact page using the `404.html` page as a template
  * Pagination support 
  * Add [MathJax](http://gastonsanchez.com/visually-enforced/opinion/2014/02/16/Mathjax-with-jekyll/) to be able to type math
