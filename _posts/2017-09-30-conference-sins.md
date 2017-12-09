@@ -89,3 +89,6 @@ You may choose to embrace the gluttony in order to experience all of the local d
 
 Learn the sins, try to overcome them, and accept the ones you haven’t conquered just yet. We are only human researchers.
 
+<br>
+
+*Note: this article is a repost from the [MIT Graduate Admissions Blog](http://gradadmissions.mit.edu/blog/seven-deadly-sins-conferences), where I sometimes blog.*
