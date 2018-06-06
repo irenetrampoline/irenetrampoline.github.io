@@ -6,7 +6,7 @@ title: Irene Chen
 
 <img class="profile-picture" src="irene.jpg">
 
-I am a Ph.D. student at [MIT CSAIL](https://www.csail.mit.edu/), advised by Professor [David Sontag](http://cs.nyu.edu/~dsontag/) of the [Clinical Machine Learning](http://clinicalml.org/) group. My research focuses on machine learning and its applications to solving important real-world problems including *healthcare* and *fairness*.
+I am a Ph.D. student at [MIT CSAIL](https://www.csail.mit.edu/), advised by Professor [David Sontag](http://cs.nyu.edu/~dsontag/) in the [Clinical Machine Learning](http://clinicalml.org/) group. My research focuses on machine learning and its applications to solving important real-world problems including *healthcare* and *fairness*.
 
 Prior to MIT, I worked at [Dropbox](www.dropbox.com) as Data Scientist, Chief of Staff, and Machine Learning Engineer. I graduated from [Harvard](https://www.seas.harvard.edu/) with a joint AB/SM in Applied Math and Computational Engineering where I researched with [Michael Luca](http://www.hbs.edu/faculty/Pages/profile.aspx?facId=602417) and [Ben Edelman](http://www.hbs.edu/faculty/Pages/profile.aspx?facId=417579).
 
