@@ -1,10 +1,41 @@
-# General Jekyll Config
-highlighter: rouge
-url: http://irenechen.net
-lsi: false
+name: Irene Chen
+description: >
+    Irene Chen
+about: >
+    A blog on machine learning by Irene. 
+    <br><br>
+    Follow me on twitter at <a href="http://www.twitter.com/irenetrampoline">@irenetrampoline</a>
+    <br><br>
+    <i>Views are my own and don’t necessarily reflect those of my employer.<i/>
+
+master_repo: false
+url: "http://www.irenechen.net"
 markdown: kramdown
-exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
-excerpt_separator: <!--more-->
-paginate: 10
-paginate_path: "blog/page:num"
-show_drafts: false
+highlighter: rouge
+paginate_path: "/blog/page:num/"
+
+plugins: ['jekyll-paginate', 'jekyll-gist', 'jekyll-feed']
+
+paginate: 4
+
+# logo:             logo.png
+# disqus_shortname:
+
+rtl: false
+owner:
+  name:           Irene
+  avatar:         "irene.jpg"
+  email:          "iychen@mit.edu"
+  # Social networking links used in footer. Update and remove as you like.
+  twitter: irenetrampoline
+  github: https://github.com/irenetrampoline
+  # stackexchange: https://stackoverflow.com/users/859112/vinit-kumar?tab=profile
+  linkedin: http://linkedin.com/in/irenetrampoline
+  # For Google Authorship https://plus.google.com/authorship
+  # google_plus:
+
+# Analytics and webmaster tools stuff goes here
+google_analytics: UA-72495497-4
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:

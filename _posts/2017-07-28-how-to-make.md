@@ -8,8 +8,6 @@ categories:
 - blog
 ---
 
-# Behold, a blog.
-
 For a long time, I thought creating a personal website was too intimidating, too cumbersome, or too much trouble. When I read other people's blogs, the authors never mentioned how they made the blog, which made me think it was effortless for them.
 
 No more! Certainly every blog is different, but here's how I made this one. 
@@ -18,7 +16,7 @@ If I can do it, you (yes you!) can make a blog too.
 
 <!--more-->
 
-# Envy is a great motivator
+## Envy is a great motivator
 
 If you're nervous about working with code, feel free to check out [Medium](medium.com) or [Wordpress](wordpress.com). But if you want more freedom---to make things simpler or more complicated---read on.
 
@@ -39,7 +37,7 @@ The last one is particularly important since previous attempts to set up a blog 
 
 Look around the web for [other Jekyll themes](https://jekyllthemes.io/) you like. All Jekyll sites have similar installation instructions; the best way to motivate yourself through the agony that is front-end development is to have a beautiful website that you're working towards.
 
-# Start "borrowing"
+## Start "borrowing"
 
 Let's start stealing! I mean, downloading through open source. Note that we are assuming that you have [Github](https://github.com/) at this point.
 
@@ -58,7 +56,7 @@ In the spirit of transparency, here are a list of problems I ran into at this po
  * Because I had installed two versions of Jekyll (one a long time ago), `jekyll serve` did not work, and the program got confused
  * I cloned the repo into the wrong directory, which messed up some of the git references, making version control very tangled
 
-# The fun part
+## The fun part
 
 At this point, you have a working website on your local computer. I'll pause here for you to do a little dance.
 
@@ -73,7 +71,7 @@ Beyond the basic changes, you can consider more advanced modifications
  * Pagination support 
  * Add [MathJax](http://gastonsanchez.com/visually-enforced/opinion/2014/02/16/Mathjax-with-jekyll/) to be able to type math
 
-# Bring it online
+## Bring it online
 
 There are a couple ways to take this beautiful site that exists on your computer onto the internet. One option here is to deploy it using [Github Pages](http://pages.github.com/), which is easy and free. Simply rename the repository on Github to be `YOUR-GITHUB-USERNAME.github.io`, and you'll be able to see your site live.
 
@@ -90,7 +88,7 @@ Another slightly more pro-option is to host it on your own domain. That's what `
  * Wait a **loooooong** time. For me, this meant several hours. Do not panic. 
  * Visit your website (aka `irenechen.net`) to view the finished product!
 
-# Celebrate
+## Celebrate
 And that's it! In the end, web development and deploying your website is not difficult for the brain, just difficult for the patience. You will have your website crash or deviate from these "simple" instructions. Don't be afraid to take a deep breath or even start from the beginning. 
 
 Now that you've made a website, nothing can stop you.

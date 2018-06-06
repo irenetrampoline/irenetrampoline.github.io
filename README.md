@@ -1,77 +1,111 @@
-# Lagom
+# White Paper
 
-> #### *Lagom* is a Swedish word with no direct English equivalent, meaning "just the right amount"
+**White Paper** is a theme for Jekyll. It is built keeping content in focus and is best for writers/developers who also like to share code with their essays.
 
-Lagom, a [Jekyll][j] blog theme with just the right amount of style. 
+# White Paper in Action
 
-Extracted lovingly from [http://mdswanson.com][mds] for your enjoyment!
+- Home page
+
+![home](https://cldup.com/FRewyA-EEI-3000x3000.png)
 
 
+- Post Detail View
 
-* Responsive, based on [Skeleton][skeleton]
-* [Font Awesome][font-awesome] for icons
-* Open Sans from [Google web fonts][gfonts]
-* Built-in Atom feed
+![post detail](https://cldup.com/mERDZPBshM-3000x3000.png)
 
-[![Live Demo](https://img.shields.io/badge/view-live--demo-blue.svg?style=flat-square)](http://lagom.mdswanson.com/)
+## How to use White Paper
 
-## Action Shots
-![](http://i.imgur.com/Pmzk4j1.png)
-![](http://i.imgur.com/CT2Xvug.png)
-![](http://i.imgur.com/XisjqW1.jpg)
+Fork the repo to your account by clicking the button on the top right as shown in the image:
+
+![fork](https://cldup.com/vOF0oaUkh5-3000x3000.png) and then where you want to fork it as shown below.
+
+Next, Go the the project settings and change the repository name to `<username>.github.io` where username is your username.
+
+Change these entries in the `_config.yml` file:
+
+Also, change this line in head.html [link](https://github.com/vinitkumar/white-paper/blob/9ad021a8f94c6240351bd57eda301b5f207e554e/_includes/head.html#L28)
+
+```html
+<!-- From this -->
+<link rel="stylesheet" href=" {{ '/css/main.min.css' | relative_url }}" type="text/css" />
+<!-- To this -->
+<link rel="stylesheet" href=" {{ '/css/main.min.css' | absolute_url }}" type="text/css" />
+
+```
+
+
+This will make sure that the path of CSS is correct and the theme loads correctly.
+
+```yml
+master_repo: false
+url: "<username>.github.io"
+rtl: false  # change to true if posts is in Arabic/other Right to left language.
+```
+Also, change all other fields in the `_config.yml` file to your choice.
 
 ## Installation
 
-- [Fork this repository][fork]
-- Clone it: `git clone https://github.com/YOUR-USER/lagom`
-- Install the [GitHub Pages gem][pages] (includes Jekyll): `bundle install`
-- Run the jekyll server: `jekyll serve`
+### Local Development
 
-You should have a server up and running locally at <http://localhost:4000>.
+This theme requires you to install couple of tools first to setup jekyll locally.
 
-## Customization
+```$
+git clone git@github.com:vinitkumar/white-paper.git
 
-Next you'll want to change a few things. Most of them can be changed directly in
-[theme.yml][config]. That's where you can add your social links, change the accent
-color, stuff like that.
+# If you have ruby installed.
+gem install jekyll bundler
 
-There's a few other places that you'll want to change, too:
+# If you have node installed.
+npm install
+sudo npm install -g grunt-cli  #to get the task runner for grunt.
+bundle install
+jekyll serve
 
-- [CNAME][cname]: If you're using this on GitHub Pages with a custom domain name, 
-  you'll want to change this to be the domain you're going to use. All that should 
-  be in here is a domain name on the first line and nothing else (like: `example.com`).
-- [favicon.png][favicon]: This is the icon in your browser's address bar. You should 
-  change it to whatever you'd like.
-- [logo.png][logo]: A square-ish image that appears in the upper-left corner
+# on running the serve script, the site will be live on
+http://127.0.0.1:4000
+```
+This theme uses grunt to concat & minify the css for best performance. In order to prepare the css build. Run `grunt`
+It will create a main.min.css file in the css folder.
 
-## Deployment
+### Switch Syntax Highlighting.
 
-You should deploy with [GitHub Pages][pages] - it's just easier.
+This theme also provides syntax highlighting in different theme. Inside css folder, there is a syntax folder.
 
-All you should have to do is rename your repository on GitHub to be
-`username.github.io`. Since everything is on the `gh-pages` branch, you
-should be able to see your new site at <http://username.github.io>.
+```$
+.
+├── emacs.css
+├── github.css
+├── monokai.css
+├── native.css
+├── syntax.css
+└── vim.css
 
-## Licensing
+```
 
-[MIT](https://github.com/swanson/lagom/blob/master/LICENSE) with no
-added caveats, so feel free to use this on your site without linking back to
-me or using a disclaimer or anything silly like that.
+Now in the gruntfiles.js
+
+```js
+concat: {
+  dist: {
+    src: [
+      'css/base.css',
+      'css/sytax/emacs.css', // change this to another theme if you prefer, like vim.css and run grunt
+      'css/octicons.css'
+    ],
+    dest: 'css/<%= pkg.name %>.add.css'
+  }
+}
+```
+
+## License
+* see [LICENSE](https://github.com/vinitkumar/white-paper/blob/gh-pages/LICENSE) file
+
+## Version
+* Version 4.0.0
 
 ## Contact
-I'd love to hear from you at [@_swanson][twitter]. Feel free to open issues if you
-run into trouble or have suggestions. Pull Requests always welcome.
+#### Developer
 
-[j]: http://jekyllrb.com/
-[mds]: http://mdswanson.com
-[skeleton]: http://www.getskeleton.com/
-[font-awesome]: http://fortawesome.github.io/Font-Awesome/
-[gfonts]: http://www.google.com/fonts/specimen/Open+Sans
-[fork]: https://github.com/swanson/lagom/fork
-[config]: https://github.com/swanson/lagom/blob/master/_data/theme.yml
-[cname]: https://github.com/swanson/lagom/blob/master/CNAME
-[favicon]: https://github.com/swanson/lagom/blob/master/favicon.png
-[logo]: https://github.com/swanson/lagom/blob/master/logo.png
-[pages]: http://pages.github.com
-[twitter]: https://twitter.com/_swanson
-[pages]: https://github.com/github/pages-gem
+* Homepage: http://vinitkumar.me
+* e-mail: vinit1414.08@bitmesra.ac.in
+* Twitter: [@vinitkme](https://twitter.com/vinitkme "vinitkme on twitter")
