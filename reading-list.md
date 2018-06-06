@@ -4,7 +4,7 @@ title: Books I've Liked
 ---
 
 <h1 class="owner-name">Reading List</h1>
-I like to share what I'm reading to keep me motivated. For papers, see my [papers repo](http://www.github.com/irenetrampoline/papers). Below are books I've read.
+I like to share what I'm reading to keep me motivated. For academic papers, see my [papers repo](http://www.github.com/irenetrampoline/papers). Below are books I've read.
 
 <hr>
 **Currently reading**
