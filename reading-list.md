@@ -10,7 +10,7 @@ I like to share what I'm reading to keep me motivated. For academic papers, see 
 **Currently reading**
 
  * [Evicted: Poverty and Profit in the American City](https://amzn.to/2xO0Vh7), Matthew Desmond
- * [Her Body and Other Parties: Stories](https://amzn.to/2JkxRiz), Carmen Maria Machado
+ * [Her Body and Other Parties](https://amzn.to/2JkxRiz), Carmen Maria Machado
  * [Phishing for Phools: The Economics of Manipulation and Deception](https://amzn.to/2JncSMa), George Akerlof and Robert Shiller
 
 **Books completed in 2018**
