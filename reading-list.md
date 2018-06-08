@@ -11,6 +11,7 @@ I like to share what I'm reading to keep me motivated. For academic papers, see 
  * [Factfulness: Ten Reasons We're Wrong About the World--and Why Things Are Better Than You Think](https://amzn.to/2LyB3rP), Hans Rosling, Anna Rosling Ronnlund, Ola Rosling
  * [Evicted: Poverty and Profit in the American City](https://amzn.to/2xO0Vh7), Matthew Desmond
  * [Phishing for Phools: The Economics of Manipulation and Deception](https://amzn.to/2JncSMa), George Akerlof and Robert Shiller
+ * [Spinster: Making a Life of One's Own](https://amzn.to/2Jlujkd), Kate Bolick
  * [The $800 Million Pill: The Truth behind the Cost of New Drugs](https://amzn.to/2kSSnwe), Merrill Goozner
 
 **Books completed in 2018**
