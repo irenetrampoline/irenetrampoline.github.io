@@ -17,7 +17,7 @@ You can email me at iychen [at] mit [dot] edu or reach me on [Twitter](http://ww
  * May '18: Our paper [Why is My Classifier Discriminatory?](https://arxiv.org/abs/1805.12002) is now available on arXiv.
  * May '18: I received the [Seth J. Teller Award for Excellence, Inclusion, and Diversity](http://www.eecs.mit.edu/news-events/announcements/eecs-celebrates-2018-recognizing-departments-outstanding-contributors).
  * Apr '18: I ran the [2018 Boston Marathon](https://twitter.com/irenetrampoline/status/986059482022273024) and raised over $10,000 for charity!
- * Jan '18: I was selected as a finalist for the [Paul & Daisy Soros Fellowship](https://www.pdsoros.org/).
+ * Jan '18: I was selected as a Finalist for the [Paul & Daisy Soros Fellowship](https://www.pdsoros.org/).
 
 ## Research
 Current research projects include
