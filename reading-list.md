@@ -9,7 +9,6 @@ I like to share what I'm reading to keep me motivated. For academic papers, see 
 <hr>
 **Currently reading**
  * [Factfulness: Ten Reasons We're Wrong About the World--and Why Things Are Better Than You Think](https://amzn.to/2LyB3rP), Hans Rosling, Anna Rosling Ronnlund, and Ola Rosling
- * [Spinster: Making a Life of One's Own](https://amzn.to/2Jlujkd), Kate Bolick
  * [Evicted: Poverty and Profit in the American City](https://amzn.to/2xO0Vh7), Matthew Desmond
  * [Phishing for Phools: The Economics of Manipulation and Deception](https://amzn.to/2JncSMa), George Akerlof and Robert Shiller
  * [The $800 Million Pill: The Truth behind the Cost of New Drugs](https://amzn.to/2kSSnwe), Merrill Goozner
