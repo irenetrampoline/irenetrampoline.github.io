@@ -15,7 +15,7 @@ I like to share what I'm reading to keep me motivated. For academic papers, see 
  * [The $800 Million Pill: The Truth behind the Cost of New Drugs](https://amzn.to/2kSSnwe), Merrill Goozner
 
 **Books completed in 2018**
-
+ * [How to Talk So Kids Will Listen & Listen So Kids Will Talk](https://amzn.to/2MxWtXa), Adele Faber and Elaine Mazlish
  * [Crazy Rich Asians](https://amzn.to/2y2Wr6m), Kevin Kwan
  * [Her Body and Other Parties](https://amzn.to/2JkxRiz), Carmen Maria Machado
  * [Bad Blood: Secrets and Lies in a Silicon Valley Startup](https://amzn.to/2JB9fp6), John Carreyrou
