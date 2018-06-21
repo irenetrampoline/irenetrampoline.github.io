@@ -8,6 +8,7 @@ I like to share what I'm reading to keep me motivated. For academic papers, see 
 
 <hr>
 **Currently reading**
+ * [The Heart](https://amzn.to/2McxrM6), Maylis de Keranga
  * [Evicted: Poverty and Profit in the American City](https://amzn.to/2xO0Vh7), Matthew Desmond
  * [Phishing for Phools: The Economics of Manipulation and Deception](https://amzn.to/2JncSMa), George Akerlof and Robert Shiller
  * [The $800 Million Pill: The Truth behind the Cost of New Drugs](https://amzn.to/2kSSnwe), Merrill Goozner
