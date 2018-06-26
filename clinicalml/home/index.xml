@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Clinical Machine Learning Group</title>
+    <link>http://clinicalml.org/home/</link>
+    <description>Recent content in Homes on Clinical Machine Learning Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://clinicalml.org/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://clinicalml.org/home/hero/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 -0400</pubDate>
+      
+      <guid>http://clinicalml.org/home/hero/</guid>
+      <description>The Clinical Machine Learning Group at MIT works at the intersection of statistical theory and clinical practice. Led by Professor David Sontag, our group includes graduate students, clinicians, undergraduates, and post-docs. 🚀 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://clinicalml.org/home/david/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>http://clinicalml.org/home/david/</guid>
+      <description>Biography David Sontag joined the MIT faculty in 2017 as Assistant Professor in the Department of Electrical Engineering and Computer Science (EECS), Hermann L.F. von Helmholtz Career Development Professor in the Institute for Medical Engineering and Science (IMES), and principal investigator in the Computer Science and Artificial Intelligence Laboratory (CSAIL). Professor Sontag&amp;rsquo;s research interests are in machine learning and artificial intelligence. As part of IMES, he leads a research group that aims to transform healthcare through the use of machine learning.</description>
+    </item>
+    
+    <item>
+      <title>People</title>
+      <link>http://clinicalml.org/home/people/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>http://clinicalml.org/home/people/</guid>
+      <description>Postdocs  Fredrik Johansson, PhD Anastasia Podosinnikova, PhD  Ph.D. Students  Rahul G. Krishnan Irene Chen Michael Oberst  Clinical Fellows  Sanjat Kanjilal  Harvard-MIT MD Students  Zeshan Hussain  Masters/Undergraduate Students  Helen Zhou (MEng) Hunter Lang (MEng) Loc Trinh Arjun Khandelwal Rares Buhai Christina Ji Lawrence Li Jingshu Liu (NYU Master&amp;rsquo;s) Aahlad Manas (NYU Master&amp;rsquo;s)  Alumni  Uri Shalit (Postdoc → Assistant Professor, Technion) Yacine Jernite (Ph.</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>http://clinicalml.org/home/research/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>http://clinicalml.org/home/research/</guid>
+      <description>Our lab is broadly interested in advancing machine learning and artificial intelligence, and using these to transform health care. We currently have three main focus areas:
+ Theoretical machine learning Precision medicine Intelligent electronic health records  Theoretical Machine Learning We research unsupervised learning, causal inference from observational data, deep learning, time-series modeling, approximate probabilistic inference, structured prediction, and semi-supervised learning algorithms for natural language processing.
+R. Krishnan, U. Shalit, D.</description>
+    </item>
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>http://clinicalml.org/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>http://clinicalml.org/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Publications</title>
+      <link>http://clinicalml.org/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>http://clinicalml.org/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>http://clinicalml.org/home/software/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>http://clinicalml.org/home/software/</guid>
+      <description>Machine learning Python (Theano) code for learning Deep Markov Models (AAAI &amp;lsquo;17) Torch code for learning character-aware neural language models (AAAI &amp;lsquo;16) Python code for learning topic models (ICML &amp;lsquo;13). See also Mallet-compatible Java implementation Bayesian network structure learning (UAI &amp;lsquo;13). C++ code for MAP inference in graphical models (UAI &amp;lsquo;12). Readme file
+Health care Anchor Explorer Machine learning algorithm and user interface for learning to predict clinical state variables without having to label data (AMIA 2014, JAMIA 2016)</description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>http://clinicalml.org/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>http://clinicalml.org/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>http://clinicalml.org/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>http://clinicalml.org/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://clinicalml.org/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>http://clinicalml.org/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>http://clinicalml.org/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>http://clinicalml.org/home/teaching/</guid>
+      <description>Massachusetts Institute of Technology Machine Learning for Healthcare, Spring 2017 6.S897, HST.S53 Course description: Explores machine learning methods for clinical and healthcare applications. Covers concepts of algorithmic fairness, interpretability, and causality. Discusses application of time-series analysis, graphical models, deep learning and transfer learning methods to solving problems in healthcare. Considers how newly emerging machine learning techniques will shape healthcare policy and personalized medicine.
+New York University  Fall 2016: Inference and Representation (DS-GA-1005 and CSCI-GA.</description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>http://clinicalml.org/home/tags/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>http://clinicalml.org/home/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://clinicalml.org/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>http://clinicalml.org/home/contact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
