@@ -8,12 +8,14 @@ I like to share what I'm reading to keep me motivated. For academic papers, see 
 
 <hr>
 **Currently reading**
- * [Factfulness: Ten Reasons We're Wrong About the World--and Why Things Are Better Than You Think](https://amzn.to/2LyB3rP), Hans Rosling, Anna Rosling Ronnlund, and Ola Rosling
+ * [The Heart](https://amzn.to/2McxrM6), Maylis de Keranga
  * [Evicted: Poverty and Profit in the American City](https://amzn.to/2xO0Vh7), Matthew Desmond
  * [Phishing for Phools: The Economics of Manipulation and Deception](https://amzn.to/2JncSMa), George Akerlof and Robert Shiller
  * [The $800 Million Pill: The Truth behind the Cost of New Drugs](https://amzn.to/2kSSnwe), Merrill Goozner
 
 **Books completed in 2018**
+ * [Everything Happens for a Reason and Other Lies I’ve Loved](https://amzn.to/2M71kgS), Kate Bowler
+ * [Factfulness: Ten Reasons We're Wrong About the World--and Why Things Are Better Than You Think](https://amzn.to/2LyB3rP), Hans Rosling, Anna Rosling Ronnlund, and Ola Rosling
  * [How to Talk So Kids Will Listen & Listen So Kids Will Talk](https://amzn.to/2MxWtXa), Adele Faber and Elaine Mazlish
  * [Crazy Rich Asians](https://amzn.to/2y2Wr6m), Kevin Kwan
  * [Her Body and Other Parties](https://amzn.to/2JkxRiz), Carmen Maria Machado
