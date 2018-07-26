@@ -1,4 +1,4 @@
 baseURL = "http://clinicalml.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Clinical Machine Learning"
 theme = "sodium"
