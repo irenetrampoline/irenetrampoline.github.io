@@ -1,0 +1,10 @@
+  {
+        "title" : "Clinical Machine Learning Group",
+        "description" : "Using machine learning to improve clinical care",
+        "image" : "doctor.jpg",
+        "button" : {
+          "text" : "Learn More",
+          "href" : "/#contact"
+        }
+      }
+    

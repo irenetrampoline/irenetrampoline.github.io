@@ -1,0 +1,23 @@
+
+      {
+        "title" : "Team",
+        "description" : "Little team description here",
+        "members" : [
+          {
+            "name" : "Irene",
+            "description" : "CEO",
+            "avatar" : "irene.jpg"
+          },
+          {
+            "name" : "Rahul",
+            "description" : "Graphics Designer",
+            "avatar" : "rahul.jpg"
+          },
+          {
+            "name" : "Mike",
+            "description" : "Graphics Designer",
+            "avatar" : "mike.jpg"
+          }
+        ]
+      }
+    
