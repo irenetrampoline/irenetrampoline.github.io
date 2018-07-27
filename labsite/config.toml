@@ -1,4 +1,0 @@
-baseURL = "http://clinicalml.org/"
-languageCode = "en-us"
-title = "Clinical Machine Learning"
-theme = "sodium"
