@@ -12,7 +12,7 @@
     <meta name="robots" content="index,follow" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Gothic+A1:700" rel="stylesheet">
-    <link href="http://irenechen.net/labsite/favicon.png" rel="icon" />
+    <link href="http://irenechen.net/labsite/favicon.ico" rel="icon" />
 
     
     <meta name="og:title" content="Clinical Machine Learning"/>
@@ -42,38 +42,39 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
-         
           
 
               <li class="nav-item">
-                <a class="nav-link" href="/">Home</a>
+                <a class="nav-link" href="/labsite/">Home</a>
               </li>
               
             
           
 
               <li class="nav-item">
-                <a class="nav-link" href="/blog">Blog</a>
+                <a class="nav-link" href="/labsite/blog">Blog</a>
               </li>
               
             
           
 
               <li class="nav-item">
-                <a class="nav-link" href="/work">Work</a>
+                <a class="nav-link" href="/labsite/work">Work</a>
               </li>
               
             
           
 
               <li class="nav-item">
-                <a class="nav-link" href="/#contact">Contact</a>
+                <a class="nav-link" href="/labsite/#contact">Contact</a>
               </li>
               
             
           
         </ul>
         <ul class="ml-auto navbar-nav">
+
+            <li>
           
             
           
@@ -91,13 +92,19 @@
 	
 		
 
+
 <section class="cover p-lg-5 p-md-5 p-3">
+  <div class="bgImage">
+    
+    
+  </div>
+
   <div class="container h-100">
     <div class="d-flex h-100 align-items-center">
-      <div class="">
+      <div class="coverInfo">
           <h1 class="h1 text-light">Clinical Machine Learning Group</h1>
           <p class="text-light sub-heading">Using machine learning to improve clinical care</p>
-          <a href="/#contact" class="btn btn-outline-light">Learn More</a>      
+          <a href="/#contact" class="btn btn-outline-light">Contact Us</a>      
       </div>
       
           
@@ -110,22 +117,59 @@
 <style type="text/css">
   .cover{
     margin-top: -80px;
+    position: relative;
     height: 500px;
-    background: rgba(0,0,0,0.6);
-    background-image: url('http://irenechen.net/labsite/images/covers/doctor.jpg');
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0, 0, 0, 0.4)),  url('http://irenechen.net/labsite/images/covers/doctor.jpg');
-        background-position: center;
-        background-attachment: fixed;
-    background-size: cover;
+    
+    
+    overflow: hidden;
     clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
-     
   }
 
+
+  .cover .bgImage{
+    z-index: -1;
+    width: 100%;
+  }
+
+  .cover .bgImage:after{
+    content: '';
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color: rgba(117, 22, 22, 0.4);
+  }
+
+  .cover .coverInfo{
+    z-index: 1;
+  }
+
+  
+
+  .coverImageStatic{
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+  }
+
+  .coverImage{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center; 
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+    right: 0;
+    z-index: -1;
+  }
+
+
+
   @keyframes breath {
-  0%   { background-size: 100% auto; }
-  50% { background-size: 140% auto; }
-  100% { background-size: 100% auto; }
-}
+    0%   { background-size: 100% auto; }
+    50% { background-size: 140% auto; }
+    100% { background-size: 100% auto; }
+  }
+
   .cover .sub-heading{
     opacity: .6;
   } 
@@ -171,26 +215,114 @@
 <section id="team" class="text-center py-5">
   <div class="container">
     <h2 class="pt-5 h2">Team</h2>  
-    <p class="text-muted pb-5">Little team description here</p>
-
-    <div class="members row justify-content-md-center mt-5">
+    <p class="text-muted pb-5">Our team includes PhD students, clinical collaborators, and research scientists.</p>
+    
+    
+    <div class="members row col-md-offset-1">
+    
       
-        <div class="col-3 col-lg-1 col-md-1 col-sm-2">
-          <img data-toggle="tooltip" title="Irene" class="mb-3 teamAvatar" src="images/team/irene.jpg" alt="Irene">
-          <h4 class="h4">Irene</h4>
-          <div class="text-muted">CEO</div>
+        <div class="col-xs-9 item-wrap col-sm-2">
+          <div class="feature-item" style="text-align:center; margin-bottom:40px">
+            <img data-toggle="tooltip" title="Irene is originally from Atlanta and enjoys Crossfit." class="mb-3 teamAvatar" src="images/team/irene.jpg" alt="Irene" style="border-radius:0px">
+            <h4 class="h4">Irene</h4>
+            <div class="text-muted">PhD Student</div>
+          </div>
         </div>
       
-        <div class="col-3 col-lg-1 col-md-1 col-sm-2">
-          <img data-toggle="tooltip" title="Rahul" class="mb-3 teamAvatar" src="images/team/rahul.jpg" alt="Rahul">
-          <h4 class="h4">Rahul</h4>
-          <div class="text-muted">Graphics Designer</div>
+        <div class="col-xs-9 item-wrap col-sm-2">
+          <div class="feature-item" style="text-align:center; margin-bottom:40px">
+            <img data-toggle="tooltip" title="" class="mb-3 teamAvatar" src="images/team/rahul.jpg" alt="Rahul" style="border-radius:0px">
+            <h4 class="h4">Rahul</h4>
+            <div class="text-muted">PhD Student</div>
+          </div>
         </div>
       
-        <div class="col-3 col-lg-1 col-md-1 col-sm-2">
-          <img data-toggle="tooltip" title="Mike" class="mb-3 teamAvatar" src="images/team/mike.jpg" alt="Mike">
-          <h4 class="h4">Mike</h4>
-          <div class="text-muted">Graphics Designer</div>
+        <div class="col-xs-9 item-wrap col-sm-2">
+          <div class="feature-item" style="text-align:center; margin-bottom:40px">
+            <img data-toggle="tooltip" title="" class="mb-3 teamAvatar" src="images/team/mike.jpg" alt="Mike" style="border-radius:0px">
+            <h4 class="h4">Mike</h4>
+            <div class="text-muted">PhD Student</div>
+          </div>
+        </div>
+      
+        <div class="col-xs-9 item-wrap col-sm-2">
+          <div class="feature-item" style="text-align:center; margin-bottom:40px">
+            <img data-toggle="tooltip" title="" class="mb-3 teamAvatar" src="images/team/david.jpg" alt="David" style="border-radius:0px">
+            <h4 class="h4">David</h4>
+            <div class="text-muted">Professor</div>
+          </div>
+        </div>
+      
+        <div class="col-xs-9 item-wrap col-sm-2">
+          <div class="feature-item" style="text-align:center; margin-bottom:40px">
+            <img data-toggle="tooltip" title="" class="mb-3 teamAvatar" src="images/team/rebecca.jpg" alt="Rebecca Peyser" style="border-radius:0px">
+            <h4 class="h4">Rebecca Peyser</h4>
+            <div class="text-muted">Research Scientist</div>
+          </div>
+        </div>
+      
+        <div class="col-xs-9 item-wrap col-sm-2">
+          <div class="feature-item" style="text-align:center; margin-bottom:40px">
+            <img data-toggle="tooltip" title="" class="mb-3 teamAvatar" src="images/team/rebecca.jpg" alt="Rebecca Peyser" style="border-radius:0px">
+            <h4 class="h4">Rebecca Peyser</h4>
+            <div class="text-muted">Research Scientist</div>
+          </div>
+        </div>
+      
+        <div class="col-xs-9 item-wrap col-sm-2">
+          <div class="feature-item" style="text-align:center; margin-bottom:40px">
+            <img data-toggle="tooltip" title="" class="mb-3 teamAvatar" src="images/team/rebecca.jpg" alt="Rebecca Peyser" style="border-radius:0px">
+            <h4 class="h4">Rebecca Peyser</h4>
+            <div class="text-muted">Research Scientist</div>
+          </div>
+        </div>
+      
+        <div class="col-xs-9 item-wrap col-sm-2">
+          <div class="feature-item" style="text-align:center; margin-bottom:40px">
+            <img data-toggle="tooltip" title="" class="mb-3 teamAvatar" src="images/team/rebecca.jpg" alt="Rebecca Peyser" style="border-radius:0px">
+            <h4 class="h4">Rebecca Peyser</h4>
+            <div class="text-muted">Research Scientist</div>
+          </div>
+        </div>
+      
+        <div class="col-xs-9 item-wrap col-sm-2">
+          <div class="feature-item" style="text-align:center; margin-bottom:40px">
+            <img data-toggle="tooltip" title="" class="mb-3 teamAvatar" src="images/team/rebecca.jpg" alt="Rebecca Peyser" style="border-radius:0px">
+            <h4 class="h4">Rebecca Peyser</h4>
+            <div class="text-muted">Research Scientist</div>
+          </div>
+        </div>
+      
+        <div class="col-xs-9 item-wrap col-sm-2">
+          <div class="feature-item" style="text-align:center; margin-bottom:40px">
+            <img data-toggle="tooltip" title="" class="mb-3 teamAvatar" src="images/team/rebecca.jpg" alt="Rebecca Peyser" style="border-radius:0px">
+            <h4 class="h4">Rebecca Peyser</h4>
+            <div class="text-muted">Research Scientist</div>
+          </div>
+        </div>
+      
+        <div class="col-xs-9 item-wrap col-sm-2">
+          <div class="feature-item" style="text-align:center; margin-bottom:40px">
+            <img data-toggle="tooltip" title="" class="mb-3 teamAvatar" src="images/team/rebecca.jpg" alt="Rebecca Peyser" style="border-radius:0px">
+            <h4 class="h4">Rebecca Peyser</h4>
+            <div class="text-muted">Research Scientist</div>
+          </div>
+        </div>
+      
+        <div class="col-xs-9 item-wrap col-sm-2">
+          <div class="feature-item" style="text-align:center; margin-bottom:40px">
+            <img data-toggle="tooltip" title="" class="mb-3 teamAvatar" src="images/team/rebecca.jpg" alt="Rebecca Peyser" style="border-radius:0px">
+            <h4 class="h4">Rebecca Peyser</h4>
+            <div class="text-muted">Research Scientist</div>
+          </div>
+        </div>
+      
+        <div class="col-xs-9 item-wrap col-sm-2">
+          <div class="feature-item" style="text-align:center; margin-bottom:40px">
+            <img data-toggle="tooltip" title="" class="mb-3 teamAvatar" src="images/team/rebecca.jpg" alt="Rebecca Peyser" style="border-radius:0px">
+            <h4 class="h4">Rebecca Peyser</h4>
+            <div class="text-muted">Research Scientist</div>
+          </div>
         </div>
       
     </div>
@@ -206,6 +338,20 @@
     transform: scale(1.06);
   }
 </style>
+	
+
+	
+		<section id="blog">
+	<div class="container">
+		<h2 class="h2 mb-5 text-center">Blog</h2>
+		
+		<div class="row pb-5">
+			
+
+		</div>
+	
+	</div>
+</section>
 	
 
 	
@@ -266,7 +412,7 @@
 							</div>
 	
 							<div class="col-12">
-									<button class="btn btn-outline-dark">Submit</button>
+									<button type="submit" class="btn btn-outline-dark">Submit</button>
 							</div>
 	
 						</div>
@@ -282,7 +428,7 @@
 
 <section id="footer" class="py-3">
   <div class="container">
-    <span class="text-muted">Copyright 2018. Made using <a href="https://github.com/uicardiodev/hugo-sodium-theme/">Sodium</a> theme on Hugo.</span>
+    <span class="text-muted">Copyright 2018.</span>
     <span class="float-right">
       
     </span>

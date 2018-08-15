@@ -5,7 +5,7 @@ $(document).ready(function(){
 
   //Hack for navbar
   $(".navbar-toggler").click(function(e){
-    if($("nav").hasClass('navbar-light')){
+    if($("nav").hasClass('navbar-light') && !$("nav").hasClass('nochange')){
       if($(window).scrollTop() < 30){
         $("nav").addClass('navbar-dark').removeClass('navbar-light');
       }
@@ -55,18 +55,13 @@ $(document).ready(function(){
   });
 
   //Smooth scroll
-  $("a, button").click(function(event){
-    if(this.hash !== ""){
-      event.preventDefault();
-      var hash = this.hash;
-
-      $("html, body").animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-        window.location.hash = hash;
-      })
-    }
-  });
+  $('a').click(function(){
+    var hash = $(this).attr('href').split('#')[1];
+    $('html, body').animate({
+        scrollTop: $('#' + hash).offset().top
+    }, 500);
+    return false;
+});
 
 
 
