@@ -3,7 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://irenechen.net/labsite/teaching/</loc>
+    <lastmod>2018-08-22T15:58:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://irenechen.net/labsite/software/</loc>
+    <lastmod>2018-08-22T15:58:38-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://irenechen.net/labsite/contact/</loc>
+    <lastmod>2018-08-22T15:55:46-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://irenechen.net/labsite/research/</loc>
+    <lastmod>2018-08-22T15:53:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://irenechen.net/labsite/mission/</loc>
+    <lastmod>2018-08-22T15:53:14-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://irenechen.net/labsite/team/</loc>
+    <lastmod>2018-08-22T15:44:28-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://irenechen.net/labsite/blog/first/</loc>
+    <lastmod>2018-07-31T14:39:58-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://irenechen.net/labsite/test/</loc>
+  </url>
+  
+  <url>
+    <loc>http://irenechen.net/labsite/blog/</loc>
+    <lastmod>2018-07-31T14:39:58-04:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -13,6 +54,7 @@
   
   <url>
     <loc>http://irenechen.net/labsite/</loc>
+    <lastmod>2018-08-22T15:58:41-04:00</lastmod>
     <priority>0</priority>
   </url>
   

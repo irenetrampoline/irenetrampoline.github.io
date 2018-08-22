@@ -52,21 +52,35 @@
           
 
               <li class="nav-item">
-                <a class="nav-link" href="/labsite/blog">Blog</a>
+                <a class="nav-link" href="/labsite/team">Team</a>
               </li>
               
             
           
 
               <li class="nav-item">
-                <a class="nav-link" href="/labsite/work">Work</a>
+                <a class="nav-link" href="/labsite/research">Research</a>
               </li>
               
             
           
 
               <li class="nav-item">
-                <a class="nav-link" href="/labsite/#contact">Contact</a>
+                <a class="nav-link" href="/labsite/teaching">Teaching</a>
+              </li>
+              
+            
+          
+
+              <li class="nav-item">
+                <a class="nav-link" href="/labsite/software">Software</a>
+              </li>
+              
+            
+          
+
+              <li class="nav-item">
+                <a class="nav-link" href="/labsite/contact">Contact</a>
               </li>
               
             
@@ -97,6 +111,13 @@
   <div class="bgImage">
     
     
+      
+        <div class="coverImage" style="background-image: url('http://irenechen.net/labsite/images/covers/doctor.jpg')"></div>
+        <div class="coverImage" style="background-image: url('http://irenechen.net/labsite/images/covers/stata.jpg')"></div>
+        <div class="coverImage" style="background-image: url('http://irenechen.net/labsite/images/covers/team.jpg')"></div>
+        
+      
+    
   </div>
 
   <div class="container h-100">
@@ -104,7 +125,7 @@
       <div class="coverInfo">
           <h1 class="h1 text-light">Clinical Machine Learning Group</h1>
           <p class="text-light sub-heading">Using machine learning to improve clinical care</p>
-          <a href="/#contact" class="btn btn-outline-light">Contact Us</a>      
+          <a href="http://irenechen.net/labsite/mission/" class="btn btn-outline-light">More info</a>      
       </div>
       
           
@@ -135,12 +156,56 @@
     content: '';
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
-    background-color: rgba(117, 22, 22, 0.4);
+    background-color: rgba(0, 0, 0, 0.3);
   }
 
   .cover .coverInfo{
     z-index: 1;
   }
+
+  
+    
+      .cover .bgImage div.coverImage{
+        height: 100%;
+        background-size: cover;
+        position: absolute;
+        animation: slide 15s infinite;
+        opacity: 0;
+      }
+
+      
+        
+        .bgImage > div.coverImage:nth-child(2) {
+          animation-delay: 5s;
+        }
+        
+      
+        
+        .bgImage > div.coverImage:nth-child(3) {
+          animation-delay: 10s;
+        }
+        
+      
+        
+
+        
+      
+
+      @keyframes slide {
+        10% {
+          opacity: 1;
+        }
+        20% {
+          opacity: 1;
+        }
+        90% {
+          opacity: 0;
+        }
+        100% {
+          transform: scale(1.1);
+        }
+      }
+    
 
   
 
@@ -338,90 +403,6 @@
     transform: scale(1.06);
   }
 </style>
-	
-
-	
-		<section id="blog">
-	<div class="container">
-		<h2 class="h2 mb-5 text-center">Blog</h2>
-		
-		<div class="row pb-5">
-			
-
-		</div>
-	
-	</div>
-</section>
-	
-
-	
-		
-
-<section id="contact" class="contact mt-5 p-3 p-lg-5 p-md-5">
-	<div class="container">
-
-		<center>
-			<h2 class="h2 my-5">Contact</h2>
-		</center>
-
-		<form action="https://formspree.io/" method="POST">
-			<div class="row justify-content-md-center">
-			
-				<div class="col-12 col-lg-4 col-md-4 rounded text-dark p-5" style="font-size: 18px">
-					
-					<div class="mb-3">
-						<div class="text-uppercase text-muted">
-							Address
-						</div>
-						<div>18XX, Sector 45 Delhi</div>
-					</div>
-					
-					
-					<div class="mb-3">
-						<div class="text-uppercase text-muted">Email</div>
-						<div>xxxxxx@gmail.com</div>
-					 </div>
-					
-					
-					<div class="mb-3">
-						<div class="text-uppercase text-muted">Phone</div>
-						<div>&#43;91 720 626 XXXX</div>
-					</div>
-					
-				</div>
-				<div class="col-12 col-lg-6 col-md-6">
-						<div class="row">
-							<div class="col-12 col-lg-6 col-md-6">
-								<div class="form-group">
-									<label>Name</label>
-									<input type="text" name="Name" class="form-control" placeholder="Name">
-								</div>
-							</div>
-							<div class="col-12 col-lg-6 col-md-6">
-								<div class="form-group">
-									<label>Email</label>
-									<input type="email" name="Email" class="form-control" placeholder="Email">
-								</div>
-							</div>
-	
-							<div class="col-12">
-								<div class="form-group">
-									<label>Message</label>
-									<textarea placeholder="Message" name="Message" rows="5" class="form-control"></textarea>
-								</div>
-							</div>
-	
-							<div class="col-12">
-									<button type="submit" class="btn btn-outline-dark">Submit</button>
-							</div>
-	
-						</div>
-					</div>
-			</div>
-		</form>
-
-	</div>	
-</section>
 	
 
 
