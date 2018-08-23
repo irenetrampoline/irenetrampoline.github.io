@@ -72,7 +72,8 @@ Limitations </description>
       <pubDate>Wed, 22 Aug 2018 15:58:41 -0400</pubDate>
       
       <guid>http://irenechen.net/labsite/teaching/</guid>
-      <description>6.867 Machine Learning Machine Learning for Healthcare Course numbers vary. TODO: link to old website.</description>
+      <description>Machine Learning (6.867) [Course website]
+Principles, techniques, and algorithms in machine learning from the point of view of statistical inference; representation, generalization, and model selection; and methods such as linear/additive models, active learning, boosting, support vector machines, non-parametric Bayesian methods, hidden Markov models, and Bayesian networks. The course will give the student the basic ideas and intuition behind modern machine learning methods as well as a bit more formal understanding of how, why, and when they work.</description>
     </item>
     
     <item>
@@ -90,8 +91,8 @@ Limitations </description>
       <pubDate>Wed, 22 Aug 2018 15:55:46 -0400</pubDate>
       
       <guid>http://irenechen.net/labsite/contact/</guid>
-      <description>Interested in working with us? Break down into different demographics.
-Want to learn more about Clinical Machine Learning? Suggest conferences.</description>
+      <description>How can I join the group as a PhD student? I&amp;rsquo;m currently an MIT student. How can I join the group? I&amp;rsquo;m an outside collaborator. How can I work with you? How can I learn more about machine learning and healthcare in general? Provide links to machine learning for healthcare conferences (MLHC, ML4H), machine learning conferences (ICML, NIPS, AISTATS, UAI, AAAI, etc), and healthcare conferences.
+Also link to David&amp;rsquo;s old class.</description>
     </item>
     
     <item>
