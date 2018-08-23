@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://irenechen.net/labsite/research/heart/</loc>
+    <lastmod>2018-08-22T21:24:04-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://irenechen.net/labsite/research/multiplemyeloma/</loc>
     <lastmod>2018-08-22T20:45:12-04:00</lastmod>
   </url>
@@ -38,11 +43,6 @@
   </url>
   
   <url>
-    <loc>http://irenechen.net/labsite/research/</loc>
-    <lastmod>2018-08-22T15:53:19-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://irenechen.net/labsite/mission/</loc>
     <lastmod>2018-08-22T15:53:14-04:00</lastmod>
   </url>
@@ -74,13 +74,13 @@
   
   <url>
     <loc>http://irenechen.net/labsite/</loc>
-    <lastmod>2018-08-22T20:45:12-04:00</lastmod>
+    <lastmod>2018-08-22T21:24:04-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://irenechen.net/labsite/research/</loc>
-    <lastmod>2018-08-22T20:45:12-04:00</lastmod>
+    <lastmod>2018-08-22T21:24:04-04:00</lastmod>
     <priority>0</priority>
   </url>
   

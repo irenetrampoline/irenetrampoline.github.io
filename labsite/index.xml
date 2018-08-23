@@ -6,10 +6,21 @@
     <description>Recent content on Clinical Machine Learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Aug 2018 20:45:12 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 22 Aug 2018 21:24:04 -0400</lastBuildDate>
     
 	<atom:link href="http://irenechen.net/labsite/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Heart Failure</title>
+      <link>http://irenechen.net/labsite/research/heart/</link>
+      <pubDate>Wed, 22 Aug 2018 21:24:04 -0400</pubDate>
+      
+      <guid>http://irenechen.net/labsite/research/heart/</guid>
+      <description>Problem TODO
+Methods TODO
+Results TODO</description>
+    </item>
     
     <item>
       <title>Multiplemyeloma</title>
@@ -81,17 +92,6 @@ Limitations </description>
       <guid>http://irenechen.net/labsite/contact/</guid>
       <description>Interested in working with us? Break down into different demographics.
 Want to learn more about Clinical Machine Learning? Suggest conferences.</description>
-    </item>
-    
-    <item>
-      <title>Research</title>
-      <link>http://irenechen.net/labsite/research/</link>
-      <pubDate>Wed, 22 Aug 2018 15:53:19 -0400</pubDate>
-      
-      <guid>http://irenechen.net/labsite/research/</guid>
-      <description>See our full list of publications.
-Clinical healthcare Outline projects
-Machine learning Outline projects</description>
     </item>
     
     <item>

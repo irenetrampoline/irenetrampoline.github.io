@@ -1,0 +1,12 @@
+.team-member-name { 
+	font-size: 17px; 
+} 
+.team-member-role { 
+	font-size: 12px; 
+} 
+.teamAvatar {
+	border: 0;
+}
+/*.features .icon {
+	color: #0000FF;
+}*/
