@@ -1,3 +1,6 @@
+/*.research-title {
+	text-decoration: underline;
+}*/
 .team-member-name { 
 	font-size: 18px; 
 } 
@@ -18,7 +21,8 @@
 }
 
 .features .icon {
-	color: #A31F34;
+	/*color: #A31F34;*/
+	color: #808080;
 	opacity: 0.9;
 }
 
