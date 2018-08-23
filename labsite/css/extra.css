@@ -40,7 +40,14 @@
 .svg-inline--fa.fa-w-12 {
 	width: 60px;
 }
-
 .svg-inline--fa {
 	height: 60px;
+}
+.fa-github {
+	width: 25px;
+	height: 25px;
+}
+.fa-twitter {
+	width: 25px;
+	height: 25px;
 }
