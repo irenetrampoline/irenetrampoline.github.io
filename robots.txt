@@ -1,6 +1,5 @@
 User-agent: Twitterbot
-Disallow: *
-Allow: /wp-content/uploads/*
+Disallow: 
 
 User-agent: *
 Disallow: /wp-admin*
