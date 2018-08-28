@@ -3,11 +3,15 @@ layout: post
 title: The Seven Deadly Sins of Academic Conferences
 comments: true
 length: 9 min read
-tagline: ... and how to avoid them
+tagline: Greed, gluttony, sloth, pride, wrath, lust, and envy--but in conference form.
 categories:
 - blog
 
 ---
+
+*Note: this article is a repost from the [MIT Graduate Admissions Blog](http://gradadmissions.mit.edu/blog/seven-deadly-sins-conferences), where I used to blog.*
+
+
 Past the construction site, across the deserted parking lot, and through the shrubbery, I finally arrived at the front entrance of Northeastern University for my first academic conference.
 
 Over the next two days, with 270 brilliant minds, I learned [a lot about machine learning and healthcare](http://irenechen.net/blog/2017/08/22/mlhc2017.html). More importantly, however, I discovered how to make the most of an academic conference. Specifically, all you have to do is avoid the seven deadly sins of conferences.
@@ -28,7 +32,7 @@ As a first year PhD student at my first academic conference, I wanted to get a b
 
 Of course, leave room for spontaneity. Coffee breaks with long-lost friends, mentoring sessions with eager underclassmen, and animated debates might not be on the schedule, but they’re worth it.
 
-# Gluttony: Six cookes sounds like a good idea.
+## Gluttony: Six cookes sounds like a good idea.
 
 At MLHC 2017, the coffee was never-ending, and the sandwiches from Flour Bakery were delicious. The danger here is that the conference cuisine can often create a post-lunch slump.
 
@@ -36,7 +40,7 @@ Pace out the influx of food and caffeine! You can’t concentrate on the newest 
 
 Of course, experiencing the local delicacies is important, and memories can be made indulging in local gelato, wine, or paella. At the same time, moderation can heighten conference alertness, increase stamina, and stave off that afternoon nap.
 
-# Sloth: My chair is so comfortable.
+## Sloth: My chair is so comfortable.
 
 I get it. Conferences are usually in a foreign environment with strangers around the room, and it can be easy to cling to people you know, stick to topics you’re familiar with, or even go home once talks end and not mingle with the others.
 
@@ -48,7 +52,7 @@ After the first day of being too shy to approach people, I challenged myself to 
 
 Research careers are long, and you never know who will end up interviewing you, helping you land that dream job, or proofreading your blog posts. Best to err on meeting more people than fewer, and conferences are a great place to do so.
 
-# Pride: I am awesome.
+## Pride: I am awesome.
 
 Naturally you’re proud of the work you’ve done. Consuming dozens of papers, considering hundreds of bad ideas, and generating thousands of words of rough drafts have sculpted into the researcher you are today.
 
@@ -56,7 +60,7 @@ On the other hand, you’re not so good you can’t learn. The beauty of confere
 
 To be clear, you probably are awesome. Your research is probably amazing. You’re just not so awesome you don’t have room to grow.
 
-# Wrath: Ugh, this is the worst.
+## Wrath: Ugh, this is the worst.
 
 The operations of running a conference are complex. If something goes wrong, it’s important to roll with the punches.
 
@@ -67,13 +71,13 @@ The operations of running a conference are complex. If something goes wrong, it�
 
 Nothing is gained by getting angry. Unless you’re so motivated that you decide to seize control and run it better next year, it’s best to focus on the positives.
 
-# Lust: Look at that hotter research topic.
+## Lust: Look at that hotter research topic.
 
 Is it love or is it lust? Especially in research where trends are fickle but expertise takes years, it can feel like there’s always a more popular research area. Within machine learning, deep learning was abuzz on people’s minds at MLHC.
 
 Certainly understanding the field and adjusting your areas of interest accordingly can hugely improve the trajectory of your research. It’s important to discern whether or not you’re lusting after the latest buzzword or whether the inner beauty of the idea can assist with the question you’re struggling to answer.
 
-# Envy: I wish I had done that.
+## Envy: I wish I had done that.
 
 With an abundance of impressive research surrounding you, envy seems only natural. I deeply wish I had written many of the papers I read at MLHC with their creative approaches, clever applications, and lasting impact on the field.
 
@@ -81,14 +85,10 @@ At the same time, it’s important to place everything in context. Comparisons c
 
 Reflecting on myself, Irene from one year ago was still working in industry and woefully unaware about how machine learning can impact fairness and health care--two areas about which I have now consumed dozens of papers. Aim to be better than yourself in one year, and start planning on how to get there.
 
-# Do what you can.
+## Do what you can.
 
 Ultimately, we all have our academic conference sins.
 
 You may choose to embrace the gluttony in order to experience all of the local delicacies with memories made over gelato, soup dumplings, or poutine. Or perhaps that new research idea truly is the sexiest thing you’ve ever seen.
 
 Learn the sins, try to overcome them, and accept the ones you haven’t conquered just yet. We are only human researchers.
-
-<br>
-
-*Note: this article is a repost from the [MIT Graduate Admissions Blog](http://gradadmissions.mit.edu/blog/seven-deadly-sins-conferences), where I sometimes blog.*

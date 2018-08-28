@@ -3,7 +3,7 @@ layout: post
 title: The Gumbel Trick
 comments: true
 length: 6 min read
-tagline: Calculating log-partition functions for discrete probabiity distributions has never been so easy
+tagline: Calculating log-partition functions for discrete probabiity distributions has never been so easy. 
 categories:
 - blog
 ---

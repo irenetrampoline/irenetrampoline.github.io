@@ -27,20 +27,41 @@ Current research projects include
 
 ## Papers
 
-1. **Why Is My Classifier Discriminatory?** Irene Chen, Fredrik D. Johansson, David Sontag. *Preprint.* [[arXiv]](https://arxiv.org/abs/1805.12002)
-2. **Sources of Unfairness in Intensive Care Unit Mortality Scores.** Irene Chen, Fredrik D. Johansson, David Sontag. *Women in Machine Learning Workshop at NIPS 2017.*
+<script>
+function absCHF() {
+    var x = document.getElementById("abs-chf");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
+
+<!-- **Subtype Disease Progression in Heart Failure with Preserved Ejection Fraction.** Irene Chen, Rajesh Ranganath, David Sontag. *In Preparation.*
+ -->
+**The Disparate Impacts of Medical and Mental Health with AI.** Irene Chen, Peter Szolovits, Marzyeh Ghassemi. *Under Review.* 
+
+**Why Is My Classifier Discriminatory?** Irene Chen, Fredrik D. Johansson, David Sontag. *Preprint.* <br>
+<a id="abs-fairness-button" onclick="absCHF()">[abstract]</a> [[arXiv]](https://arxiv.org/abs/1805.12002) 
+
+<div id="abs-fairness" style="display:none">
+Recent attempts to achieve fairness in predictive models focus on the balance between fairness and accuracy. In sensitive applications such as healthcare or criminal justice, this trade-off is often undesirable as any increase in prediction error could have devastating consequences. In this work, we argue that the fairness of predictions should be evaluated in context of the data, and that unfairness induced by inadequate samples sizes or unmeasured predictive variables should be addressed through data collection, rather than by constraining the model. We decompose cost-based metrics of discrimination into bias, variance, and noise, and propose actions aimed at estimating and reducing each term. Finally, we perform case-studies on prediction of income, mortality, and review ratings, confirming the value of this analysis. We find that data collection is often a means to reduce discrimination without sacrificing accuracy.
+</div>
+
+**Sources of Unfairness in Intensive Care Unit Mortality Scores.** Irene Chen, Fredrik D. Johansson, David Sontag. *Women in Machine Learning Workshop at NIPS 2017.*
 
 ## Teaching
 
 At Harvard, I was awarded the [Derek Bok Center Certificate of Distinction in Teaching](https://bokcenter.harvard.edu/awards) for outstanding teaching evaluations.
 
 I have served on the teaching staff for the following Harvard classes.
- * Linear Algebra and Real Analysis I, Paul Bamberg
+ * Algorithms and Data Structures, Jelani Nelson
  * Microeconomic Theory, Ed Glaeser
- * Linear Algebra and Real Analysis II, Paul Bamberg
  * Multivariable Calculus, Evelyn Hu and Avi Shapiro
  * Differential Equations, Margo Levine and Avi Shapiro
- * Algorithms and Data Structures, Jelani Nelson
+ * Linear Algebra and Real Analysis I, Paul Bamberg
+ * Linear Algebra and Real Analysis II, Paul Bamberg
 
 ---
 
