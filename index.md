@@ -40,9 +40,9 @@ function absCHF() {
 
 <!-- **Subtype Disease Progression in Heart Failure with Preserved Ejection Fraction.** Irene Chen, Rajesh Ranganath, David Sontag. *In Preparation.*
  -->
-**The Disparate Impacts of Medical and Mental Health with AI.** Irene Chen, Peter Szolovits, Marzyeh Ghassemi. *Under Review.* 
+**The Disparate Impacts of Medical and Mental Health with AI.** Irene Chen, Peter Szolovits, Marzyeh Ghassemi. *In submission.* 
 
-**Why Is My Classifier Discriminatory?** Irene Chen, Fredrik D. Johansson, David Sontag. *Preprint.* <br>
+**Why Is My Classifier Discriminatory?** Irene Chen, Fredrik D. Johansson, David Sontag. *In submission.* <br>
 <a id="abs-fairness-button" onclick="absCHF()">[abstract]</a> [[arXiv]](https://arxiv.org/abs/1805.12002) 
 
 <div id="abs-fairness" style="display:none;">
