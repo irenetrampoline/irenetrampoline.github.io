@@ -38,8 +38,8 @@ function absCHF() {
 }
 </script>
 
-<!-- **Subtype Disease Progression in Heart Failure with Preserved Ejection Fraction.** Irene Chen, Rajesh Ranganath, David Sontag. *In Preparation.*
- -->
+**Subtype Disease Progression in Heart Failure with Preserved Ejection Fraction.** Irene Chen, Rajesh Ranganath, David Sontag. *In preparation.*
+
 **The Disparate Impacts of Medical and Mental Health with AI.** Irene Chen, Peter Szolovits, Marzyeh Ghassemi. *In submission.* 
 
 **Why Is My Classifier Discriminatory?** Irene Chen, Fredrik D. Johansson, David Sontag. *In submission.* <br>
