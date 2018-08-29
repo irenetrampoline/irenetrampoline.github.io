@@ -83,7 +83,9 @@ Principles, techniques, and algorithms in machine learning from the point of vie
       <pubDate>Wed, 22 Aug 2018 15:58:38 -0400</pubDate>
       
       <guid>http://irenechen.net/labsite/software/</guid>
-      <description>For latest projects, see our Github.</description>
+      <description> a {color: #A31F34;}  For latest projects, see our Github.
+Example software includes:
+ Deep Markov Models: Theano code for implementing Deep Markov Models using variational inference during learning to maximize the likelihood of the observed data Low-Dimensional Medical Concepts: Code for AMIA CRI 2016 paper &amp;ldquo;Learning Low-Dimensional Representations of Medical Concepts&amp;rdquo; Health Knowledge Graph: Learned Health Knowledge Graph from emergency room data as featured in Nature Scientific Reports  </description>
     </item>
     
     <item>
