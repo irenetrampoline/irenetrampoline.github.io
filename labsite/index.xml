@@ -91,11 +91,11 @@ Principles, techniques, and algorithms in machine learning from the point of vie
       <pubDate>Wed, 22 Aug 2018 15:55:46 -0400</pubDate>
       
       <guid>http://irenechen.net/labsite/contact/</guid>
-      <description>Email David&amp;rsquo;s email: dsontag {@ | at} mit.edu
+      <description>a {color: #A31F34;}  Email David&amp;rsquo;s email: dsontag {@ | at} mit.edu
 
-FAQs How can I join the group as a PhD student? Which departments does David admit from? When are admissions deadlines? Does emailing him help your chances? (Answer: probably not).
-Link to resources for PhD admissions from Jean Yang and Philip Guo.
-How can I join the group as a MEng or UROP/SuperUROP? Want people who have done ML classes (list some examples) before.</description>
+FAQs How can I join the group as a PhD student? Graduate admissions are handled at the department level at MIT, so please first apply to the MIT EECS or MIT MEMP departments.
+For advice on CS PhD admissions, Jean Yang and Philip Guo have written useful guides.
+How can I join the group as a UROP/SuperUROP or MEng student?</description>
     </item>
     
     <item>
@@ -104,7 +104,10 @@ How can I join the group as a MEng or UROP/SuperUROP? Want people who have done 
       <pubDate>Wed, 22 Aug 2018 15:53:14 -0400</pubDate>
       
       <guid>http://irenechen.net/labsite/mission/</guid>
-      <description> Here we put the lab mission </description>
+      <description>Machine Learning Perspective Making ML work in high-stakes settings
+Recently developed techniques in machine learning have proven adept at solving problems in computer vision, natural language processing, board games, video games, and other domains where computers had previously struggled to outperform humans.
+However, deployment in high-stakes settings is still limited, for good reasons:
+ Predictive models alone may be insufficient - we may care about causal questions (as in personalized medicine), not just predictive ones.</description>
     </item>
     
     <item>
@@ -115,7 +118,8 @@ How can I join the group as a MEng or UROP/SuperUROP? Want people who have done 
       <guid>http://irenechen.net/labsite/team/</guid>
       <description>Our team consists of PhD students, research scientists, and clinical collaborators.
 Current members Irene is from Atlanta and is interested in graphical models for disease progression and patient subtyping.
-Alumni    Name Lab Role Post-lab     Jingshu Liu Master&amp;rsquo;s student ??   Rachel Hodos PhD student Benevolent AI   Aahlad Manas Master&amp;rsquo;s student PhD student, NYU   Uri Shalit Postdoc Assistant Professor, Technion   Yacine Jernite PhD student Facebook AI Research   Issac Lage Research engineer PhD Student, Harvard</description>
+Irene is from Atlanta and is interested in graphical models for disease progression and patient subtyping.
+Mike is from the suburbs of Boston, and is interested in causal inference, as well as using probabilistic models for dealing with dataset shift</description>
     </item>
     
     <item>
