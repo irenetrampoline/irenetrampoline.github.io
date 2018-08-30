@@ -72,7 +72,7 @@
           
 
               <li class="nav-item">
-                <a class="nav-link" href="/labsite/contact">Contact</a>
+                <a class="nav-link" href="/labsite/contact">Contact/FAQs</a>
               </li>
             
           
@@ -98,28 +98,119 @@
 
 
 <section class="container py-5">
-  <h1>Researches</h1>
+  <h1>Research Projects</h1>
+  
+  <p>For complete list of published research, see <a style="color:#A34" href="https://people.csail.mit.edu/dsontag/papers/biblio_year.html"><b>our full list of publications</b></a>.</p>
 
+  <p>
   
-    <li>
-        <a href="http://irenechen.net/labsite/research/heart/">Heart Failure</a>
-    </li>
+<div id="myDIV">
+  <button class="btn btn-outline-info btn-sm" id="MachineLearningButton2">Machine Learning</button>
+  <button class="btn btn-outline-info btn-sm" id="ClinicalButton2">Healthcare</button>
+</div>
+
+<script>
+
+var header = document.getElementById("myDIV");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    if (current.length > 0) {
+	    current[0].className = current[0].className.replace(" active", "");
+	}
+    this.className += " active";
+
+    if (this.id == "ClinicalButton2") {
+    	var x = document.getElementsByClassName("research");
+	    var i;
+		for (i = 0; i < x.length; i++) {
+		    x[i].style.display = "none";
+		}
+
+	    var x = document.getElementsByClassName("clinical");
+	    var i;
+		for (i = 0; i < x.length; i++) {
+		    x[i].style.display = "block";
+		}
+    } else if (this.id == "MachineLearningButton2"){
+    	var x = document.getElementsByClassName("research");
+	    var i;
+		for (i = 0; i < x.length; i++) {
+		    x[i].style.display = "none";
+		}
+
+	    var x = document.getElementsByClassName("ml");
+	    var i;
+		for (i = 0; i < x.length; i++) {
+		    x[i].style.display = "block";
+		}
+    }
+  });
+}
+
+document.addEventListener("click", function(event) {
+
+	
+	if (event.target.closest("#myDIV")) {
+		return;
+	}
+	
+	var header = document.getElementById("myDIV");
+	var btns = header.getElementsByClassName("btn");
+	
+	
+    var current = document.getElementsByClassName("active");
+    if (current.length > 0) {
+	    current[0].className = current[0].className.replace(" active", "");
+			
+		
+	}
+	var x = document.getElementsByClassName("research");
+    var i;
+	for (i = 0; i < x.length; i++) {
+	    x[i].style.display = "block";
+	}
+});
+
+</script>
+
+  <br><br>
   
-    <li>
-        <a href="http://irenechen.net/labsite/research/multiplemyeloma/">Multiplemyeloma</a>
-    </li>
+  	  
+  	 <div class="research clinical">
+
+  		<h3><a href="http://irenechen.net/labsite/research/heart/">Heart Failure</a></h3>
+  		<p></p>
+  </div>
   
-    <li>
-        <a href="http://irenechen.net/labsite/research/antibiotic/">Antibiotic Resistance</a>
-    </li>
+  	  
+  	 <div class="research clinical">
+
+  		<h3><a href="http://irenechen.net/labsite/research/multiplemyeloma/">Multiple Myeloma</a></h3>
+  		<p>We want to learn treatment effects for multiple myeloma, a rare blood cancer.</p>
+  </div>
   
-    <li>
-        <a href="http://irenechen.net/labsite/research/causal/">Causal</a>
-    </li>
+  	  
+  	 <div class="research clinical">
+
+  		<h3><a href="http://irenechen.net/labsite/research/antibiotic/">Antibiotic Resistance</a></h3>
+  		<p></p>
+  </div>
   
-    <li>
-        <a href="http://irenechen.net/labsite/research/fairness/">Fairness in Machine Learning</a>
-    </li>
+  	  
+  	 <div class="research ml">
+
+  		<h3><a href="http://irenechen.net/labsite/research/causal/">Causal</a></h3>
+  		<p></p>
+  </div>
+  
+  	  
+  	 <div class="research ml">
+
+  		<h3><a href="http://irenechen.net/labsite/research/fairness/">Fairness in Machine Learning</a></h3>
+  		<p>Using algorithmic fairness, we ensure machine learning with sensitive applications (like healthcare) are helpful to all.</p>
+  </div>
   
 </section>
 
