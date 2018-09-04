@@ -42,7 +42,7 @@ function absCHF() {
 
 **The Disparate Impacts of Medical and Mental Health with AI.** Irene Chen, Peter Szolovits, Marzyeh Ghassemi. *In submission.* 
 
-**Why Is My Classifier Discriminatory?** Irene Chen, Fredrik D. Johansson, David Sontag. *In submission.* <br>
+**Why Is My Classifier Discriminatory?** Irene Chen, Fredrik D. Johansson, David Sontag. *NIPS 2018 (Spotlight Talk).* <br>
 <a id="abs-fairness-button" onclick="absCHF()">[abstract]</a> [[arXiv]](https://arxiv.org/abs/1805.12002) 
 
 <div id="abs-fairness" style="display:none;">
