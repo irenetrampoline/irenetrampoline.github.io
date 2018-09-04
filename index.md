@@ -4,6 +4,12 @@ title: Irene Chen
 ---
 <!-- ## About Me -->
 
+<style>
+.special {
+  color: #28B463;
+}
+</style>
+
 <img class="profile-picture" src="irene.jpg">
 
 I am a Ph.D. candidate at [MIT CSAIL](https://www.csail.mit.edu/), advised by Professor [David Sontag](http://people.csail.mit.edu/dsontag/) in the [Clinical Machine Learning](http://clinicalml.org/) group. My research focuses on machine learning and its applications to solving important real-world problems including *healthcare* and *fairness*.
@@ -38,18 +44,31 @@ function absCHF() {
 }
 </script>
 
-**Subtype Disease Progression in Heart Failure with Preserved Ejection Fraction.** Irene Chen, Rajesh Ranganath, David Sontag. *In preparation.*
+**Subtype Disease Progression in Heart Failure with Preserved Ejection Fraction.** 
+<br>
+Irene Chen, Rajesh Ranganath, David Sontag. 
+<br>
+*In preparation.*
 
-**The Disparate Impacts of Medical and Mental Health with AI.** Irene Chen, Peter Szolovits, Marzyeh Ghassemi. *In submission.* 
+**The Disparate Impacts of Medical and Mental Health with AI.** 
+<br>
+Irene Chen, Peter Szolovits, Marzyeh Ghassemi. 
+<br>
+*In submission.* 
 
-**Why Is My Classifier Discriminatory?** Irene Chen, Fredrik D. Johansson, David Sontag. *NIPS 2018 (Spotlight Talk).* <br>
+**Why Is My Classifier Discriminatory?** 
+<br>
+Irene Chen, Fredrik D. Johansson, David Sontag. 
+<br>
+*NIPS 2018 (to appear)*, <b><font color="#B03A2E">Spotlight Presentation</font></b>.
+<br>
 <a id="abs-fairness-button" onclick="absCHF()">[abstract]</a> [[arXiv]](https://arxiv.org/abs/1805.12002) 
 
 <div id="abs-fairness" style="display:none;">
 <blockquote>Recent attempts to achieve fairness in predictive models focus on the balance between fairness and accuracy. In sensitive applications such as healthcare or criminal justice, this trade-off is often undesirable as any increase in prediction error could have devastating consequences. In this work, we argue that the fairness of predictions should be evaluated in context of the data, and that unfairness induced by inadequate samples sizes or unmeasured predictive variables should be addressed through data collection, rather than by constraining the model. We decompose cost-based metrics of discrimination into bias, variance, and noise, and propose actions aimed at estimating and reducing each term. Finally, we perform case-studies on prediction of income, mortality, and review ratings, confirming the value of this analysis. We find that data collection is often a means to reduce discrimination without sacrificing accuracy.</blockquote>
 </div>
 
-**Sources of Unfairness in Intensive Care Unit Mortality Scores.** Irene Chen, Fredrik D. Johansson, David Sontag. *Women in Machine Learning Workshop at NIPS 2017.*
+**Sources of Unfairness in Intensive Care Unit Mortality Scores.** <br>Irene Chen, Fredrik D. Johansson, David Sontag. <br> *Women in Machine Learning Workshop at NIPS 2017.*
 
 ## Teaching
 
