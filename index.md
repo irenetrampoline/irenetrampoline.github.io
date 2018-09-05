@@ -60,7 +60,7 @@ Irene Chen, Peter Szolovits, Marzyeh Ghassemi.
 <br>
 Irene Chen, Fredrik D. Johansson, David Sontag. 
 <br>
-*NIPS 2018 (to appear)*, <b><font color="#B03A2E">Spotlight Presentation</font></b>.
+*NIPS 2018 (to appear)*, <b><font color="#B03A2E">Spotlight Presentation (top 4% of submitted papers)</font></b>.
 <br>
 <a id="abs-fairness-button" onclick="absCHF()">[abstract]</a> [[arXiv]](https://arxiv.org/abs/1805.12002) 
 
