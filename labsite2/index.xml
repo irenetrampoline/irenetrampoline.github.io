@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Clinical Machine Learning</title>
+    <link>http://irenechen.net/labsite/</link>
+    <description>Recent content on Clinical Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Sep 2018 14:55:54 -0400</lastBuildDate>
+    
+	<atom:link href="http://irenechen.net/labsite/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Publications</title>
+      <link>http://irenechen.net/labsite/publications/</link>
+      <pubDate>Thu, 06 Sep 2018 14:55:54 -0400</pubDate>
+      
+      <guid>http://irenechen.net/labsite/publications/</guid>
+      <description>Publications here.</description>
+    </item>
+    
+    <item>
+      <title>Heart Failure</title>
+      <link>http://irenechen.net/labsite/research/heart/</link>
+      <pubDate>Wed, 22 Aug 2018 21:24:04 -0400</pubDate>
+      
+      <guid>http://irenechen.net/labsite/research/heart/</guid>
+      <description>Problem TODO
+Methods TODO
+Results TODO</description>
+    </item>
+    
+    <item>
+      <title>Multiple Myeloma</title>
+      <link>http://irenechen.net/labsite/research/multiplemyeloma/</link>
+      <pubDate>Wed, 22 Aug 2018 20:45:12 -0400</pubDate>
+      
+      <guid>http://irenechen.net/labsite/research/multiplemyeloma/</guid>
+      <description>Background TODO
+Methods TODO
+Results TODO</description>
+    </item>
+    
+    <item>
+      <title>Antibiotic Resistance</title>
+      <link>http://irenechen.net/labsite/research/antibiotic/</link>
+      <pubDate>Wed, 22 Aug 2018 20:45:02 -0400</pubDate>
+      
+      <guid>http://irenechen.net/labsite/research/antibiotic/</guid>
+      <description>This is a work in progress - Once Helen&amp;rsquo;s thesis is online, we should also link to that
+Background Antibiotic Resistance is bad
+Methods Machine learning!
+Results Good things!</description>
+    </item>
+    
+    <item>
+      <title>Causal</title>
+      <link>http://irenechen.net/labsite/research/causal/</link>
+      <pubDate>Wed, 22 Aug 2018 20:44:56 -0400</pubDate>
+      
+      <guid>http://irenechen.net/labsite/research/causal/</guid>
+      <description>Background TODO
+Methods TODO
+Results TODO</description>
+    </item>
+    
+    <item>
+      <title>Fairness in Machine Learning</title>
+      <link>http://irenechen.net/labsite/research/fairness/</link>
+      <pubDate>Wed, 22 Aug 2018 20:44:25 -0400</pubDate>
+      
+      <guid>http://irenechen.net/labsite/research/fairness/</guid>
+      <description> Why is Fairness important for Healthcare? Why is my classifier discriminatory? Outline bias, variance, noise
+Outline experiments
+Limitations </description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>http://irenechen.net/labsite/teaching/</link>
+      <pubDate>Wed, 22 Aug 2018 15:58:41 -0400</pubDate>
+      
+      <guid>http://irenechen.net/labsite/teaching/</guid>
+      <description>Machine Learning (6.867) [Course website]
+Principles, techniques, and algorithms in machine learning from the point of view of statistical inference; representation, generalization, and model selection; and methods such as linear/additive models, active learning, boosting, support vector machines, non-parametric Bayesian methods, hidden Markov models, and Bayesian networks. The course will give the student the basic ideas and intuition behind modern machine learning methods as well as a bit more formal understanding of how, why, and when they work.</description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>http://irenechen.net/labsite/software/</link>
+      <pubDate>Wed, 22 Aug 2018 15:58:38 -0400</pubDate>
+      
+      <guid>http://irenechen.net/labsite/software/</guid>
+      <description> a {color: #A31F34;}  For latest projects, see our Github.
+Example software includes:
+ Deep Markov Models: Theano code for implementing Deep Markov Models using variational inference during learning to maximize the likelihood of the observed data Low-Dimensional Medical Concepts: Code for AMIA CRI 2016 paper &amp;ldquo;Learning Low-Dimensional Representations of Medical Concepts&amp;rdquo; Health Knowledge Graph: Learned Health Knowledge Graph from emergency room data as featured in Nature Scientific Reports  </description>
+    </item>
+    
+    <item>
+      <title>Contact Us</title>
+      <link>http://irenechen.net/labsite/contact/</link>
+      <pubDate>Wed, 22 Aug 2018 15:55:46 -0400</pubDate>
+      
+      <guid>http://irenechen.net/labsite/contact/</guid>
+      <description>a {color: #A31F34;}  Email David&amp;rsquo;s email: dsontag {@ | at} mit.edu
+
+FAQs How can I join the group as a PhD student? Graduate admissions are handled at the department level at MIT, so please first apply to the MIT EECS or MIT MEMP departments.
+For advice on CS PhD admissions, Jean Yang and Philip Guo have written useful guides.
+How can I join the group as a UROP/SuperUROP or MEng student?</description>
+    </item>
+    
+    <item>
+      <title>Mission</title>
+      <link>http://irenechen.net/labsite/mission/</link>
+      <pubDate>Wed, 22 Aug 2018 15:53:14 -0400</pubDate>
+      
+      <guid>http://irenechen.net/labsite/mission/</guid>
+      <description>Machine Learning Perspective Making ML work in high-stakes settings
+Recently developed techniques in machine learning have proven adept at solving problems in computer vision, natural language processing, board games, video games, and other domains where computers had previously struggled to outperform humans.
+However, deployment in high-stakes settings is still limited, for good reasons:
+ Predictive models alone may be insufficient - we may care about causal questions (as in personalized medicine), not just predictive ones.</description>
+    </item>
+    
+    <item>
+      <title>People</title>
+      <link>http://irenechen.net/labsite/team/</link>
+      <pubDate>Wed, 22 Aug 2018 15:44:28 -0400</pubDate>
+      
+      <guid>http://irenechen.net/labsite/team/</guid>
+      <description>Our team consists of PhD students, research scientists, and clinical collaborators.</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>http://irenechen.net/labsite/blog/first/</link>
+      <pubDate>Tue, 31 Jul 2018 14:39:58 -0400</pubDate>
+      
+      <guid>http://irenechen.net/labsite/blog/first/</guid>
+      <description>Irene is awesome Here we&amp;rsquo;ll test 1. hi 2. there 3. people</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://irenechen.net/labsite/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://irenechen.net/labsite/test/</guid>
+      <description> Hi! </description>
+    </item>
+    
+  </channel>
+</rss>

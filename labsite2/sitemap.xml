@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://irenechen.net/labsite/publications/</loc>
+    <lastmod>2018-09-06T14:55:54-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://irenechen.net/labsite/research/heart/</loc>
+    <lastmod>2018-08-22T21:24:04-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://irenechen.net/labsite/research/multiplemyeloma/</loc>
+    <lastmod>2018-08-22T20:45:12-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://irenechen.net/labsite/research/antibiotic/</loc>
+    <lastmod>2018-08-22T20:45:02-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://irenechen.net/labsite/research/causal/</loc>
+    <lastmod>2018-08-22T20:44:56-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://irenechen.net/labsite/research/fairness/</loc>
+    <lastmod>2018-08-22T20:44:25-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://irenechen.net/labsite/teaching/</loc>
+    <lastmod>2018-08-22T15:58:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://irenechen.net/labsite/software/</loc>
+    <lastmod>2018-08-22T15:58:38-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://irenechen.net/labsite/contact/</loc>
+    <lastmod>2018-08-22T15:55:46-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://irenechen.net/labsite/mission/</loc>
+    <lastmod>2018-08-22T15:53:14-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://irenechen.net/labsite/team/</loc>
+    <lastmod>2018-08-22T15:44:28-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://irenechen.net/labsite/blog/first/</loc>
+    <lastmod>2018-07-31T14:39:58-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://irenechen.net/labsite/test/</loc>
+  </url>
+  
+  <url>
+    <loc>http://irenechen.net/labsite/blog/</loc>
+    <lastmod>2018-07-31T14:39:58-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://irenechen.net/labsite/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://irenechen.net/labsite/</loc>
+    <lastmod>2018-09-06T14:55:54-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://irenechen.net/labsite/research/</loc>
+    <lastmod>2018-08-22T21:24:04-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://irenechen.net/labsite/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

@@ -1,0 +1,17 @@
+.mission {
+	text-align: left;
+}
+
+.team-member-name { 
+	font-size: 18px; 
+} 
+.team-member-role { 
+	font-size: 14px; 
+} 
+.teamAvatar {
+	border: 0;
+	border-radius: 100px;
+}
+#team .members img {
+	border-radius: 100px;
+}
