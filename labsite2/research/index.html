@@ -107,15 +107,23 @@
 .jumptarget::before {
   content:"";
   display:block;
-  height:70px;  
-  margin:-70px 0 0;  
+  height:80px;  
+  margin:-80px 0 0;  
 }
-a{
+a.section{
   color:#A31F34;
 }
 a:hover{
    text-decoration: underline;
+   color:#A31F34;
 }
+.section{
+  font-size: 1.2em;
+}
+body {
+  font-size: 1.1em;  
+}
+
 </style>
 <section class="container py-5">
   <h1>Research</h1>
@@ -123,27 +131,47 @@ a:hover{
   <p>
   	Our lab is broadly interested in advancing machine learning and artificial intelligence, and using these to transform health care. We currently have four main focus areas:
   	<ul>
-  		<li> <a href="#clinical-prediction">Clinical Prediction</a></li>
-  		<li> Probabilistic and Causal Inference</li>
-  		<li> Sequence Modeling and Non-stationarity</li>
-  		<li> Medical Knowledge Extraction</li>
+  		<li> <a class="section" href="#clinical-prediction">Clinical Prediction</a></li>
+  		<li> <a class="section" href="#inference">Probabilistic and Causal Inference</a></li>
+      <li> <a class="section" href="#sequence-modeling">Sequence Modeling and Non-stationarity</a></li>
+      <li> <a class="section" href="#knowledge">Medical Knowledge Extraction</a></li>
   	</ul>
   </p>
 
   <hr>
   <h3 id="clinical-prediction" class="jumptarget">Clincial Prediction</h3>
 
-  Description of clinical stuff
+  <p>
+    These are exciting times for the practice of medicine. The rapid adoption of electronic health records and has created a wealth of new data about patients, which is a goldmine for improving our understanding of human health. Our lab develops algorithms that use this data to better make clinical predictions in areas like antibiotic resistence, <a href="/multiplemyeloma">multiple myeloma</a>, Parkinson's disease, and other chronic illnesses. In addition, we are concerned with efforts around fairness and interpretability to ensure accurate, useful, and equitable clinical predictions.
+  </p>
   <ul>
-  		<li> Paper 1</li>
-  		<li> Paper 2</li>
+  		<li> I. Chen, F. Johansson, D. Sontag. <b><a href="https://arxiv.org/abs/1805.12002">Why is My Classifier Discriminatory?</a></b>, Neural Information Processing Systems, Dec. 2018. </li>
+  		<li> Cell-specific prediction and application of drug-induced gene expression profiles. Hodos, R.; Zhang, P.; Lee, H. C.; Duan, Q.; Wang, Z.; Clark, N. R.; Ma'ayan, A.; Wang, F.; Kidd, B.; Hu, J.; Sontag, D.; and Dudley, J. In Proceedings of the Pacific Symposium on Biocomputing (PSB), 2018. </li>
   		<li> Project 3</li>
   		<li> Project 4</li>
 	</ul>
   <hr>
-  <h3>Probabilistic and Causal Inference</h3>
+  <h3 id="inference" class="jumptarget">Probabilistic and Causal Inference</h3>
+  <p>
+  We research unsupervised learning, causal inference from observational data, deep learning, time-series modeling, approximate probabilistic inference, structured prediction, and semi-supervised learning algorithms for natural language processing
+  </p>
+  <ul>
+      <li>Optimality of Approximate Inference Algorithms on Stable Instances. Lang, H.; Sontag, D.; and Vijayaraghavan, A. In Proceedings of the Twenty-First International Conference on Artificial Intelligence and Statistics (AI-STATS), 2018. JMLR: W&CP </li>
+      <li> Learning Weighted Representations for Generalization Across Designs. Johansson, F. D.; Kallus, N.; Shalit, U.; and Sontag, D. ArXiv e-prints arXiv:1802.08598. 2018. </li>
+      <li> Causal Effect Inference with Deep Latent-Variable Models. Louizos, C.; Shalit, U.; Mooij, J.; Sontag, D.; Zemel, R. S.; and Welling, M. In Proceedings of the 31st International Conference on Neural Information Processing Systems, of NIPS'17, 2017.  </li>
+  		<li> R. Krishnan, U. Shalit, D. Sontag. <b><a href="https://arxiv.org/abs/1609.09869">Structured Inference Networks for Nonlinear State Space Models</a></b>, Thirty-First AAAI Conference on Artificial Intelligence, Feb. 2017. [<a href="https://github.com/clinicalml/structuredinference">code</a>]</li>
+  		<li> Paper 2</li>
+  		<li> Project 3</li>
+  		<li> Project 4</li>
+	</ul>
 
+  </p>
+
+  <hr>
+  <h3 id="sequence-modeling" class="jumptarget">Sequence Modeling and Non-stationarity</h3>
+  <p>
   Description
+  </p>
   <ul>
   		<li> Paper 1</li>
   		<li> Paper 2</li>
@@ -154,27 +182,14 @@ a:hover{
   </p>
 
   <hr>
-  <h3>Sequence Modeling and Non-stationarity</h3>
-
-  Description
-  <ul>
-  		<li> Paper 1</li>
-  		<li> Paper 2</li>
-  		<li> Project 3</li>
-  		<li> Project 4</li>
-	</ul>
-
+  <h3 id="knowledge" class="jumptarget">Medical Knowledge Extraction</h3>
+  <p>
+  Today's electronic health records are predominately a place for recording a patient's health data. We aim to develop the foundation for the next-generation of intelligent electronic health records, where machine learning and artificial intelligence is built-in to help with medical diagnosis, automatically trigger clinical decision support, personalize treatment suggestions, autonomously retrieve relevant past medical history, make documentation faster and higher quality, and predict adverse events before they happen. A major challenge is the need for robust machine learning algorithms that are safe, interpretable, can learn from little labeled training data, understand natural language, and generalize well across medical settings and institutions.
   </p>
-
-  <hr>
-  <h3>Medical Knowledge Extraction</h3>
-
-  Description
   <ul>
-  		<li> Paper 1</li>
-  		<li> Paper 2</li>
-  		<li> Project 3</li>
-  		<li> Project 4</li>
+  		<li> S. Blecker, S. Katz, L. Horwitz, G. Kuperman, H. Park, A. Gold, D. Sontag. Comparison of Approaches for Heart Failure Case Identification From Electronic Health Record Data. Journal of the American Medical Association (JAMA) Cardiology, Oct. 2016.</li>
+  		<li> Y. Halpern, S. Horng, Y. Choi, D. Sontag. Electronic Medical Record Phenotyping using the Anchor and Learn Framework. Journal of the American Medical Informatics Association (JAMIA), April 2016. [PDF]</li>
+  		<li> Y. Jernite, Y. Halpern, S. Horng, D. Sontag. Predicting Chief Complaints at Triage Time in the Emergency Department. NIPS 2013 Workshop on Machine Learning for Clinical Data Analysis and Healthcare, Dec. 2013.</li>
 	</ul>
 
 </section>

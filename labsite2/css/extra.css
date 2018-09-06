@@ -15,3 +15,16 @@
 #team .members img {
 	border-radius: 100px;
 }
+
+.mission{
+  font-size: 1.25em;
+  text-align: left;
+}
+
+.team-desc{
+  font-size: 1.1em;
+}
+
+.news {
+  text-align: left;
+}

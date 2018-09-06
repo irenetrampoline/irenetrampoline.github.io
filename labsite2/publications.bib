@@ -1,0 +1,30 @@
+@inproceedings{KrishnanEtAl_uai18,
+  author = {Rahul G. Krishnan and Arjun Khandelwal and Rajesh Ranganath and David Sontag},
+  title = {Max-margin learning with the Bayes Factor},
+  booktitle = {Proceedings of the Conference on Uncertainty in Artificial Intelligence ({UAI})},
+  year = {2018},
+  keywords = {Machine learning, Unsupervised learning, Deep learning, Approximate inference in graphical models},
+  abstract = {We propose a new way to answer probabilistic queries that span multiple datapoints. We formalize reasoning about the similarity of different datapoints as the evaluation of the Bayes Factor within a hierarchical deep generative model that enforces a separation between the latent variables used for representation learning and those used for reasoning. Under this model, we derive an intuitive estimator for the Bayes Factor that represents similarity as the amount of overlap in representation space shared by different points. The estimator we derive relies on a query-conditional latent reasoning network, that parameterizes a distribution over the latent space of the deep generative model. The latent reasoning network is trained to amortize the posterior-predictive distribution under a hierarchical model using supervised data and a max-margin learning algorithm. We explore how the model may be used to focus the data variations captured in the latent space of the deep generative model and how this may be used to build new algorithms for few-shot learning.},
+  url_Paper = {http://people.csail.mit.edu/dsontag/papers/KrishnanEtAl_UAI18.pdf}
+}
+@inproceedings{KimEtAl_icml18,
+  author    = {Yoon Kim and Sam Wiseman and Andrew C. Miller and David Sontag and Alexander M. Rush},
+  title = {Semi-Amortized Variational Autoencoders},
+  booktitle = {Proceedings of the 35th International Conference on Machine Learning ({ICML})},
+  year = 2018,
+  keywords = {Machine learning, Unsupervised learning, Deep learning, Approximate inference in graphical models},
+  url_Paper = {https://arxiv.org/pdf/1802.02550.pdf},
+  abstract = {Amortized variational inference (AVI) replaces instance-specific local inference with a global inference network. While AVI has enabled efficient training of deep generative models such as variational autoencoders (VAE), recent empirical work suggests that inference networks can produce suboptimal variational parameters. We propose a hybrid approach, to use AVI to initialize the variational parameters and run stochastic variational inference (SVI) to refine them. Crucially, the local SVI procedure is itself differentiable, so the inference network and generative model can be trained end-to-end with gradient-based optimization. This semi-amortized approach enables the use of rich generative models without experiencing the posterior-collapse phenomenon common in training VAEs for problems like text generation. Experiments show this approach outperforms strong autoregressive and variational baselines on standard text and image datasets.}
+}
+
+@article{ChenJohanssonSontag_arxiv18,
+  author = {Irene Chen and Fredrik D. Johansson and David Sontag},
+  title = {Why Is My Classifier Discriminatory?},
+  booktitle = {Proceedings of the 31st International Conference on Neural Information Processing Systems (NIPS)},
+  series = {NIPS'18},
+  year = 2018,
+  keywords = {Machine learning, Health care, fairness},
+  url_Paper = {https://arxiv.org/pdf/1805.12002.pdf},
+  abstract = {Recent attempts to achieve fairness in predictive models focus on the balance between fairness and accuracy. In sensitive applications such as healthcare or criminal justice, this trade-off is often undesirable as any increase in prediction error could have devastating consequences. In this work, we argue that the fairness of predictions should be evaluated in context of the data, and that unfairness induced by inadequate samples sizes or unmeasured predictive variables should be addressed through data collection, rather than by constraining the model. We decompose cost-based metrics of discrimination into bias, variance, and noise, and propose actions aimed at estimating and reducing each term. Finally, we perform case-studies on prediction of income, mortality, and review ratings, confirming the value of this analysis. We find that data collection is often a means to reduce discrimination without sacrificing accuracy.}
+}
+

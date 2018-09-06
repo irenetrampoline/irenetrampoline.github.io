@@ -108,21 +108,33 @@
 a {
 	color: #A34F31;
 }
+.headings{
+	font-size:1.25em;
+}
 .anchor { padding-top: 90px; }
+
+.jumptarget::before {
+  content:"";
+  display:block;
+  height:80px;  
+  margin:-80px 0 0;  
+}
 </style>
 
 <div class="container py-5">
   <h1 class="">People</h1>
-  <p><p>Our team consists of PhD students, research scientists, and clinical collaborators.</p>
+  <p><p>Our team consists of post-docs, students, research scientists, and clinical collaborators. For information about how to join us, see our <a href="/contact">FAQ section</a>.</p>
 </p>
 
-  <p><a href="#current"> Current Members</a>
+  <p class="headings">
+  	<a href="#current"> Current Members</a>
   	<br>
-  <a href="#alumni"> Alumni</a>
-  <br>
-  <a href="#collaborators"> Collaborators</a></p>
-
-  <h2 id="current" class="anchor"> Current Members</h2>
+	  <a href="#alumni"> Alumni</a>
+	  <br>
+	  <a href="#collaborators"> Collaborators</a>
+	</p>
+	<br><br>
+  <h2 id="current" class="jumptarget"> Current Members</h2>
 	  
 	  <div class="row">
 	  <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 mb-3">
@@ -132,7 +144,7 @@ a {
 	  	 <p>
 	  	 
 
-	  	 <a href="https://people.csail.mit.edu/dsontag/">David Sontag </a>  is an Associate Professor of Electrical Engineering and Computer Science at MIT, part of both the Institute for Medical Engineering & Science and the Computer Science and Artificial Intelligence Laboratory. His research focuses on advancing machine learning and artificial intelligence, and using these to transform health care. Previously, he was an Assistant Professor of Computer Science and Data Science at New York University, part of the CILVR lab.  David enjoys alfajores and empanadas.
+	  	 <a href="https://people.csail.mit.edu/dsontag/">David Sontag </a>  is an Associate Professor of Electrical Engineering and Computer Science at MIT, part of both the Institute for Medical Engineering & Science and the Computer Science and Artificial Intelligence Laboratory. His research focuses on advancing machine learning and artificial intelligence, and using these to transform health care. Previously, he was an Assistant Professor of Computer Science and Data Science at New York University, part of the CILVR lab. 
 
 	  	 
 	  	</p>
@@ -148,7 +160,7 @@ a {
 	  	 <p>
 	  	 
 
-	  	 <a href="http://www.mit.edu/~fredrikj/">Fredrik Johansson </a>  is a post-doc at MIT. He holds a Ph.D. in Computer Science and an B.Sc. in Engineering Physics from Chalmers University of Technology, Sweden. His research interests include developing theory and methods for learning causally sound treatment policies from observational data, with the ambition of providing practical guarantees on performance.  Fredrik spends his free time baking, cooking, fishing and playing video games.
+	  	 <a href="http://www.mit.edu/~fredrikj/">Fredrik Johansson </a>  is a post-doc at MIT. He holds a Ph.D. in Computer Science and an B.Sc. in Engineering Physics from Chalmers University of Technology, Sweden. His research interests include developing theory and methods for learning causally sound treatment policies from observational data, with the ambition of providing practical guarantees on performance. 
 
 	  	 
 	  	</p>
@@ -164,7 +176,7 @@ a {
 	  	 <p>
 	  	 
 
-	  	 <a href="https://www.linkedin.com/in/sanjat-kanjilal/">Sanjat Kanjilal </a>  is a general medicine and infectious diseases physician at the Massachusetts General Hospital (MGH) and the Brigham & Women's Hospital (BWH). He is also an Associate Medical Director at the BWH Clinical Microbiology Laboratory. Sanjat's research interests are in investigating the emergence, spread, and decline of antimicrobial resistance at the patient and population level, and translating those findings into actionable data for clinicians and public health officials. A related area of interest is in the development and evaluation of rapid diagnostic platforms for pathogen identification and antibiotic susceptibility testing, a crucial intervention for reducing the widespread societal costs attributable to the inappropriate use of antibiotics.  Sanjat has an unhealthy appreciation for long running popular Japanese animation series such as Naruto and Inuyasha.
+	  	 <a href="https://www.linkedin.com/in/sanjat-kanjilal/">Sanjat Kanjilal </a>  is a general medicine and infectious diseases physician at the Massachusetts General Hospital (MGH) and the Brigham & Women's Hospital (BWH). He is also an Associate Medical Director at the BWH Clinical Microbiology Laboratory. Sanjat's research interests are in investigating the emergence, spread, and decline of antimicrobial resistance at the patient and population level, and translating those findings into actionable data for clinicians and public health officials. A related area of interest is in the development and evaluation of rapid diagnostic platforms for pathogen identification and antibiotic susceptibility testing, a crucial intervention for reducing the widespread societal costs attributable to the inappropriate use of antibiotics. 
 
 	  	 
 	  	</p>
@@ -180,7 +192,7 @@ a {
 	  	 <p>
 	  	 
 
-	  	 <a href="http://people.csail.mit.edu/rahulgk/">Rahul G. Krishnan </a>  is a PhD student at MIT. He holds a B.Eng. in Computer Engineering from the University of Toronto and an MS from New York University. His research interests include probabilistic inference in deep generative models and building new machine learning algorithms for modeling disease progression, patient similarity and treatment efficacy.  Rahul loves soccer, stamps, and swimming.
+	  	 <a href="http://people.csail.mit.edu/rahulgk/">Rahul G. Krishnan </a>  is a PhD student at MIT. He holds a B.Eng. in Computer Engineering from the University of Toronto and an MS from New York University. His research interests include probabilistic inference in deep generative models and building new machine learning algorithms for modeling disease progression, patient similarity and treatment efficacy. 
 
 	  	 
 	  	</p>
@@ -196,7 +208,7 @@ a {
 	  	 <p>
 	  	 
 
-	  	 <a href="http://irenechen.net/">Irene Chen </a>  is a PhD student. Before MIT, Irene received her AB/SM from Harvard in applied math and computational science. Her research interests include improving algorithmic fairness through better models and better data collection; building predictive models for heart failure disease progression and subtyping; and constructing causal health knowledge graphs from electronic health records.  Irene is a big fan of broccoli and long distance running.
+	  	 <a href="http://irenechen.net/">Irene Chen </a>  is a PhD student. Before MIT, Irene received her AB/SM from Harvard in applied math and computational science. Her research interests include improving algorithmic fairness through better models and better data collection; building predictive models for heart failure disease progression and subtyping; and constructing causal health knowledge graphs from electronic health records. 
 
 	  	 
 	  	</p>
@@ -212,7 +224,7 @@ a {
 	  	 <p>
 	  	 
 
-	  	 <a href="http://www.michaelkoberst.com/">Michael Oberst </a>  is a Computer Science PhD Student at MIT.  He holds a B.A. in Statistics from Harvard University, where he was advised by Edo Airoldi on his senior thesis.  His research interests include developing learning algorithms for dealing with non-stationarity / dataset shift in predictive modelling, as well as lack of overlap in causal inference.  Michael enjoys fishing, hiking, cycling, and going to the New England Aquarium.
+	  	 <a href="http://www.michaelkoberst.com/">Michael Oberst </a>  is a Computer Science PhD Student at MIT.  He holds a B.A. in Statistics from Harvard University, where he was advised by Edo Airoldi on his senior thesis.  His research interests include developing learning algorithms for dealing with non-stationarity / dataset shift in predictive modelling, as well as lack of overlap in causal inference. 
 
 	  	 
 	  	</p>
@@ -228,7 +240,7 @@ a {
 	  	 <p>
 	  	 
 
-	  	 Zeshan Hussain is an MD/PhD student at Harvard/MIT. He holds a B.S. and M.S. in Computer Science from Stanford University, where he was advised by Daniel Rubin and Chris Re, doing work on data augmentation, medical image classification, and deep learning. Currently, his research interests include interpretability of non-linear models, specifically RNNs, as well as disease progression modeling. Zeshan loves to read Urdu and Arabic poetry, play tennis, soccer, and basketball, as well as sing nasheeds.
+	  	 Zeshan Hussain is an MD/PhD student at Harvard/MIT. He holds a B.S. and M.S. in Computer Science from Stanford University, where he was advised by Daniel Rubin and Chris Re, doing work on data augmentation, medical image classification, and deep learning. Currently, his research interests include interpretability of non-linear models, specifically RNNs, as well as disease progression modeling.
 
 	  	 
 	  	</p>
@@ -244,7 +256,7 @@ a {
 	  	 <p>
 	  	 
 
-	  	 Monica Agrawal is a PhD student in Computer Science at MIT. She holds a B.S. and M.S. in Computer Science from Stanford University, where she was advised by Jure Leskovec and worked on applying machine learning to biological networks. Her research interests include interpretability in machine learning and clinical natural language processing. Monica enjoys hiking, cookie dough, and crosswords.
+	  	 Monica Agrawal is a PhD student in Computer Science at MIT. She holds a B.S. and M.S. in Computer Science from Stanford University, where she was advised by Jure Leskovec and worked on applying machine learning to biological networks. Her research interests include interpretability in machine learning and clinical natural language processing.
 
 	  	 
 	  	</p>
@@ -260,7 +272,7 @@ a {
 	  	 <p>
 	  	 
 
-	  	 <a href="http://people.csail.mit.edu/lrchai/">Lucy Chai </a>  is a PhD student in computer science at MIT. Previously she was at Churchill College, Cambridge University for an MPhil in Machine Learning working on interpretability and uncertainty estimation in Bayesian neural networks. Prior to that, she was at the University of Pennsylvania for a B.S.E. in computer science and bioengineering and did research in computational neuroscience. Her research interests include Bayesian deep learning and computer vision.  Lucy enjoys baking, swimming, and music.
+	  	 <a href="http://people.csail.mit.edu/lrchai/">Lucy Chai </a>  is a PhD student in computer science at MIT. Previously she was at Churchill College, Cambridge University for an MPhil in Machine Learning working on interpretability and uncertainty estimation in Bayesian neural networks. Prior to that, she was at the University of Pennsylvania for a B.S.E. in computer science and bioengineering and did research in computational neuroscience. Her research interests include Bayesian deep learning and computer vision. 
 
 	  	 
 	  	</p>
@@ -276,7 +288,7 @@ a {
 	  	 <p>
 	  	 
 
-	  	 Rebecca Peyser is a Research Scientist in the Clinical ML group. She holds an M.S. in Biomedical Engineering from Columbia University and a B.A. in Physics with a minor in Computer Science from Yeshiva University. Before joining the lab, she worked as a Bioinformatics Analyst at Regeneron Pharmaceuticals. Her research projects include developing methods to learn disease subtypes, disease progression models, and hospital readmission predictions from observational data. She is particularly interested in analyzing genomic data to better understand disease. Rebecca enjoys experimenting with new recipes, taking advantage of MIT’s group exercise classes, and studying Jewish law &amp; thought.
+	  	 Rebecca Peyser is a Research Scientist in the Clinical ML group. She holds an M.S. in Biomedical Engineering from Columbia University and a B.A. in Physics with a minor in Computer Science from Yeshiva University. Before joining the lab, she worked as a Bioinformatics Analyst at Regeneron Pharmaceuticals. Her research projects include developing methods to learn disease subtypes, disease progression models, and hospital readmission predictions from observational data. She is particularly interested in analyzing genomic data to better understand disease.
 
 	  	 
 	  	</p>
@@ -292,7 +304,7 @@ a {
 	  	 <p>
 	  	 
 
-	  	 Christina Ji is an M.Eng student with the group and studies computer science for her bachelors at MIT. She is interested in examining the theoretical assumptions behind off-policy evaluation of reinforcement learning for healthcare and developing algorithms for disease progression modeling. Christina enjoys singing, reading, and pulling an occasional joke.
+	  	 Christina Ji is an M.Eng student with the group and studies computer science for her bachelors at MIT. She is interested in examining the theoretical assumptions behind off-policy evaluation of reinforcement learning for healthcare and developing algorithms for disease progression modeling.
 
 	  	 
 	  	</p>
@@ -308,7 +320,7 @@ a {
 	  	 <p>
 	  	 
 
-	  	 Arjun Khandelwal is pursuing his M.Eng degree with the group. He is currently an undergraduate at MIT and is working on building new algorithms that leverage deep generative models for few shot learning. Arjun enjoys ultimate frisbee, reading science fiction, and bouldering in his free time.
+	  	 Arjun Khandelwal is pursuing his M.Eng degree with the group. He is currently an undergraduate at MIT and is working on building new algorithms that leverage deep generative models for few shot learning.
 
 	  	 
 	  	</p>
@@ -324,7 +336,7 @@ a {
 	  	 <p>
 	  	 
 
-	  	 David Amirault is an undergraduate at MIT studying computer science and mathematics. He is pursuing an applied data science project on modeling disease progression using health insurance claims data. David enjoys running, chess, and music.
+	  	 David Amirault is an undergraduate at MIT studying computer science and mathematics. He is pursuing an applied data science project on modeling disease progression using health insurance claims data.
 
 	  	 
 	  	</p>
@@ -340,7 +352,7 @@ a {
 	  	 <p>
 	  	 
 
-	  	 Sooraj Boominathan is an undergraduate at MIT studying computer science and mathematics. His research involves the predictive modeling of individual patient antibiotic resistance profiles using medical data. Sooraj enjoys playing pool, reading thrillers, hiking, and watching sports.
+	  	 Sooraj Boominathan is an undergraduate at MIT studying computer science and mathematics. His research involves the predictive modeling of individual patient antibiotic resistance profiles using medical data.
 
 	  	 
 	  	</p>
@@ -356,7 +368,7 @@ a {
 	  	 <p>
 	  	 
 
-	  	 Alok Puranik is an undergraduate at MIT pursuing a degree in mathematics and computer science. His research interests include studying attractive basins in sequence modeling. Alok spends his free time playing jazz, hiking, and reading Wikipedia articles.
+	  	 Alok Puranik is an undergraduate at MIT pursuing a degree in mathematics and computer science. His research interests include studying attractive basins in sequence modeling.
 
 	  	 
 	  	</p>
@@ -372,7 +384,7 @@ a {
 	  	 <p>
 	  	 
 
-	  	 Suchan Vivatsethachai is an undergraduate at MIT pursuing Computer Science and Mathematics degrees. His research interests include transfer learning and identifying common support in causal inference. Suchan enjoys badminton, rock climbing, sailing, and music.
+	  	 Suchan Vivatsethachai is an undergraduate at MIT pursuing Computer Science and Mathematics degrees. His research interests include transfer learning and identifying common support in causal inference.
 
 	  	 
 	  	</p>
@@ -380,8 +392,8 @@ a {
 		</div>
 
 	  
-
-  <h2 id="alumni" class="anchor">Alumni</h2>
+<br><br><br>
+  <h2 id="alumni" class="jumptarget">Alumni</h2>
   <table>
   	<thead>
 	<tr>
@@ -420,6 +432,16 @@ a {
   <td>Yoni Halpern </td>
   <td>PhD student</td>
   <td>Google &amp; Verily </td>
+  
+  <tr>
+  <td>Issac Lage </td>
+  <td>Research engineer</td>
+  <td>PhD Student, Harvard </td>
+  
+  <tr>
+  <td>Jake Marcus </td>
+  <td>Research engineer</td>
+  <td>Google Brain </td>
   
   <tr>
   <td>Helen Zhou </td>
@@ -477,16 +499,6 @@ a {
   <td>PhD student at Harvard </td>
   
   <tr>
-  <td>Issac Lage </td>
-  <td>Research engineer</td>
-  <td>PhD Student, Harvard </td>
-  
-  <tr>
-  <td>Jake Marcus </td>
-  <td>Research engineer</td>
-  <td>Google Brain </td>
-  
-  <tr>
   <td>Rares Buhai </td>
   <td>Undergrad</td>
   <td> </td>
@@ -519,8 +531,8 @@ a {
 
 	</table>
 
-	<br>
-	<h2 id="collaborators" class="anchor"> Collaborators</h2>
+	<br><br><br>
+	<h2 id="collaborators" class="jumptarget"> Collaborators</h2>
 	Observational Health Data Sciences and Informatics (OHDSI)
 	<br>
 	Steven Horng, MD (Harvard Medical School / Beth Israel Deaconess Medical Center)
