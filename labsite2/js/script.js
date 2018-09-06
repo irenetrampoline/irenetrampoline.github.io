@@ -4,22 +4,22 @@ $(document).ready(function(){
   $('[data-toggle="tooltip"]').tooltip();
 
   //Hack for navbar
-  $(".navbar-toggler").click(function(e){
-    if($("nav").hasClass('navbar-light') && !$("nav").hasClass('nochange')){
-      if($(window).scrollTop() < 30){
-        $("nav").addClass('navbar-dark').removeClass('navbar-light');
-      }
+  // $(".navbar-toggler").click(function(e){
+  //   if($("nav").hasClass('navbar-light') && !$("nav").hasClass('nochange')){
+  //     if($(window).scrollTop() < 30){
+  //       $("nav").addClass('navbar-dark').removeClass('navbar-light');
+  //     }
       
-    } else {
-      $("nav").removeClass('navbar-dark').addClass('navbar-light');
-    }
-  });
+  //   } else {
+  //     $("nav").removeClass('navbar-dark').addClass('navbar-light');
+  //   }
+  // });
 
   //Check scroll location of page
   //If more than 30 add white bg in nav
-  if($(window).scrollTop() >= 30){
-    $("nav").addClass('navbar-dark').removeClass('navbar-light');
-  }
+  // if($(window).scrollTop() > 0){
+  //   $("nav").addClass('navbar-dark').removeClass('navbar-light');
+  // }
   
   /*
     Work portfolio
@@ -65,17 +65,17 @@ $(document).ready(function(){
 
 
 
-  $(window).scroll(function() {    
-    var scroll = $(window).scrollTop();
+//   $(window).scroll(function() {    
+//     var scroll = $(window).scrollTop();
 
-     //>=, not <=
-    if (scroll >= 30) {
-        //clearHeader, not clearheader - caps H
-        $(".nav-transparent").removeClass("navbar-dark").addClass("navbar-light");
-    } else {
-      $(".nav-transparent").removeClass("navbar-light").addClass("navbar-dark");
-    }
-});
+//      //>=, not <=
+//     if (scroll >= 30) {
+//         //clearHeader, not clearheader - caps H
+//         $(".nav-transparent").removeClass("navbar-dark").addClass("navbar-light");
+//     } else {
+//       $(".nav-transparent").removeClass("navbar-light").addClass("navbar-dark");
+//     }
+// });
 
 
 });
