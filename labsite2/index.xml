@@ -6,10 +6,20 @@
     <description>Recent content on Clinical Machine Learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Sep 2018 14:55:54 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 07 Sep 2018 15:15:50 -0400</lastBuildDate>
     
 	<atom:link href="http://irenechen.net/labsite2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Research</title>
+      <link>http://irenechen.net/labsite2/research/</link>
+      <pubDate>Fri, 07 Sep 2018 15:15:50 -0400</pubDate>
+      
+      <guid>http://irenechen.net/labsite2/research/</guid>
+      <description>.jumptarget::before { content:&#34;&#34;; display:block; height:80px; /* fixed header height*/ margin:-80px 0 0; /* negative fixed header height */ } a.section{ color:#A31F34; } a:hover{ text-decoration: underline; color:#A31F34; } .section{ font-size: 1.2em; }  Our lab is broadly interested in advancing machine learning and artificial intelligence, and using these to transform health care. We currently have four main focus areas:
+ Clinical Prediction  Probabilistic and Causal Inference  Sequence Modeling and Non-stationarity  Medical Knowledge Extraction</description>
+    </item>
     
     <item>
       <title>Publications</title>
@@ -18,62 +28,6 @@
       
       <guid>http://irenechen.net/labsite2/publications/</guid>
       <description> </description>
-    </item>
-    
-    <item>
-      <title>Heart Failure</title>
-      <link>http://irenechen.net/labsite2/research/heart/</link>
-      <pubDate>Wed, 22 Aug 2018 21:24:04 -0400</pubDate>
-      
-      <guid>http://irenechen.net/labsite2/research/heart/</guid>
-      <description>Problem TODO
-Methods TODO
-Results TODO</description>
-    </item>
-    
-    <item>
-      <title>Multiple Myeloma</title>
-      <link>http://irenechen.net/labsite2/research/multiplemyeloma/</link>
-      <pubDate>Wed, 22 Aug 2018 20:45:12 -0400</pubDate>
-      
-      <guid>http://irenechen.net/labsite2/research/multiplemyeloma/</guid>
-      <description>Background TODO
-Methods TODO
-Results TODO</description>
-    </item>
-    
-    <item>
-      <title>Antibiotic Resistance</title>
-      <link>http://irenechen.net/labsite2/research/antibiotic/</link>
-      <pubDate>Wed, 22 Aug 2018 20:45:02 -0400</pubDate>
-      
-      <guid>http://irenechen.net/labsite2/research/antibiotic/</guid>
-      <description>This is a work in progress - Once Helen&amp;rsquo;s thesis is online, we should also link to that
-Background Antibiotic Resistance is bad
-Methods Machine learning!
-Results Good things!</description>
-    </item>
-    
-    <item>
-      <title>Causal</title>
-      <link>http://irenechen.net/labsite2/research/causal/</link>
-      <pubDate>Wed, 22 Aug 2018 20:44:56 -0400</pubDate>
-      
-      <guid>http://irenechen.net/labsite2/research/causal/</guid>
-      <description>Background TODO
-Methods TODO
-Results TODO</description>
-    </item>
-    
-    <item>
-      <title>Fairness in Machine Learning</title>
-      <link>http://irenechen.net/labsite2/research/fairness/</link>
-      <pubDate>Wed, 22 Aug 2018 20:44:25 -0400</pubDate>
-      
-      <guid>http://irenechen.net/labsite2/research/fairness/</guid>
-      <description> Why is Fairness important for Healthcare? Why is my classifier discriminatory? Outline bias, variance, noise
-Outline experiments
-Limitations </description>
     </item>
     
     <item>

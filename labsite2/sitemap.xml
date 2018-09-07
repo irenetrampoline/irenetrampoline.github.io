@@ -3,33 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://irenechen.net/labsite2/research/</loc>
+    <lastmod>2018-09-07T15:15:50-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://irenechen.net/labsite2/publications/</loc>
     <lastmod>2018-09-06T14:55:54-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://irenechen.net/labsite2/research/heart/</loc>
-    <lastmod>2018-08-22T21:24:04-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://irenechen.net/labsite2/research/multiplemyeloma/</loc>
-    <lastmod>2018-08-22T20:45:12-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://irenechen.net/labsite2/research/antibiotic/</loc>
-    <lastmod>2018-08-22T20:45:02-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://irenechen.net/labsite2/research/causal/</loc>
-    <lastmod>2018-08-22T20:44:56-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://irenechen.net/labsite2/research/fairness/</loc>
-    <lastmod>2018-08-22T20:44:25-04:00</lastmod>
   </url>
   
   <url>
@@ -79,13 +59,7 @@
   
   <url>
     <loc>http://irenechen.net/labsite2/</loc>
-    <lastmod>2018-09-06T14:55:54-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://irenechen.net/labsite2/research/</loc>
-    <lastmod>2018-08-22T21:24:04-04:00</lastmod>
+    <lastmod>2018-09-07T15:15:50-04:00</lastmod>
     <priority>0</priority>
   </url>
   
