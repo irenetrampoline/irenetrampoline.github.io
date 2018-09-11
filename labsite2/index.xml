@@ -17,8 +17,7 @@
       <pubDate>Fri, 07 Sep 2018 15:15:50 -0400</pubDate>
       
       <guid>http://irenechen.net/labsite2/research/</guid>
-      <description>.jumptarget::before { content:&#34;&#34;; display:block; height:80px; /* fixed header height*/ margin:-80px 0 0; /* negative fixed header height */ } a.section{ color:#A31F34; } a:hover{ text-decoration: underline; color:#A31F34; } .section{ font-size: 1.2em; }  Our lab is broadly interested in advancing machine learning and artificial intelligence, and using these to transform health care. We currently have four main focus areas:
- Clinical Prediction  Probabilistic and Causal Inference  Sequence Modeling and Non-stationarity  Medical Knowledge Extraction</description>
+      <description>.jumptarget::before { content:&#34;&#34;; display:block; height:80px; /* fixed header height*/ margin:-80px 0 0; /* negative fixed header height */ } a.section{ color:#A31F34; } a:hover{ text-decoration: underline; color:#A31F34; } .section{ font-size: 1.2em; }  Our lab is broadly interested in advancing machine learning and artificial intelligence, and using these to transform health care. Here we explain our three broad focus areas as well as representative papers. For more papers, see our publications section.</description>
     </item>
     
     <item>
@@ -58,9 +57,8 @@ Example software includes:
       <guid>http://irenechen.net/labsite2/contact/</guid>
       <description>a {color: #A31F34;}  Email David&amp;rsquo;s email: dsontag {@ | at} mit.edu
 
-FAQs How can I join the group as a PhD student? Graduate admissions are handled at the department level at MIT, so please first apply to the MIT EECS or MIT MEMP departments.
-For advice on CS PhD admissions, Jean Yang and Philip Guo have written useful guides.
-How can I join the group as a UROP/SuperUROP or MEng student?</description>
+FAQs How can I join the group as a PhD student? As of fall 2018, David is accepting PhD students into the lab. Graduate admissions are handled at the department level at MIT, so please first apply to the MIT EECS or MIT MEMP departments.
+For advice on CS PhD admissions, Jean Yang and Philip Guo have written useful guides.</description>
     </item>
     
     <item>

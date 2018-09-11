@@ -124,67 +124,41 @@ a:hover{
 }
 </style>
 
-<p>Our lab is broadly interested in advancing machine learning and artificial intelligence, and using these to transform health care. We currently have four main focus areas:</p>
+<p>Our lab is broadly interested in advancing machine learning and artificial intelligence, and using these to transform health care. Here we explain our three broad focus areas as well as representative papers. For more papers, see our publications section.</p>
 
 <p
     <ul>
         <li> <a class="section" href="#clinical-prediction">Clinical Prediction</a></li>
         <li> <a class="section" href="#inference">Probabilistic and Causal Inference</a></li>
-      <li> <a class="section" href="#sequence-modeling">Sequence Modeling and Non-stationarity</a></li>
       <li> <a class="section" href="#knowledge">Medical Knowledge Extraction</a></li>
     </ul>
 
   </p>
 
 <p><br>
-<hr>
 <br>
 <h3 id="clinical-prediction" class="jumptarget">Clinical Prediction</h3></p>
 
 <p>These are exciting times for the practice of medicine. The rapid adoption of electronic health records and has created a wealth of new data about patients, which is a goldmine for improving our understanding of human health. Our lab develops algorithms that use this data to make better clinical predictions in areas like antibiotic resistance, multiple myeloma, Parkinson&rsquo;s disease, and other chronic illnesses. In addition, we are concerned with efforts around fairness and interpretability to ensure accurate, useful, and equitable clinical predictions.</p>
 
 <ul>
-<li>I. Chen, F. Johansson, D. Sontag. <a href="https://arxiv.org/abs/1805.12002"><strong>Why is My Classifier Discriminatory?</strong></a>, Neural Information Processing Systems, Dec. 2018.</li>
-<li>Cell-specific prediction and application of drug-induced gene expression profiles. Hodos, R.; Zhang, P.; Lee, H. C.; Duan, Q.; Wang, Z.; Clark, N. R.; Ma&rsquo;ayan, A.; Wang, F.; Kidd, B.; Hu, J.; Sontag, D.; and Dudley, J. In Proceedings of the Pacific Symposium on Biocomputing (PSB), 2018.</li>
-<li>Project 3</li>
-<li>Project 4</li>
+<li>I. Chen, F. Johansson, D. Sontag. <a href="https://arxiv.org/abs/1805.12002"><strong>Why is My Classifier Discriminatory?</strong></a>, 32nd International Conference on Neural Information Processing Systems (NIPS), Dec 2018. To be presented.</li>
+<li>N. Razavian, J. Marcus, D. Sontag. <a href="https://arxiv.org/abs/1608.00647"><strong>Multi-task Prediction of Disease Onsets from Longitudinal Lab Tests</strong></a>. Proceedings of the 1st Machine Learning for Healthcare Conference (MLHC), 2016.</li>
+<li>X. Wang, D. Sontag, F. Wang. <a href="https://people.csail.mit.edu/dsontag/papers/WanSonWan_kdd14.pdf"><strong>Unsupervised Learning of Disease Progression Models</strong></a>. ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), Aug. 2014. <a href="https://people.csail.mit.edu/dsontag/papers/sontag_KDD14_slides.pdf">[Slides]</a></li>
 </ul>
-
-<hr>
 
 <h3 id="inference" class="jumptarget">Probabilistic and Causal Inference</h3>
 
-<p>Approximate inference, anchors, counterfactual, graphical models, structure learning</p>
-
-<p>We research unsupervised learning, causal inference from observational data, deep learning, time-series modeling, approximate probabilistic inference, structured prediction, and semi-supervised learning algorithms for natural language processing</p>
+<p>Probabilistic inference is one of the cornerstones of machine learning. Whether for parameter inference at training time or answering queries at test time, we build new inference algorithms for inference in undirected and directed graphical models along with tools to analyze their efficacy. We work on probabilistic inference in deep generative models by developing new inference networks that learn to amortize approximate variational inference. In many instances, the quantity of interest within a Bayesian network is of a causal nature. To that end, our lab develops novel
+methods for answering causal queries that work effectively with high-dimensional data.</p>
 
 <ul>
 <li>H. Lang, D. Sontag, A. Vijayaraghavan. <a href="http://proceedings.mlr.press/v84/lang18a/lang18a.pdf"><strong>Optimality of Approximate Inference Algorithms on Stable Instances</strong></a>. Twenty-First International Conference on Artificial Intelligence and Statistics (AI-STATS), 2018.</li>
-<li>Learning Weighted Representations for Generalization Across Designs. Johansson, F. D.; Kallus, N.; Shalit, U.; and Sontag, D. ArXiv e-prints arXiv:1802.08598. 2018.</li>
-<li>Causal Effect Inference with Deep Latent-Variable Models. Louizos, C.; Shalit, U.; Mooij, J.; Sontag, D.; Zemel, R. S.; and Welling, M. In Proceedings of the 31st International Conference on Neural Information Processing Systems, of NIPS&rsquo;17, 2017.</li>
-<li>Paper 2</li>
-<li>Project 3</li>
-<li>Project 4</li>
+<li>Louizos, C.; Shalit, U.; Mooij, J.; Sontag, D.; Zemel, R. S.; and Welling, M. <a href="https://arxiv.org/abs/1705.08821"><strong>Causal Effect Inference with Deep Latent-Variable Models</strong></a>. 31st International Conference on Neural Information Processing Systems (NIPS), 2017.</li>
+<li>R. Krishnan, U. Shalit, D. Sontag. <a href="https://arxiv.org/abs/1609.09869"><strong>Structured Inference Networks for Nonlinear State Space Models</strong></a>, Thirty-First AAAI Conference on Artificial Intelligence, Feb. 2017. <a href="https://github.com/clinicalml/structuredinference">[code]</a></li>
+<li>F. Johansson, U. Shalit, D. Sontag. <a href="http://people.csail.mit.edu/dsontag/papers/JohanssonShalitSontag_icml16.pdf"><strong>Learning Representations for Counterfactual Inference</strong></a>. 33rd International Conference on Machine Learning (ICML), June 2016.</li>
+<li>D. Sontag, T. Meltzer, A. Globerson, Y. Weiss, T. Jaakkola. <a href="http://people.csail.mit.edu/dsontag/papers/sontag_uai08.pdf"><strong>Tightening LP Relaxations for MAP using Message Passing</strong></a>. Uncertainty in Artificial Intelligence (UAI) 24, July 2008. <a href="http://clinicalml.org/code/mplp_ver1.tgz">[code]</a></li>
 </ul>
-
-<hr>
-
-<h3 id="sequence-modeling" class="jumptarget">Sequence Modeling</h3>
-
-<p>Disease progression, rahul things, structure learning, Reinforcement learning
-Description</p>
-
-<p>Structured Inference Networks for Nonlinear State Space Models</p>
-
-<ul>
-<li>* R. Krishnan, U. Shalit, D. Sontag. <a href="https://arxiv.org/abs/1609.09869"><strong>Structured Inference Networks for Nonlinear State Space Models</strong></a>, Thirty-First AAAI Conference on Artificial Intelligence, Feb. 2017. <a href="https://github.com/clinicalml/structuredinference">[code]</a></li>
-<li>Paper 1</li>
-<li>Paper 2</li>
-<li>Project 3</li>
-<li>Project 4</li>
-</ul>
-
-<hr>
 
 <h3 id="knowledge" class="jumptarget">Medical Knowledge and Extraction</h3>
 
@@ -193,8 +167,9 @@ Description</p>
 <ul>
 <li>M. Rotmensch, Y. Halpern, A. Tlimat, S. Horng, D. Sontag. <a href="https://www.nature.com/articles/s41598-017-05778-z.epdf"><strong>Learning a Health Knowledge Graph from Electronic Medical Records</strong></a>, Nature Scientific Reports, July 2017. <a href="https://github.com/clinicalml/HealthKnowledgeGraphs">Supplementary</a>.</li>
 <li>S. Blecker, S. Katz, L. Horwitz, G. Kuperman, H. Park, A. Gold, D. Sontag. Comparison of Approaches for Heart Failure Case Identification From Electronic Health Record Data. Journal of the American Medical Association (JAMA) Cardiology, Oct. 2016.</li>
-<li>Y. Halpern, S. Horng, Y. Choi, D. Sontag. Electronic Medical Record Phenotyping using the Anchor and Learn Framework. Journal of the American Medical Informatics Association (JAMIA), April 2016. [PDF]</li>
-<li>Y. Jernite, Y. Halpern, S. Horng, D. Sontag. Predicting Chief Complaints at Triage Time in the Emergency Department. NIPS 2013 Workshop on Machine Learning for Clinical Data Analysis and Healthcare, Dec. 2013.</li>
+<li>Y. Kim, Y. Jernite, D. Sontag, A.M. Rush. <a href="https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/viewFile/12489/12017"><strong>Character-Aware Neural Language Models</strong></a>.  Thirtieth AAAI Conference on Artificial Intelligence. 2016.</li>
+<li>Y. Halpern, S. Horng, Y. Choi, D. Sontag. <a href="http://jamia.oxfordjournals.org/content/early/2016/04/26/jamia.ocw011"><strong>Electronic Medical Record Phenotyping using the Anchor and Learn Framework</strong></a>. Journal of the American Medical Informatics Association (JAMIA), April 2016. <a href="https://github.com/clinicalml/clinical-anchors">[code]</a></li>
+<li>Y. Jernite, Y. Halpern, S. Horng, D. Sontag. <a href="http://cs.nyu.edu/~dsontag/papers/JerniteEtAl_nips13health.pdf"><strong>Predicting Chief Complaints at Triage Time in the Emergency Department</strong></a>. NIPS 2013 Workshop on Machine Learning for Clinical Data Analysis and Healthcare, Dec. 2013.</li>
 </ul>
 </p>
 </div>
