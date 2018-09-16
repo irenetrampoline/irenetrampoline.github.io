@@ -14,6 +14,7 @@ I like to share what I'm reading to keep me motivated. For academic papers, see 
  * [The $800 Million Pill: The Truth behind the Cost of New Drugs](https://amzn.to/2kSSnwe), Merrill Goozner
 
 **Books completed in 2018**
+ * [The Silence of the Girls](https://amzn.to/2xozxTB), Pat Barker
  * [Circe](https://amzn.to/2xjAVXz), Madeline Miller
  * [I, Robot](https://amzn.to/2LIGa8s), Isaac Asimov
  * [Everything Happens for a Reason and Other Lies I’ve Loved](https://amzn.to/2M71kgS), Kate Bowler
