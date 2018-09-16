@@ -14,6 +14,7 @@ I like to share what I'm reading to keep me motivated. For academic papers, see 
  * [The $800 Million Pill: The Truth behind the Cost of New Drugs](https://amzn.to/2kSSnwe), Merrill Goozner
 
 **Books completed in 2018**
+ * [Circe](https://amzn.to/2xjAVXz), Madeline Miller
  * [I, Robot](https://amzn.to/2LIGa8s), Isaac Asimov
  * [Everything Happens for a Reason and Other Lies I’ve Loved](https://amzn.to/2M71kgS), Kate Bowler
  * [Factfulness: Ten Reasons We're Wrong About the World--and Why Things Are Better Than You Think](https://amzn.to/2LyB3rP), Hans Rosling, Anna Rosling Ronnlund, and Ola Rosling
