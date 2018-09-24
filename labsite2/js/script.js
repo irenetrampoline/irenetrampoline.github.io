@@ -64,7 +64,7 @@ $(document).ready(function(){
 });
 
 
-
+// makes scrollbar appear
 //   $(window).scroll(function() {    
 //     var scroll = $(window).scrollTop();
 
