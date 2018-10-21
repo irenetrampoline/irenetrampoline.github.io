@@ -30,3 +30,4 @@ I like to share what I'm reading to keep me motivated. For academic papers, see 
  14. [I, Robot](https://amzn.to/2LIGa8s), Isaac Asimov
  15. [Circe](https://amzn.to/2xjAVXz), Madeline Miller
  16. [The Silence of the Girls](https://amzn.to/2xozxTB), Pat Barker
+ 17. [Siblings Without Rivalry](https://amzn.to/2yTN1aN), Adele Faber and Ealine Mazlish
