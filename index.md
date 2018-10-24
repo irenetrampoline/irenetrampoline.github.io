@@ -44,12 +44,6 @@ function absCHF() {
 }
 </script>
 
-**Subtype Disease Progression in Heart Failure with Preserved Ejection Fraction.** 
-<br>
-Irene Chen, Rajesh Ranganath, David Sontag. 
-<br>
-*In preparation.*
-
 **The Disparate Impacts of Medical and Mental Health with AI.** 
 <br>
 Irene Chen, Peter Szolovits, Marzyeh Ghassemi. 
