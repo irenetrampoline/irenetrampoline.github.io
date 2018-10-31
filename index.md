@@ -78,9 +78,9 @@ I have served on the teaching staff for the following Harvard classes.
 
 ---
 
-## Website credit
+## Hobbies and interests
 
-This is based on a [Jekyll](https://jekyllrb.com/) template. You can find the full source code on [GitHub](https://github.com/bk2dcradle/researcher).
+In my free time, I enjoy [long distance running](https://twitter.com/irenetrampoline/status/986059482022273024), [reading](http://irenechen.net/reading-list), and [discussing AI ethics](https://mitaiethics.github.io).
 
 <!-- <h1 class="owner-name">About</h1>
 
