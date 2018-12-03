@@ -56,7 +56,7 @@ Irene Chen, Fredrik D. Johansson, David Sontag.
 <br>
 *NeurIPS 2018 (to appear)*, <b><font color="#B03A2E">Spotlight Presentation (top 4% of submitted papers)</font></b>.
 <br>
-<a id="abs-fairness-button" onclick="absCHF()">[abstract]</a> [[arXiv]](https://arxiv.org/abs/1805.12002) 
+[<a id="abs-fairness-button" onclick="absCHF()">abstract</a>, [arXiv](https://arxiv.org/abs/1805.12002), [slides](/assets/neurips18_slides.pdf), [poster](/assets/neurips18_poster.pdf)]
 
 <div id="abs-fairness" style="display:none;">
 <blockquote>Recent attempts to achieve fairness in predictive models focus on the balance between fairness and accuracy. In sensitive applications such as healthcare or criminal justice, this trade-off is often undesirable as any increase in prediction error could have devastating consequences. In this work, we argue that the fairness of predictions should be evaluated in context of the data, and that unfairness induced by inadequate samples sizes or unmeasured predictive variables should be addressed through data collection, rather than by constraining the model. We decompose cost-based metrics of discrimination into bias, variance, and noise, and propose actions aimed at estimating and reducing each term. Finally, we perform case-studies on prediction of income, mortality, and review ratings, confirming the value of this analysis. We find that data collection is often a means to reduce discrimination without sacrificing accuracy.</blockquote>
