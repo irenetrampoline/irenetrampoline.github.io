@@ -2,71 +2,70 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Clinical Machine Learning</title>
-    <link>http://irenechen.net/labsite2/</link>
+    <link>http://groups.csail.mit.edu/clinicalml/</link>
     <description>Recent content on Clinical Machine Learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 07 Sep 2018 15:15:50 -0400</lastBuildDate>
     
-	<atom:link href="http://irenechen.net/labsite2/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://groups.csail.mit.edu/clinicalml/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Research</title>
-      <link>http://irenechen.net/labsite2/research/</link>
+      <link>http://groups.csail.mit.edu/clinicalml/research/</link>
       <pubDate>Fri, 07 Sep 2018 15:15:50 -0400</pubDate>
       
-      <guid>http://irenechen.net/labsite2/research/</guid>
+      <guid>http://groups.csail.mit.edu/clinicalml/research/</guid>
       <description>.jumptarget::before { content:&#34;&#34;; display:block; height:80px; /* fixed header height*/ margin:-80px 0 0; /* negative fixed header height */ } a.section{ color:#A31F34; } a:hover{ text-decoration: underline; color:#A31F34; } .section{ font-size: 1.2em; }  Our lab is broadly interested in advancing machine learning and artificial intelligence, and using these to transform health care. Here we explain our three broad focus areas as well as representative papers. For more papers, see our publications section.</description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>http://irenechen.net/labsite2/publications/</link>
+      <link>http://groups.csail.mit.edu/clinicalml/publications/</link>
       <pubDate>Thu, 06 Sep 2018 14:55:54 -0400</pubDate>
       
-      <guid>http://irenechen.net/labsite2/publications/</guid>
-      <description> </description>
+      <guid>http://groups.csail.mit.edu/clinicalml/publications/</guid>
+      <description>.bibbase_paper_title a { pointer-events: none; } /* remove bibbase link to authors with bibbase accounts */ a.bibbase.author.link { color: #333; text-decoration: none; pointer-events: none; cursor: default; }</description>
     </item>
     
     <item>
       <title>Teaching</title>
-      <link>http://irenechen.net/labsite2/teaching/</link>
+      <link>http://groups.csail.mit.edu/clinicalml/teaching/</link>
       <pubDate>Wed, 22 Aug 2018 15:58:41 -0400</pubDate>
       
-      <guid>http://irenechen.net/labsite2/teaching/</guid>
+      <guid>http://groups.csail.mit.edu/clinicalml/teaching/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Software</title>
-      <link>http://irenechen.net/labsite2/software/</link>
+      <link>http://groups.csail.mit.edu/clinicalml/software/</link>
       <pubDate>Wed, 22 Aug 2018 15:58:38 -0400</pubDate>
       
-      <guid>http://irenechen.net/labsite2/software/</guid>
+      <guid>http://groups.csail.mit.edu/clinicalml/software/</guid>
       <description> a {color: #A31F34;}  For latest projects, see our Github.
 Example software includes:
- Deep Markov Models: Theano code for implementing Deep Markov Models using variational inference during learning to maximize the likelihood of the observed data Low-Dimensional Medical Concepts: Code for AMIA CRI 2016 paper &amp;ldquo;Learning Low-Dimensional Representations of Medical Concepts&amp;rdquo; Health Knowledge Graph: Learned Health Knowledge Graph from emergency room data as featured in Nature Scientific Reports  </description>
+ Deep Markov Models: Theano code for implementing Deep Markov Models using variational inference during learning to maximize the likelihood of the observed data Embeddings of Medical Concepts: Code for AMIA CRI 2016 paper &amp;ldquo;Learning Low-Dimensional Representations of Medical Concepts&amp;rdquo; Health Knowledge Graph: Learned Health Knowledge Graph from emergency room data as featured in Nature Scientific Reports  </description>
     </item>
     
     <item>
       <title>Contact Us</title>
-      <link>http://irenechen.net/labsite2/contact/</link>
+      <link>http://groups.csail.mit.edu/clinicalml/contact/</link>
       <pubDate>Wed, 22 Aug 2018 15:55:46 -0400</pubDate>
       
-      <guid>http://irenechen.net/labsite2/contact/</guid>
+      <guid>http://groups.csail.mit.edu/clinicalml/contact/</guid>
       <description>a {color: #A31F34;}  Email David&amp;rsquo;s email: dsontag {@ | at} mit.edu
 
-FAQs How can I join the group as a PhD student? As of fall 2018, David is accepting PhD students into the lab. Graduate admissions are handled at the department level at MIT, so please first apply to the MIT EECS or MIT MEMP departments.
-For advice on CS PhD admissions, Jean Yang and Philip Guo have written useful guides.</description>
+FAQs How can I join the group as a Ph.D. student? As of Fall 2018, we are accepting Ph.D. students into the lab. Graduate admissions are handled at the department level at MIT, so please first apply to the MIT EECS and/or HST (Health Sciences and Technology, joint between MIT and Harvard Medical School) Ph.D. program.</description>
     </item>
     
     <item>
       <title>Mission</title>
-      <link>http://irenechen.net/labsite2/mission/</link>
+      <link>http://groups.csail.mit.edu/clinicalml/mission/</link>
       <pubDate>Wed, 22 Aug 2018 15:53:14 -0400</pubDate>
       
-      <guid>http://irenechen.net/labsite2/mission/</guid>
+      <guid>http://groups.csail.mit.edu/clinicalml/mission/</guid>
       <description>Machine Learning Perspective Making ML work in high-stakes settings
 Recently developed techniques in machine learning have proven adept at solving problems in computer vision, natural language processing, board games, video games, and other domains where computers had previously struggled to outperform humans.
 However, deployment in high-stakes settings is still limited, for good reasons:
@@ -75,28 +74,28 @@ However, deployment in high-stakes settings is still limited, for good reasons:
     
     <item>
       <title>People</title>
-      <link>http://irenechen.net/labsite2/team/</link>
+      <link>http://groups.csail.mit.edu/clinicalml/team/</link>
       <pubDate>Wed, 22 Aug 2018 15:44:28 -0400</pubDate>
       
-      <guid>http://irenechen.net/labsite2/team/</guid>
+      <guid>http://groups.csail.mit.edu/clinicalml/team/</guid>
       <description>Our team consists of post-docs, students, research scientists, and clinical collaborators. For information about how to join us, see our FAQ section.</description>
     </item>
     
     <item>
       <title>My First Post</title>
-      <link>http://irenechen.net/labsite2/blog/first/</link>
+      <link>http://groups.csail.mit.edu/clinicalml/blog/first/</link>
       <pubDate>Tue, 31 Jul 2018 14:39:58 -0400</pubDate>
       
-      <guid>http://irenechen.net/labsite2/blog/first/</guid>
+      <guid>http://groups.csail.mit.edu/clinicalml/blog/first/</guid>
       <description>Irene is awesome Here we&amp;rsquo;ll test 1. hi 2. there 3. people</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://irenechen.net/labsite2/test/</link>
+      <link>http://groups.csail.mit.edu/clinicalml/test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://irenechen.net/labsite2/test/</guid>
+      <guid>http://groups.csail.mit.edu/clinicalml/test/</guid>
       <description> Hi! </description>
     </item>
     

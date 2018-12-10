@@ -1,3 +1,59 @@
+@article{lang_arxiv18,
+ author = {Hunter Lang and David Sontag and Aravindan Vijayaraghavan},
+  title = {Block Stability for MAP Inference},
+  journal = {ArXiv e-prints arXiv:1810.05305},
+archivePrefix = "arXiv",
+   eprint = {1810.05305},
+ primaryClass = "stat.ML",
+     year = 2018,
+ keywords = {Machine learning, Approximate inference in graphical models, Structured prediction},
+  url_Paper = {https://arxiv.org/pdf/1810.05305},
+  abstract = {To understand the empirical success of approximate MAP inference, recent work (Lang et al., 2018) has shown that some popular approximation algorithms perform very well when the input instance is stable. The simplest stability condition assumes that the MAP solution does not change at all when some of the pairwise potentials are (adversarially) perturbed. Unfortunately, this strong condition does not seem to be satisfied in practice. In this paper, we introduce a significantly more relaxed condition that only requires blocks (portions) of an input instance to be stable. Under this block stability condition, we prove that the pairwise LP relaxation is persistent on the stable blocks. We complement our theoretical results with an empirical evaluation of real-world MAP inference instances from computer vision. We design an algorithm to find stable blocks, and find that these real instances have large stable regions. Our work gives a theoretical explanation for the widespread empirical phenomenon of persistency for this LP relaxation.}
+}
+
+
+@article{gottesman_etal_arxiv18,
+  author    = {Omer Gottesman and
+               Fredrik D. Johansson and
+               Joshua Meier and
+               Jack Dent and
+               Donghun Lee and
+               Srivatsan Srinivasan and
+               Linying Zhang and
+               Yi Ding and
+               David Wihl and
+               Xuefeng Peng and
+               Jiayu Yao and
+               Isaac Lage and
+               Christopher Mosch and
+               Li{-}Wei H. Lehman and
+               Matthieu Komorowski and
+               Aldo Faisal and
+               Leo Anthony Celi and
+               David Sontag and
+               Finale Doshi{-}Velez},
+  title     = {Evaluating Reinforcement Learning Algorithms in Observational Health
+               Settings},
+  year      = {2018},
+  url_Paper = {http://arxiv.org/abs/1805.12298},
+  archivePrefix = {arXiv},
+  eprint    = {1805.12298},
+  keywords = {Machine learning, Health care},
+  abstract = {Much attention has been devoted recently to the development of machine learning algorithms with the goal of improving treatment policies in healthcare. Reinforcement learning (RL) is a sub-field within machine learning that is concerned with learning how to make sequences of decisions so as to optimize long-term effects. Already, RL algorithms have been proposed to identify decision-making strategies for mechanical ventilation, sepsis management and treatment of schizophrenia. However, before implementing treatment policies learned by black-box algorithms in high-stakes clinical decision problems, special care must be taken in the evaluation of these policies. In this document, our goal is to expose some of the subtleties associated with evaluating RL algorithms in healthcare. We aim to provide a conceptual starting point for clinical and computational researchers to ask the right questions when designing and evaluating algorithms for new ways of treating patients. In the following, we describe how choices about how to summarize a history, variance of statistical estimators, and confounders in more ad-hoc measures can result in unreliable, even misleading estimates of the quality of a treatment policy. We also provide suggestions for mitigating these effects---for while there is much promise for mining observational health data to uncover better treatment policies, evaluation must be performed thoughtfully.}
+}
+
+
+@inproceedings{ChenJohanssonSontag_nips18,
+  author = {Irene Chen and Fredrik D. Johansson and David Sontag},
+  title = {Why Is My Classifier Discriminatory?},
+ booktitle = {Proceedings of the 32nd International Conference on Neural Information Processing Systems},
+ series = {NeurIPS'18},
+  year = 2018,
+  keywords = {Machine learning, Health care},
+  url_Paper = {https://arxiv.org/pdf/1805.12002.pdf},
+  abstract = {Recent attempts to achieve fairness in predictive models focus on the balance between fairness and accuracy. In sensitive applications such as healthcare or criminal justice, this trade-off is often undesirable as any increase in prediction error could have devastating consequences. In this work, we argue that the fairness of predictions should be evaluated in context of the data, and that unfairness induced by inadequate samples sizes or unmeasured predictive variables should be addressed through data collection, rather than by constraining the model. We decompose cost-based metrics of discrimination into bias, variance, and noise, and propose actions aimed at estimating and reducing each term. Finally, we perform case-studies on prediction of income, mortality, and review ratings, confirming the value of this analysis. We find that data collection is often a means to reduce discrimination without sacrificing accuracy.}
+}
+
 @inproceedings{KrishnanEtAl_uai18,
   author = {Rahul G. Krishnan and Arjun Khandelwal and Rajesh Ranganath and David Sontag},
   title = {Max-margin learning with the Bayes Factor},
@@ -19,24 +75,6 @@
   url_Paper = {https://arxiv.org/pdf/1802.02550.pdf},
   abstract = {Amortized variational inference (AVI) replaces instance-specific local inference with a global inference network. While AVI has enabled efficient training of deep generative models such as variational autoencoders (VAE), recent empirical work suggests that inference networks can produce suboptimal variational parameters. We propose a hybrid approach, to use AVI to initialize the variational parameters and run stochastic variational inference (SVI) to refine them. Crucially, the local SVI procedure is itself differentiable, so the inference network and generative model can be trained end-to-end with gradient-based optimization. This semi-amortized approach enables the use of rich generative models without experiencing the posterior-collapse phenomenon common in training VAEs for problems like text generation. Experiments show this approach outperforms strong autoregressive and variational baselines on standard text and image datasets.}
 }
-
-
-
-@article{ChenJohanssonSontag_arxiv18,
-  author = {Irene Chen and Fredrik D. Johansson and David Sontag},
-  title = {Why Is My Classifier Discriminatory?},
-  journal = {ArXiv e-prints arXiv:1805.12002},
-  archivePrefix = "arXiv",
-  eprint = {1805.12002},
-  primaryClass = "stat.ML",
-  year = 2018,
-  keywords = {Machine learning, Health care},
-  url_Paper = {https://arxiv.org/pdf/1805.12002.pdf},
-  abstract = {Recent attempts to achieve fairness in predictive models focus on the balance between fairness and accuracy. In sensitive applications such as healthcare or criminal justice, this trade-off is often undesirable as any increase in prediction error could have devastating consequences. In this work, we argue that the fairness of predictions should be evaluated in context of the data, and that unfairness induced by inadequate samples sizes or unmeasured predictive variables should be addressed through data collection, rather than by constraining the model. We decompose cost-based metrics of discrimination into bias, variance, and noise, and propose actions aimed at estimating and reducing each term. Finally, we perform case-studies on prediction of income, mortality, and review ratings, confirming the value of this analysis. We find that data collection is often a means to reduce discrimination without sacrificing accuracy.}
-}
-
-
-
 
 @inproceedings{LangEtAl_aistats18,
  title = {Optimality of Approximate Inference Algorithms on Stable Instances},
@@ -117,7 +155,7 @@ archivePrefix = "arXiv",
                Max Welling},
   title     = {Causal Effect Inference with Deep Latent-Variable Models},
  booktitle = {Proceedings of the 31st International Conference on Neural Information Processing Systems},
- series = {NIPS'17},
+ series = {NeurIPS'17},
  year = {2017},
  keywords = {Machine learning, Causal inference, Deep learning},
  url_Paper = {https://arxiv.org/pdf/1705.08821.pdf},
@@ -481,7 +519,7 @@ abstract = {Accurate, real-time case identification is needed to target interven
  author = {Krishnan, Rahul G. and Lacoste-Julien, Simon and Sontag, David},
  title = {Barrier Frank-Wolfe for Marginal Inference},
  booktitle = {Proceedings of the 28th International Conference on Neural Information Processing Systems},
- series = {NIPS'15},
+ series = {NeurIPS'15},
  year = {2015},
  location = {Montreal, Canada},
  pages = {532--540},
@@ -679,7 +717,7 @@ abstract = {Accurate, real-time case identification is needed to target interven
 @article{JerniteEtAl_nips13health,
   author = {Yacine Jernite and Yoni Halpern and Steven Horng and David Sontag},
   title = {Predicting Chief Complaints at Triage Time in the Emergency Department},
-  journal={NIPS Workshop on Machine Learning for Clinical Data Analysis and Healthcare},
+  journal={NeurIPS Workshop on Machine Learning for Clinical Data Analysis and Healthcare},
   year={2013},
   keywords = {Health care},
   url_Paper = {http://people.csail.mit.edu/dsontag/papers/JerniteEtAl_nips13health.pdf},
