@@ -18,18 +18,20 @@ I like to share what I'm reading to keep me motivated. For academic papers, see 
  2. [Neon in Daylight](https://amzn.to/2xOMkC8), Hermione Hoby
  3. [I'll be Gone in the Dark](https://amzn.to/2Jnw6RO), Michelle McNamara
  4. [Sourdough](https://amzn.to/2xYnNeb), Robin Sloan
- 5. [The Power](https://amzn.to/2JrKfRn), Naomi Alderman
- 6. [Just the Funny Parts](https://amzn.to/2JiR4Be), Nell Scovell
- 7. [The Immortalists](https://amzn.to/2xQKtwA), Chloe Benjamin
- 8. [Bad Blood](https://amzn.to/2JB9fp6), John Carreyrou
- 9. [Her Body and Other Parties](https://amzn.to/2JkxRiz), Carmen Maria Machado
- 10. [Crazy Rich Asians](https://amzn.to/2y2Wr6m), Kevin Kwan
- 11. [How to Talk So Kids Will Listen & Listen So Kids Will Talk](https://amzn.to/2MxWtXa), Adele Faber and Elaine Mazlish
- 12. [Factfulness](https://amzn.to/2LyB3rP), Hans Rosling, Anna Rosling Ronnlund, and Ola Rosling
- 13. [Everything Happens for a Reason and Other Lies I’ve Loved](https://amzn.to/2M71kgS), Kate Bowler
- 14. [I, Robot](https://amzn.to/2LIGa8s), Isaac Asimov
- 15. [Circe](https://amzn.to/2xjAVXz), Madeline Miller
- 16. [The Silence of the Girls](https://amzn.to/2xozxTB), Pat Barker
- 17. [Siblings Without Rivalry](https://amzn.to/2yTN1aN), Adele Faber and Ealine Mazlish
- 18. [Who Gets What -- and Why](https://amzn.to/2zqpQVw), Alvin E. Roth
- 19. [Private Citizens](https://amzn.to/2PBs6iZ), Tony Tulathimutte
+ 5. [Surprise Me](https://amzn.to/2PGtj8A), Sophie Kinsella
+ 6. [Eligible](https://amzn.to/2PEfRlz), Curtis Sittenfeld
+ 7. [The Power](https://amzn.to/2JrKfRn), Naomi Alderman
+ 8. [Just the Funny Parts](https://amzn.to/2JiR4Be), Nell Scovell
+ 9. [The Immortalists](https://amzn.to/2xQKtwA), Chloe Benjamin
+ 10. [Bad Blood](https://amzn.to/2JB9fp6), John Carreyrou
+ 11. [Her Body and Other Parties](https://amzn.to/2JkxRiz), Carmen Maria Machado
+ 12. [Crazy Rich Asians](https://amzn.to/2y2Wr6m), Kevin Kwan
+ 13. [How to Talk So Kids Will Listen & Listen So Kids Will Talk](https://amzn.to/2MxWtXa), Adele Faber and Elaine Mazlish
+ 14. [Factfulness](https://amzn.to/2LyB3rP), Hans Rosling, Anna Rosling Ronnlund, and Ola Rosling
+ 15. [Everything Happens for a Reason and Other Lies I’ve Loved](https://amzn.to/2M71kgS), Kate Bowler
+ 16. [I, Robot](https://amzn.to/2LIGa8s), Isaac Asimov
+ 17. [Circe](https://amzn.to/2xjAVXz), Madeline Miller
+ 18. [The Silence of the Girls](https://amzn.to/2xozxTB), Pat Barker
+ 19. [Siblings Without Rivalry](https://amzn.to/2yTN1aN), Adele Faber and Ealine Mazlish
+ 20. [Who Gets What -- and Why](https://amzn.to/2zqpQVw), Alvin E. Roth
+ 21. [Private Citizens](https://amzn.to/2PBs6iZ), Tony Tulathimutte
