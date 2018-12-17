@@ -32,3 +32,4 @@ I like to share what I'm reading to keep me motivated. For academic papers, see 
  16. [The Silence of the Girls](https://amzn.to/2xozxTB), Pat Barker
  17. [Siblings Without Rivalry](https://amzn.to/2yTN1aN), Adele Faber and Ealine Mazlish
  18. [Who Gets What -- and Why](https://amzn.to/2zqpQVw), Alvin E. Roth
+ 19. [Private Citizens](https://amzn.to/2PBs6iZ), Tony Tulathimutte
