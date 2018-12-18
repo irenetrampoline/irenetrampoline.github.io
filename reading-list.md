@@ -30,8 +30,9 @@ I like to share what I'm reading to keep me motivated. For academic papers, see 
  14. [Factfulness](https://amzn.to/2LyB3rP), Hans Rosling, Anna Rosling Ronnlund, and Ola Rosling
  15. [Everything Happens for a Reason and Other Lies I’ve Loved](https://amzn.to/2M71kgS), Kate Bowler
  16. [I, Robot](https://amzn.to/2LIGa8s), Isaac Asimov
- 17. [Circe](https://amzn.to/2xjAVXz), Madeline Miller
+ 17. [Circe](https://amzn.to/2rEUVRQ), Madeline Miller
  18. [The Silence of the Girls](https://amzn.to/2xozxTB), Pat Barker
  19. [Siblings Without Rivalry](https://amzn.to/2yTN1aN), Adele Faber and Ealine Mazlish
  20. [Who Gets What -- and Why](https://amzn.to/2zqpQVw), Alvin E. Roth
  21. [Private Citizens](https://amzn.to/2PBs6iZ), Tony Tulathimutte
+ 22. [Dept. of Sepculation](https://amzn.to/2URGvLL), Jenny Offill
