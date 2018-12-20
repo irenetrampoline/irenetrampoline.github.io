@@ -37,3 +37,4 @@ I like to share what I'm reading to keep me motivated. For academic papers, see 
  21. [Private Citizens](https://amzn.to/2PBs6iZ), Tony Tulathimutte
  22. [Dept. of Sepculation](https://amzn.to/2URGvLL), Jenny Offill
  23. [Am I There Yet?](https://amzn.to/2PLLpGn), Mari Andrew
+ 24. [A Life of Adventure and Delight](https://amzn.to/2UZID4i), Akhil Sharma
