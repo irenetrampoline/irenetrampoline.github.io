@@ -38,3 +38,4 @@ I like to share what I'm reading to keep me motivated. For academic papers, see 
  22. [Dept. of Sepculation](https://amzn.to/2URGvLL), Jenny Offill
  23. [Am I There Yet?](https://amzn.to/2PLLpGn), Mari Andrew
  24. [A Life of Adventure and Delight](https://amzn.to/2UZID4i), Akhil Sharma
+ 25. [Children of Blood and Bone](https://amzn.to/2V0H9GU), Tomi Adeyemi
