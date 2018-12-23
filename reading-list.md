@@ -1,18 +1,19 @@
 ---
 layout: default
-title: Books I've Read and Usually Liked
+title: Books I've Read
 ---
 
 <h1 class="owner-name">Reading List</h1>
 I like to share what I'm reading to keep me motivated. For academic papers, see my [papers repo](http://www.github.com/irenetrampoline/papers). Below are books I've read.
 
 <hr>
-**Currently reading**
+<!-- **Currently reading**
  * [The Heart](https://amzn.to/2McxrM6), Maylis de Keranga
  * [Evicted: Poverty and Profit in the American City](https://amzn.to/2xO0Vh7), Matthew Desmond
  * [Phishing for Phools: The Economics of Manipulation and Deception](https://amzn.to/2JncSMa), George Akerlof and Robert Shiller
  * [The $800 Million Pill: The Truth behind the Cost of New Drugs](https://amzn.to/2kSSnwe), Merrill Goozner
-
+ -->
+ 
 **Books completed in 2018**
  1. [Everything I Never Told You](https://amzn.to/2xQYz16), Celeste Ng
  2. [Neon in Daylight](https://amzn.to/2xOMkC8), Hermione Hoby
