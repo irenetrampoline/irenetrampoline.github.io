@@ -13,7 +13,7 @@ I like to share what I'm reading to keep me motivated. For academic papers, see 
  * [Phishing for Phools: The Economics of Manipulation and Deception](https://amzn.to/2JncSMa), George Akerlof and Robert Shiller
  * [The $800 Million Pill: The Truth behind the Cost of New Drugs](https://amzn.to/2kSSnwe), Merrill Goozner
  -->
- 
+
 **Books completed in 2018**
  1. [Everything I Never Told You](https://amzn.to/2xQYz16), Celeste Ng
  2. [Neon in Daylight](https://amzn.to/2xOMkC8), Hermione Hoby
@@ -40,3 +40,4 @@ I like to share what I'm reading to keep me motivated. For academic papers, see 
  23. [Am I There Yet?](https://amzn.to/2PLLpGn), Mari Andrew
  24. [A Life of Adventure and Delight](https://amzn.to/2UZID4i), Akhil Sharma
  25. [Children of Blood and Bone](https://amzn.to/2V0H9GU), Tomi Adeyemi
+ 26. [Asymmetry](https://amzn.to/2V5OhBL), Lisa Halliday
