@@ -16,6 +16,7 @@ I like to share what I'm reading to keep me motivated. For academic papers, see 
 
 **Books completed in 2019**
  1. [Conversations with Friends](https://www.amazon.com/Conversations-Friends-Novel-Sally-Rooney/dp/0451499050), Sally Rooney
+ 2. [Three Body Problem](https://www.amazon.com/Three-Body-Problem-Cixin-Liu/dp/0765382032/), Cixin Liu
 
 **Books completed in 2018**
  1. [Everything I Never Told You](https://amzn.to/2xQYz16), Celeste Ng
