@@ -4,7 +4,7 @@ title: Books I've Read
 ---
 
 <h1 class="owner-name">Reading List</h1>
-I like to share what I'm reading to keep me motivated. For academic papers, see my [papers repo](http://www.github.com/irenetrampoline/papers). Below are books I've read.
+I like to share what I'm reading to keep me motivated. For academic papers, see my [papers repo](http://www.github.com/irenetrampoline/papers), which is probably outdated. Below are books I've read.
 
 <hr>
 <!-- **Currently reading**
@@ -14,11 +14,14 @@ I like to share what I'm reading to keep me motivated. For academic papers, see 
  * [The $800 Million Pill: The Truth behind the Cost of New Drugs](https://amzn.to/2kSSnwe), Merrill Goozner
  -->
 
-**Books completed in 2019**
+**2019**
  1. [Conversations with Friends](https://www.amazon.com/Conversations-Friends-Novel-Sally-Rooney/dp/0451499050), Sally Rooney
  2. [Three Body Problem](https://www.amazon.com/Three-Body-Problem-Cixin-Liu/dp/0765382032/), Cixin Liu
+ 3. [Text Me When You Get Home](https://www.amazon.com/Text-When-You-Get-Home/dp/1101986123/), Kayleen Schaefer
 
-**Books completed in 2018**
+<hr>
+
+**2018**
  1. [Everything I Never Told You](https://amzn.to/2xQYz16), Celeste Ng
  2. [Neon in Daylight](https://amzn.to/2xOMkC8), Hermione Hoby
  3. [I'll be Gone in the Dark](https://amzn.to/2Jnw6RO), Michelle McNamara
