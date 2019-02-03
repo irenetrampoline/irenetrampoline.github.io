@@ -19,6 +19,7 @@ I like to share what I'm reading to keep me motivated. For academic papers, see 
  2. [Three Body Problem](https://www.amazon.com/Three-Body-Problem-Cixin-Liu/dp/0765382032/), Cixin Liu
  3. [Text Me When You Get Home](https://www.amazon.com/Text-When-You-Get-Home/dp/1101986123/), Kayleen Schaefer
  4. [Winners Take All](https://www.amazon.com/Winners-Take-All-Charade-Changing/dp/0451493249/), Anand Giridharadas
+ 5. [Man's Search for Meaning](https://www.amazon.ca/Mans-Search-Meaning-Viktor-Frankl/dp/080701429X), Viktor Frankl
 
 <hr>
 
