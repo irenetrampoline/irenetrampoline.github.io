@@ -48,15 +48,17 @@ function absCHF() {
 <br>
 Irene Y. Chen, Peter Szolovits, Marzyeh Ghassemi. 
 <br>
-*In submission.* 
+*AMA Journal of Ethics*.
+<br>
+[[pdf](https://journalofethics.ama-assn.org/article/can-ai-help-reduce-disparities-general-medical-and-mental-health-care/2019-02)]
 
 **Why Is My Classifier Discriminatory?** 
 <br>
 Irene Y. Chen, Fredrik D. Johansson, David Sontag. 
 <br>
-*NeurIPS 2018 (to appear)*, <b><font color="#B03A2E">Spotlight Presentation (top 4% of submitted papers)</font></b>.
+*NeurIPS 2018*, <b><font color="#B03A2E">Spotlight Presentation (top 4% of submitted papers)</font></b>.
 <br>
-[<a id="abs-fairness-button" onclick="absCHF()">abstract</a>, [arXiv](https://arxiv.org/abs/1805.12002), [slides](/assets/neurips18_slides.pdf), [poster](/assets/neurips18_poster.pdf)]
+[<a id="abs-fairness-button" onclick="absCHF()">abstract</a>, [pdf](https://arxiv.org/abs/1805.12002), [slides](/assets/neurips18_slides.pdf), [poster](/assets/neurips18_poster.pdf)]
 
 <div id="abs-fairness" style="display:none;">
 <blockquote>Recent attempts to achieve fairness in predictive models focus on the balance between fairness and accuracy. In sensitive applications such as healthcare or criminal justice, this trade-off is often undesirable as any increase in prediction error could have devastating consequences. In this work, we argue that the fairness of predictions should be evaluated in context of the data, and that unfairness induced by inadequate samples sizes or unmeasured predictive variables should be addressed through data collection, rather than by constraining the model. We decompose cost-based metrics of discrimination into bias, variance, and noise, and propose actions aimed at estimating and reducing each term. Finally, we perform case-studies on prediction of income, mortality, and review ratings, confirming the value of this analysis. We find that data collection is often a means to reduce discrimination without sacrificing accuracy.</blockquote>
@@ -104,3 +106,26 @@ In my free time, I enjoy [long distance running](https://twitter.com/irenetrampo
   {% endif %}
 </div>
  -->
+
+ <script type="text/javascript">
+
+    //<![CDATA[
+      $(document).ready(function(){
+
+            $(".lectureInfo").hide();
+            $(".lectureTitle").click(function(){
+                $(this).next().slideToggle("fast");
+            });
+
+            $("#expandAll").click(function(){
+                $(".lectureInfo").slideToggle("fast");
+                console.log($(this).html());
+                if ($(this).html() == 'Expand all')
+                  $(this).html('Hide all')
+                else
+                  $(this).html('Expand all')
+            });
+      });
+    //]]>
+    
+</script>
