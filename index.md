@@ -68,9 +68,9 @@ Irene Y. Chen, Fredrik D. Johansson, David Sontag.
 
 ## Teaching
 
-At Harvard, I was awarded the [Derek Bok Center Certificate of Distinction in Teaching](https://bokcenter.harvard.edu/awards) for outstanding teaching evaluations.
+For the Spring 2019 semester, I am currently a Teaching Assistant at [MIT for Machine Learning for Healthcare](http://mlhc19mit.github.io). 
 
-I have served on the teaching staff for the following Harvard classes.
+At Harvard, I was awarded the [Derek Bok Center Certificate of Distinction in Teaching](https://bokcenter.harvard.edu/awards) for outstanding teaching evaluations for my work on the teaching staff of the following Harvard classes:
  * Algorithms and Data Structures, Jelani Nelson
  * Microeconomic Theory, Ed Glaeser
  * Multivariable Calculus, Evelyn Hu and Avi Shapiro
