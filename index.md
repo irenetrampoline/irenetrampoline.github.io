@@ -48,7 +48,7 @@ function absCHF() {
 <br>
 Irene Y. Chen, Peter Szolovits, Marzyeh Ghassemi. 
 <br>
-*AMA Journal of Ethics*.
+*AMA Journal of Ethics*, February 2019.
 <br>
 [[pdf](https://journalofethics.ama-assn.org/article/can-ai-help-reduce-disparities-general-medical-and-mental-health-care/2019-02)]
 
