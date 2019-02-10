@@ -78,11 +78,12 @@ At Harvard, I was awarded the [Derek Bok Center Certificate of Distinction in Te
  * Linear Algebra and Real Analysis I, Paul Bamberg
  * Linear Algebra and Real Analysis II, Paul Bamberg
 
----
 
 ## Hobbies and interests
 
-In my free time, I enjoy [long distance running](https://twitter.com/irenetrampoline/status/986059482022273024), [reading](http://irenechen.net/reading-list), and [discussing AI ethics](https://mitaiethics.github.io).
+In my free time, I enjoy [long distance running](https://twitter.com/irenetrampoline/status/986059482022273024), [reading books](http://irenechen.net/reading-list), and [discussing AI ethics](https://mitaiethics.github.io).
+
+---
 
 <!-- <h1 class="owner-name">About</h1>
 
