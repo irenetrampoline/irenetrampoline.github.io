@@ -20,6 +20,8 @@ I like to share what I'm reading to keep me motivated. For academic papers, see 
  3. [Text Me When You Get Home](https://www.amazon.com/Text-When-You-Get-Home/dp/1101986123/), Kayleen Schaefer
  4. [Winners Take All](https://www.amazon.com/Winners-Take-All-Charade-Changing/dp/0451493249/), Anand Giridharadas
  5. [Man's Search for Meaning](https://www.amazon.ca/Mans-Search-Meaning-Viktor-Frankl/dp/080701429X), Viktor Frankl
+ 6. [The Heart](https://www.amazon.com/Heart-Novel-Maylis-Kerangal/dp/0374240906/), Maylis de Kerangal
+ 7. [Less](https://www.amazon.com/Less-Winner-Pulitzer-Prize-Novel/dp/0316316121), Andrew Greer
 
 <hr>
 
