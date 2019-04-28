@@ -26,6 +26,7 @@ Books I've especially loved are marked with an asterik.
  7. [Less](https://www.amazon.com/Less-Winner-Pulitzer-Prize-Novel/dp/0316316121), Andrew Greer
  8. [Midnight's Children](https://www.amazon.com/Midnights-Children-Modern-Library-Novels/dp/0812976533), Salman Rushdie*
  9. [The Idiot](https://www.amazon.com/Idiot-Elif-Batuman/dp/1594205612), Elif Batuman*
+ 10. [Heartburn](https://www.amazon.com/Heartburn-Nora-Ephron/dp/B00CDGDG96/), Nora Ephron*
 
 <hr>
 
