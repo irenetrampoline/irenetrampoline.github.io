@@ -29,9 +29,9 @@ Books I've especially loved are marked with an asterik.
  10. [Heartburn](https://www.amazon.com/Heartburn-Nora-Ephron/dp/B00CDGDG96/), Nora Ephron*
  11. [Little Women](https://www.amazon.com/Little-Bantam-Classics-Louisa-Alcott/dp/0553212753/), Louisa May Alcott*
  12. [The Red Book](https://www.amazon.com/Red-Book-Deborah-Copaken-Kogan-ebook/dp/B007250EN4/), Deborah Copaken Kogan*
- 13. [What I Talk About When I Talk about Running](https://www.amazon.com/What-Talk-About-When-Running/dp/0307389839), Haruki Murakami
- 14. [The Boy Who Was Raised as a Dog](https://www.amazon.com/Boy-Who-Raised-Psychiatrists-Notebook-What/dp/0465056539), Bruce Perry and Maia Szalavitz
- 15. [Normal People](https://www.amazon.com/Normal-People-Novel-Sally-Rooney/dp/1984822179), Sally Rooney
+ 13. [What I Talk About When I Talk about Running](https://www.amazon.com/What-Talk-About-When-Running/dp/0307389839), Haruki Murakami*
+ 14. [The Boy Who Was Raised as a Dog](https://www.amazon.com/Boy-Who-Raised-Psychiatrists-Notebook-What/dp/0465056539), Bruce Perry and Maia Szalavitz*
+ 15. [Normal People](https://www.amazon.com/Normal-People-Novel-Sally-Rooney/dp/1984822179), Sally Rooney*
 
 <hr>
 
