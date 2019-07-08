@@ -32,6 +32,9 @@ Books I've especially loved are marked with an asterik.
  13. [What I Talk About When I Talk about Running](https://www.amazon.com/What-Talk-About-When-Running/dp/0307389839), Haruki Murakami*
  14. [The Boy Who Was Raised as a Dog](https://www.amazon.com/Boy-Who-Raised-Psychiatrists-Notebook-What/dp/0465056539), Bruce Perry and Maia Szalavitz*
  15. [Normal People](https://www.amazon.com/Normal-People-Novel-Sally-Rooney/dp/1984822179), Sally Rooney*
+ 16. [Milk and Honey](https://www.amazon.com/Milk-Honey-Rupi-Kaur/dp/144947425X/), Rupi Kaur
+ 17. [Undomestic Goddess](https://www.amazon.com/Undomestic-Goddess-Novel-Sophie-Kinsella/dp/0385338694), Sophie Kinsella*
+
 
 <hr>
 
