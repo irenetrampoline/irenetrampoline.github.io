@@ -34,7 +34,7 @@ Books I've especially loved are marked with an asterik.
  15. [Normal People](https://www.amazon.com/Normal-People-Novel-Sally-Rooney/dp/1984822179), Sally Rooney*
  16. [Milk and Honey](https://www.amazon.com/Milk-Honey-Rupi-Kaur/dp/144947425X/), Rupi Kaur
  17. [Undomestic Goddess](https://www.amazon.com/Undomestic-Goddess-Novel-Sophie-Kinsella/dp/0385338694), Sophie Kinsella*
-
+ 18. [Can You Keep A Secret?](https://www.amazon.com/Can-You-Keep-Secret-Novel/dp/0385338082/), Sophie Kinsella*
 
 <hr>
 
