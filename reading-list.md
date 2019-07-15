@@ -35,6 +35,7 @@ Books I've especially loved are marked with an asterik.
  16. [Milk and Honey](https://www.amazon.com/Milk-Honey-Rupi-Kaur/dp/144947425X/), Rupi Kaur
  17. [Undomestic Goddess](https://www.amazon.com/Undomestic-Goddess-Novel-Sophie-Kinsella/dp/0385338694), Sophie Kinsella*
  18. [Can You Keep A Secret?](https://www.amazon.com/Can-You-Keep-Secret-Novel/dp/0385338082/), Sophie Kinsella*
+ 19. [Love in the Time of Cholera](https://www.amazon.com/dp/B00NKDOZNM/), Gabriel Garcia-Marquez*
 
 <hr>
 
