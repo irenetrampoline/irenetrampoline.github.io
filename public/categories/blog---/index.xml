@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog    on Irene Chen</title>
-    <link>https://irenechen.net/categories/blog---/</link>
+    <link>http://irenechen.net/categories/blog---/</link>
     <description>Recent content in Blog    on Irene Chen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 30 Sep 2017 23:27:55 -0400</lastBuildDate>
     
-        <atom:link href="https://irenechen.net/categories/blog---/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://irenechen.net/categories/blog---/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The Seven Deadly Sins of Academic Conferences</title>
-      <link>https://irenechen.net/2017/09/the-seven-deadly-sins-of-academic-conferences/</link>
+      <link>http://irenechen.net/2017/09/the-seven-deadly-sins-of-academic-conferences/</link>
       <pubDate>Sat, 30 Sep 2017 23:27:55 -0400</pubDate>
       
-      <guid>https://irenechen.net/2017/09/the-seven-deadly-sins-of-academic-conferences/</guid>
+      <guid>http://irenechen.net/2017/09/the-seven-deadly-sins-of-academic-conferences/</guid>
       <description>&lt;p&gt;&lt;em&gt;Note: this article is a repost from the &lt;a href=&#34;http://gradadmissions.mit.edu/blog/seven-deadly-sins-conferences&#34;&gt;MIT Graduate Admissions Blog&lt;/a&gt;, where I used to blog.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Past the construction site, across the deserted parking lot, and through the shrubbery, I finally arrived at the front entrance of Northeastern University for my first academic conference.&lt;/p&gt;
@@ -107,10 +107,10 @@
     
     <item>
       <title>The Gumbel Trick</title>
-      <link>https://irenechen.net/2017/08/the-gumbel-trick/</link>
+      <link>http://irenechen.net/2017/08/the-gumbel-trick/</link>
       <pubDate>Thu, 17 Aug 2017 23:27:55 -0400</pubDate>
       
-      <guid>https://irenechen.net/2017/08/the-gumbel-trick/</guid>
+      <guid>http://irenechen.net/2017/08/the-gumbel-trick/</guid>
       <description>
 
 &lt;p&gt;Until I read the &lt;a href=&#34;https://arxiv.org/pdf/1706.04161.pdf&#34;&gt;recent paper at ICML 2017&lt;/a&gt;, I hadn&amp;rsquo;t heard of the Gumbel trick. There is surprisingly little online about the Gumbel trick&amp;mdash;related to the more popular &lt;a href=&#34;https://hips.seas.harvard.edu/blog/2013/04/06/the-gumbel-max-trick-for-discrete-distributions/&#34;&gt;Gumbel-max trick&lt;/a&gt;&amp;mdash;so here we go.&lt;/p&gt;
