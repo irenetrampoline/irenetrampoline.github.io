@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>MLHC 2018 Recap</title>
+	
+	<meta name="description" content="">
+	<meta name="image" content="">
+	
+	<meta itemprop="name" content="MLHC 2018 Recap">
+	<meta itemprop="description" content="">
+	<meta itemprop="image" content="">
+	
+	<meta name="og:title" content="MLHC 2018 Recap">
+	<meta name="og:description" content="">
+	
+	<meta name="og:url" content="https://irenechen.net/2018/08/mlhc-2018-recap/">
+	<meta name="og:site_name" content="MLHC 2018 Recap">
+	<meta name="og:type" content="article">
+	
+	<meta name="article:tag" content="">
+	<link rel="stylesheet" type="text/css" href="https://irenechen.net/css/style.css">
+	
+	
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-72495497-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+	<script defer src="/static/fontawesome/fontawesome-all.js"></script>
+	
+
+</head>
+
+<body>
+
+<header>
+	
+	<div style="text-align: bottom">
+		<a href="https://irenechen.net/" style="float: left;" class="namelogo">Irene Chen</a>
+	
+	&nbsp;&nbsp;<a href="https://irenechen.net/blog/" style="color:#777;">Blog</a>&nbsp;&nbsp;<a href="https://irenechen.net/resources/" style="color:#777;">Resources</a>&nbsp;&nbsp;<a href="https://irenechen.net/reading/" style="color:#777;">Reading List</a>
+
+	
+	
+	</div>
+</header>
+
+
+<div class="content">
+  <h1>MLHC 2018 Recap</h1>
+  <aside></aside>
+  <p>
+
+<p>Last week from Aug 16-18, researchers flocked to the 2018 Machine Learning for Health Care (MLHC) conference, held at Stanford in Palo Alto.</p>
+
+<p><center>
+<img src="/assets/mlhc2018.jpg" alt="Smiley face">
+<!-- ![MLHC 2018](/assets/mlhc2018.jpg) -->
+<br><em>Unfiltered, candid view of MLHC 2018</em>
+</center></p>
+
+<p>One unusual aspect of MLHC is its manageable size and format, especially compared to colossal conferences like NIPS and ICML. With attendance hovering around 300 people, the conference has maintained its &ldquo;small community&rdquo; feeling. Without much effort, I quickly met other researchers and reconnected with old friends, seeing people multiple times across the room. Although others reported not being able to register if you weren&rsquo;t early enough, I appreciate the focus on controlling the population distribution and maintaining the single-track structure as the community continues to grow.</p>
+
+<p>As Finale Doshi-Velez pointed out in the opening remarks, the focus of this year&rsquo;s conference was useful machine learning for clinicians. In contrast to <a href="http://irenechen.net/blog/2017/08/22/mlhc2017.html">last year&rsquo;s emphasis</a> on the wide array of possibilities for machine learning&mdash;medical imaging, treating your child&rsquo;s rare genetic condition, and hospital operations to name a few&mdash;this year targeted the gap between machine learning efforts now and actually improving health care. With more clinicians attending and presenting, we avoided an adversarial <a href="https://spectrum.ieee.org/static/ai-vs-doctors">doctors vs AI framework</a> and instead focused on common goals.</p>
+
+<h2 id="capturing-patient-stories">Capturing patient stories</h2>
+
+<p>As the kickoff keynote, <a href="https://abrahamverghese.com/">Abraham Verghese</a> from Stanford set the tone by advocating for a renewed emphasis on the patient narrative. He noted that for every 1 hour of patient time, clinicians currently spend roughly 2 hours on the electronic health records (EHR). Although he acknowledged EHRs are necessary for billing, he harkened back to the painting <a href="https://en.wikipedia.org/wiki/The_Doctor_(painting)">The Doctor</a>, notable for the titular subject&rsquo;s intense visual focus on the sickly child. When asked in a later question, Dr. Verghese clarified that he doesn&rsquo;t believe clinical notes capture the entire patient story.</p>
+
+<p>Despite the limitations of clinical notes, presenters at the conference unveiled research towards better understanding clinical notes including using <a href="https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/5b7373da03ce645e7ad379d4/1534292955612/31.pdf">multi-task learning on clinical notes to predict chronic conditions</a>, generating <a href="https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/5b737288575d1f627e5a09bd/1534292618033/8.pdf">topic distributions of discharge notes</a>, leveraging <a href="https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/5b7373cc032be4fab0075363/1534292941994/30.pdf">multi-label learning with a convolutional residual model</a>, and integrating <a href="https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/5b73736688251beb6017ebd1/1534292838886/23.pdf">expert knowledge with machine-learned diagnoses</a>.</p>
+
+<p>In a slightly different angle, keynote speaker <a href="http://ihpi.umich.edu/our-experts/joyclee">Joyce Lee</a> from University of Michigan motivated the need to consider the patient&rsquo;s perspective through her expertise as a pediatric endocrinologist. When patients&mdash;especially younger patients&mdash;need to closely monitor their glucose levels to adapt insulin dosage, the combination of data silos, reporting bias, and outdated technology can hinder a patient&rsquo;s experience and caused at least one patient to hack his own wearable solution to measure his own insulin. Comparing the patient record to &ldquo;Microsoft Word meets Pinterest&rdquo; because the long text of clinical notes can be peppered with lab tests, imaging, and other additions, Dr. Lee noted that even with the perfect algorithm, the healthcare system itself is imperfect and must be accounted for.</p>
+
+<h2 id="model-robustness-matters-more-and-more">Model robustness matters more and more</h2>
+
+<p>As the aphorism goes, all models are wrong, but some are useful. Keynote speaker <a href="https://rgreiner6.wixsite.com/greiner">Russell Greiner</a> from University of Alberta devoted a significant portion of his talk to important considerations of effective models. Association between one biomarker and outcome can be much less powerful than a predictive algorithm that draws on a wider set of features. Even features themselves can be selected with care as subjective symptoms may vary based on the treated clinicians whereas quantitative measurements are easier to use reliably in models. Additionally, models trained on one distribution and tested on another may suffer from covariate shift&mdash;although data can be reweighted with some success.</p>
+
+<p>Amongst the papers presented, I was heartened to see thoughtful investigations into confounding factors beyond straightforward supervised learning on medical tasks. For example, <a href="https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/5b7372.28c2241bffdd42772c/1534292521653/2.pdf">racial disparities and mistrust in doctors can lead to differing end-of-life care</a>. Even the missingness or existence of a measurement of EHR data can give additional signal that can be used to <a href="https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/5b73727baa4a99b17021e4c6/1534292604780/7.pdf">reconstruct monitor readings for EHR patients</a>. On an orthogonal note, if researchers won&rsquo;t or can&rsquo;t share code and data, <a href="https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/5b7372be03ce645e7ad36d8a/1534292671844/11.pdf">reproducibility becomes incredibly hard even on widely used datasets</a>.</p>
+
+<p>Since widely available datasets are key to reproducibility and therefore robustness, keynote speaker <a href="http://mcircc.umich.edu/mohammed-saeed-md-phd-1/">Mohammed Saeed</a> of University of Michigan described the process in making MIMIC-II, an open, large, and extensive dataset of intensive care unit (ICU) stays and one of the most impactful contributions to the field of machine learning for healthcare. Most notably, Dr. Saeed credits the ability to de-identify the dataset as key to its proliferation as well as the community of researchers who take extensive privacy training before receiving access. Sadly, Dr. Saeed also shared that since MIMIC-II, no other hospitals have been willing to create a dataset nearly as impactful.</p>
+
+<p>Every year the conference invites a &ldquo;slightly different&rdquo; keynote in order to expand the scope of the topics. This year, <a href="https://www.seas.harvard.edu/directory/dwork">Cynthia Dwork</a> of Harvard raised salient points about privacy and fairness, both fields to which she&rsquo;s contributed immensely. Defining a method as preserving privacy if the model learns the same as if one individual were replaced with another, she explains how differential privacy neutralizes the risk of adaptivity. In her section on fairness, she outlined several viable definitions of fairness and corresponding flaws: fairness through blindness might still discriminate based on proxy features, <a href="http://blog.mrtz.org/2016/09/06/approaching-fairness.html">demographic parity</a> can&rsquo;t be reached even with a completely accurate model if the two groups have different base rates, and individual fairness requires a similarity function which can be hard to define.</p>
+
+<h2 id="actually-useful-models-for-patients-and-clinicians">Actually useful models for patients and clinicians</h2>
+
+<p>When examining actually useful models, keynote speaker <a href="https://www.imperial.ac.uk/people/d.belgrave">Danielle Belgrave</a> introduced endotypes, a form of subtyping on underlying pathophysiological mechanisms. In a talk most relevant to my own research, Dr. Belgrave demonstrated probabilistic programming methods to build causal methods for asthma patients. Specifically, structure learning through model evidence allows for recovering causal links from eczema to asthma and then hay fever &mdash; rather than just associative. This causal link then allows public health officials to launch initiatives to prevent eczema and therefore asthma and hay fever.</p>
+
+<p>In general, making machine learning models useful for clinicians was a strong theme in several talks. Dr. Verghese&rsquo;s earlier talk included a plea to help clinicians (for example, decreasing keystrokes) to prevent further clinician burnout. Dr. Saeed also mentioned how clinicians suffer from too many false alarms, which one paper at the conference addressed <a href="https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/5b7372fe8a922d4ae6311c35/1534292736579/15.pdf">through representation learning with a modified objective function on ECG waveforms</a>.</p>
+
+<p>The clinical abstracts also highlighted the challenges when actually deploying systems. Although I had to take a meeting during these presentations, skimming through the abstracts was exciting for the glimpse into real world applications.</p>
+
+<h2 id="expanding-the-team-beyond-clinicians-and-machine-learners">Expanding the team beyond clinicians and machine learners</h2>
+
+<p>The last keynote featured <a href="http://www.andrewng.org/">Andrew Ng</a>, a man who needs almost no introduction. It was very clever to have him go last to keep people around until the end of the conference. In contrast to the more structured slides of talks before, Dr. Ng&rsquo;s talk featured white board drawings on his iPad that he projected onto the screen and with short project presentations from his graduate students. He urged for more collaborations beyond clinicians and machine learning researchers including ethicists, software engineers, and business people, which would help with actual deployments. In particular, he named trust as a huge blocker to getting people on board, and efforts including interpretability, uncertainty estimates, and accuracy can help with that.</p>
+
+<h2 id="potpourri">Potpourri</h2>
+
+<p>Other papers I enjoyed include
+ * <a href="https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/5b737347c2241bffdd429089/1534292807543/21.pdf">Deep Survival Analysis: Nonparametrics and Missingness</a> extends on prior work to approximate any survival function and to model the generative process of missingness.
+ * <a href="https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/5b7372dc1ae6cf102e27b7e7/1534292701747/13.pdf">Disease-Atlas: Navigating Disease Trajectories using Deep Learning</a> uses a RNN and multi-task learning approach to forecast disease trajectories for cystic fibrosis.
+ * <a href="https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/5b73739b40ec9a45a95436a1/1534292893333/27.pdf">Phenotyping Endometriosis through Mixed Membership
+Models of Self-Tracking Data</a> used a type of Bayesian generative model (mixed membership models) to overcome self-reporting bias in endometriosis data.</p>
+
+<p>Blockchain came up multiple times&mdash;in audience questions and in an off-hand comment from a presenter&mdash;as a potential way to increase trust or track patient data. Each time, the presenter expressed skepticism about the usefulness of blockchain since the main concern is the control of the data itself and risk minimization.</p>
+
+<p>Venn diagrams are basically the unofficial figure of the conference since they appeared in 3+ keynote talks!</p>
+
+<p>Overall the conference was incredibly well run. Everything started reasonably on time. Childcare was provided. Talks were live streamed. Every paper got time to present. Tutorials were offered for clinicians and machine learning researchers. A research guidelines panel offered best practices. As a PhD student early in my career, I very much felt a sense of community.</p>
+
+<p>See everyone next year at MLHC 2019 at University of Michigan!</p>
+
+<h2 id="resources">Resources</h2>
+
+<p>Mike Hughes gave a great tutorial <a href="http://www.michaelchughes.com/mlhc2018_tutorial.html">Machine Learning for Clinicians: Advances for Multi-Modal Health Data</a>.</p>
+
+<p>Unfortunately, I couldn&rsquo;t find other slides or videos available. If you find them, let me know and I will add them here.</p>
+
+<p><em>Many thanks to Christina Ji for helpful comments on an earlier draft.</em></p>
+
+<p><meta name="twitter:card" content="summary" />
+<!-- <meta name="twitter:image" content="http://irenechen.net/irene.jpg" /> -->
+<meta name="twitter:site" content="@irenetrampoline" />
+<meta name="twitter:title" content="MLHC 2018 Recap" />
+<meta name="twitter:description" content="Over 300 clinicians and machine learning researchers met in Palo Alto for three days of tutorials, keynotes, and papers." />
+<meta name="twitter:image:src" content="http://irenechen.net/assets/mlhc2018_group.jpg" /></p>
+
+<!-- 
+ <meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@flickr" />
+<meta name="twitter:title" content="Small Island Developing States Photo Submission" />
+<meta name="twitter:description" content="View the album on Flickr." />
+<meta name="twitter:image" content="https://farm6.staticflickr.com/5510/14338202952_93595258ff_z.jpg" />
+ -->
+</p>
+</div>
+
+
+  <p>Written on Aug 17, 2018.</p>
+
+
+<footer>
+	<p>&copy; 2019 All rights reserved.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>30 things I learned at MLHC 2017</title>
+	
+	<meta name="description" content="">
+	<meta name="image" content="">
+	
+	<meta itemprop="name" content="30 things I learned at MLHC 2017">
+	<meta itemprop="description" content="">
+	<meta itemprop="image" content="">
+	
+	<meta name="og:title" content="30 things I learned at MLHC 2017">
+	<meta name="og:description" content="">
+	
+	<meta name="og:url" content="https://irenechen.net/2017/08/30-things-i-learned-at-mlhc-2017/">
+	<meta name="og:site_name" content="30 things I learned at MLHC 2017">
+	<meta name="og:type" content="article">
+	
+	<meta name="article:tag" content="">
+	<link rel="stylesheet" type="text/css" href="https://irenechen.net/css/style.css">
+	
+	
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-72495497-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+	<script defer src="/static/fontawesome/fontawesome-all.js"></script>
+	
+
+</head>
+
+<body>
+
+<header>
+	
+	<div style="text-align: bottom">
+		<a href="https://irenechen.net/" style="float: left;" class="namelogo">Irene Chen</a>
+	
+	&nbsp;&nbsp;<a href="https://irenechen.net/blog/" style="color:#777;">Blog</a>&nbsp;&nbsp;<a href="https://irenechen.net/resources/" style="color:#777;">Resources</a>&nbsp;&nbsp;<a href="https://irenechen.net/reading/" style="color:#777;">Reading List</a>
+
+	
+	
+	</div>
+</header>
+
+
+<div class="content">
+  <h1>30 things I learned at MLHC 2017</h1>
+  <aside></aside>
+  <p><p>This past weekend, I learned a lot about machine learning and healthcare at <a href="http://mucmd.org/">MLHC 2017</a>. Here are 30 thoughts and findings that I could squeeze into bullet points.</p>
+
+<p>Please excuse (and contact me about) any errors in summarization or attribution.</p>
+
+<h3 id="what-s-special-about-healthcare">What&rsquo;s special about healthcare?</h3>
+
+<ul>
+<li>Data are numerous but hard to access! Beth Israel Deaconess Medical Center handles 7 petabytes of patient data. And yet many papers presented handle datasets with patients in the thousands or even dozens due to data availability challenges or targeting rare diseases. <a href="http://geekdoctor.blogspot.com/"><i class="fa fa-user"></i></a></li>
+<li>FDA approval is hard but important. Although the initial process is arduous, minor updates (e.g. retraining deep learning models) only need notification but new models need reapproval. One method of convincing the FDA involves showing model accuracy fits within the variance of human experts. <a href="https://www.linkedin.com/in/daniel-golden-7b881859/"><i class="fa fa-user"></i></a></li>
+<li>Freely accessible massive datasets have accelerated machine learning research in healthcare with many accepted papers using <a href="https://mimic.physionet.org/">MIMIC data</a>. <a href="http://mucmd.org/CameraReadySubmissions/65%5CCameraReadySubmission%5Cclinical-intervention-prediction%20(4).pdf"><i class="fa fa-user"></i></a> <a href="
+http://mucmd.org/CameraReadySubmissions/34%5CCameraReadySubmission%5Ccontinuous-state-space%20_FINAL.pdf"><i class="fa fa-user"></i></a></li>
+<li>Validity and reproducibility are of immediate concern in this growing field. Researchers reproducing datasets from 38 experiments using MIMIC data found half the experiments had listed cohort sizes and reproduced cohort sizes differing by more than 25%. <a href="http://mucmd.org/CameraReadySubmissions/77_reproducibility-critical-care.pdf"><i class="fa fa-user"></i></a></li>
+</ul>
+
+<p></p>
+
+<h3 id="interpretability-is-important">Interpretability is important</h3>
+
+<ul>
+<li>&ldquo;Rationales&rdquo; are short, coherent, and predictive phrases that may explain beer reviews and pathology reports. Although beer reviews make for great annotated data, healthcare professionals care especially about understanding the <em>why</em> for black-box methods applied to pathology reports. <a href="http://people.csail.mit.edu/regina/"><i class="fa fa-user"></i></a></li>
+<li>You can take interpretability even further and argue that interpretable models &ldquo;should fit on a Powerpoint slide and can be calculated without a calculator.&rdquo; Extending the <a href="https://en.wikipedia.org/wiki/Rashomon_effect">Rashomon Effect</a>, multiple models can have similar performance but different interpretability level. Why not find a model with high performance <em>and</em> high interpretability? <a href="https://users.cs.duke.edu/~cynthia/"><i class="fa fa-user"></i></a></li>
+</ul>
+
+<h3 id="healthcare-includes-hospital-operations">Healthcare includes hospital operations</h3>
+
+<ul>
+<li>Monitoring hand hygiene with depth sensors can lead to prevention of hospital acquired infections&mdash;which affect 1 in 25 patients. Anonymized depth-perceived humans were assessed for correctly following hand hygiene protocol before entering and after leaving a patient room. <a href="http://mucmd.org/CameraReadySubmissions/23%5CCameraReadySubmission%5C0023.pdf"><i class="fa fa-user"></i></a></li>
+<li>Better predicting surgery duration helps increase hospital efficiency as well as balance costs: extra downtime is not as bad as scheduling collisions. <a href="http://mucmd.org/CameraReadySubmissions/26%5CCameraReadySubmission%5Ccamera-ready-predicting(3).pdf"><i class="fa fa-user"></i></a></li>
+<li>Even seemingly simple machine learning methods can greatly improve hospital processes, like using <a href="https://en.wikipedia.org/wiki/Optical_character_recognition">OCR</a> on incoming consent forms to direct them into the right patient file. <a href="http://geekdoctor.blogspot.com/"><i class="fa fa-user"></i></a></li>
+<li>An hour of untreated stroke ages a brain 3.6 years, which heightens the importance of treating patients who receive strokes while in the hospital. <a href="http://www.nyp.org/physician/parks"><i class="fa fa-user"></i></a></li>
+</ul>
+
+<h3 id="reinforcement-learning-making-moves">Reinforcement learning making moves</h3>
+
+<ul>
+<li>In the application of mobile health, one has to balance timely interventions with annoying notifications. A reinforcement learning (RL) approach can adapt to a user&rsquo;s preferences and recommend activity suggestions and motivation messages. Among many statistical subtleties, RL must balance negative immediate effects of the treatment and potentially large delayed benefits. We can combat this by reducing the posterior mean for treatment by proportional feedback control. <a href="https://dl.dropboxusercontent.com/u/16868661/index.html"><i class="fa fa-user"></i></a></li>
+<li>Due to logistics, approval, and ethics, it can be difficult to conduct controlled trials. It is possible to learn treatment policies over continuous state spaces from observational data to mimic the repeated experiments of RL. <a href="https://arxiv.org/pdf/1705.08422.pdf"><i class="fa fa-user"></i></a></li>
+<li>In a randomized trial, patients receiving Ranolazine found no difference in death rates; using a dedicated treatment strategy for high risk patients, however, showed tremendous difference in results. RL has shown success in constructing the optimal policy of treatment. <a href="http://imes.mit.edu/people/faculty/stultz-collin/"><i class="fa fa-user"></i></a></li>
+</ul>
+
+<h3 id="computer-vision-victories">Computer vision victories</h3>
+
+<ul>
+<li>Video recordings can accelerate and standardize diagnosis for movement disorders such as <a href="http://www.mayoclinic.org/diseases-conditions/parkinsons-disease/basics/definition/con-20028488">Parkinson&rsquo;s disease</a> and <a href="http://www.mayoclinic.org/diseases-conditions/ataxia/home/ovc-20311863">ataxia</a> using neural network-based pose estimation. <a href="http://mucmd.org/CameraReadySubmissions/46%5CCameraReadySubmission%5Cmain.pdf"><i class="fa fa-user"></i></a></li>
+<li>Another useful application of pose estimation is assessing surgeon technical skill using Hourglass Networks with workers from <a href="https://www.mturk.com/mturk/welcome">Mechanical Turk</a> providing annotated data through ensemble voting. <a href="http://mucmd.org/CameraReadySubmissions/25%5CCameraReadySubmission%5Csample.pdf"><i class="fa fa-user"></i></a></li>
+<li>Segmenting heart sonograms using a CNN allows cardiologists to save time and mental stamina. <a href="https://www.linkedin.com/in/daniel-golden-7b881859/"><i class="fa fa-user"></i></a></li>
+</ul>
+
+<h3 id="creative-approaches">Creative approaches</h3>
+
+<ul>
+<li>Social media post history embeddings can capture attributes of mental health and homophilic relations between users. <a href="
+http://mucmd.org/CameraReadySubmissions/63%5CCameraReadySubmission%5Cmlhc_2017.pdf"><i class="fa fa-user"></i></a></li>
+<li>A <a href="http://matt.might.net/articles/my-sons-killer/">viral blog post</a> and aggressive search engine optimization allowed one researcher to find other patients with the same genetic disease as his infant son. <a href="matt.might.net"><i class="fa fa-user"></i></a></li>
+<li>Crowd sourcing annotations of scientific articles can help create a knowledge graph of gene mutations and therapies. Approximately 6 laypeople are able to annotate with the ability of 1 expert. <a href="http://matt.might.net/"><i class="fa fa-user"></i></a></li>
+<li>It is especially crucial to use psychology in convincing clinicians to adopt systems: repeated positive feedback helps ease resistance to new systems or increased logging mechanisms. <a href="http://www.nyp.org/physician/parks"><i class="fa fa-user"></i></a></li>
+</ul>
+
+<h3 id="miscellaneous-ml-methods">Miscellaneous ML methods</h3>
+
+<ul>
+<li>To deal with partially missing data labels, only backpropagate loss from subset of pieces which are annotated. <a href="https://www.linkedin.com/in/daniel-golden-7b881859/"><i class="fa fa-user"></i></a></li>
+<li><a href="https://en.wikipedia.org/wiki/Heteroscedasticity">Heteroscedasticity</a> refers to the phenomenon when the variability of a variable is unequal across the range of values of a second variable that predicts it. Surgery durations will never go negative, so we would not expect variability of the errors to follow something like a Gaussian. Using a multilayer perceptron, we can estimate variance and mean of each prediction point. <a href="http://mucmd.org/CameraReadySubmissions/26%5CCameraReadySubmission%5Ccamera-ready-predicting(3).pdf"><i class="fa fa-user"></i></a></li>
+</ul>
+
+<h3 id="odds-and-ends">Odds and ends</h3>
+
+<ul>
+<li>Special thanks to <a href="https://stuhlmueller.org/">Andreas Stuhlmuller</a> for inspiring this piece with his <a href="https://blog.ought.com/nips-2016-875bb8fadb8c">summary of NIPS 2016</a></li>
+<li><a href="aws.amazon.com">AWS</a> got a hilarious amount of shoutouts for its ease of use and HIPAA compliance security. <a href="http://geekdoctor.blogspot.com/"><i class="fa fa-user"></i></a> <a href="https://www.linkedin.com/in/daniel-golden-7b881859/"><i class="fa fa-user"></i></a></li>
+<li>As with most conferences, MLHC had <a href="https://twitter.com/hashtag/MLHC2017">an active Twitter presence</a>, which is how I met <a href="http://zacklipton.com/">Zachary Lipton</a>.</li>
+<li><a href="http://flourbakery.com/">Flour Bakery</a> continues to have delicious sandwiches and scrumptious cookies.</li>
+<li>I&rsquo;ll be curious to see where MLHC 2017 goes from here. I loved the format of every paper getting screen time with big name speakers anchoring each half-day. The conference has grown from 11 people several years ago to 270 attendees, with the audience mix skewing towards machine learning researchers. Onwards!</li>
+</ul></p>
+</div>
+
+
+  <p>Written on Aug 22, 2017.</p>
+
+
+<footer>
+	<p>&copy; 2019 All rights reserved.</p>
+</footer>
+</body>
+</html>
