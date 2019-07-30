@@ -1,0 +1,18 @@
+# End your baseURL with a `/` trailing slash, e.g. `https://example.com/`.
+baseURL = "https://irenechen.net/"
+
+languageCode = "en-us"
+title = "Irene Chen"
+theme = "one"
+googleAnalytics = "UA-72495497-1"
+
+# Chroma Syntax Highlighting
+pygmentsCodefences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsStyle = "pygments"
+
+[params]
+    navigation = ["blog.md", "resources.md", "reading.md"]
+
+[permalinks]
+    posts = "/:year/:month/:title/"

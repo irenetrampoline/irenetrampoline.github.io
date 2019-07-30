@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Irene Chen</title>
+    <link>https://irenechen.net/categories/blog/</link>
+    <description>Recent content in Blog on Irene Chen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Aug 2018 23:27:55 -0400</lastBuildDate>
+    
+        <atom:link href="https://irenechen.net/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MLHC 2018 Recap</title>
+      <link>https://irenechen.net/2018/08/mlhc-2018-recap/</link>
+      <pubDate>Fri, 17 Aug 2018 23:27:55 -0400</pubDate>
+      
+      <guid>https://irenechen.net/2018/08/mlhc-2018-recap/</guid>
+      <description>
+
+&lt;p&gt;Last week from Aug 16-18, researchers flocked to the 2018 Machine Learning for Health Care (MLHC) conference, held at Stanford in Palo Alto.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;img src=&#34;https://irenechen.net/assets/mlhc2018.jpg&#34; alt=&#34;Smiley face&#34;&gt;
+&lt;!-- ![MLHC 2018](/assets/mlhc2018.jpg) --&gt;
+&lt;br&gt;&lt;em&gt;Unfiltered, candid view of MLHC 2018&lt;/em&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;One unusual aspect of MLHC is its manageable size and format, especially compared to colossal conferences like NIPS and ICML. With attendance hovering around 300 people, the conference has maintained its &amp;ldquo;small community&amp;rdquo; feeling. Without much effort, I quickly met other researchers and reconnected with old friends, seeing people multiple times across the room. Although others reported not being able to register if you weren&amp;rsquo;t early enough, I appreciate the focus on controlling the population distribution and maintaining the single-track structure as the community continues to grow.&lt;/p&gt;
+
+&lt;p&gt;As Finale Doshi-Velez pointed out in the opening remarks, the focus of this year&amp;rsquo;s conference was useful machine learning for clinicians. In contrast to &lt;a href=&#34;http://irenechen.net/blog/2017/08/22/mlhc2017.html&#34;&gt;last year&amp;rsquo;s emphasis&lt;/a&gt; on the wide array of possibilities for machine learning&amp;mdash;medical imaging, treating your child&amp;rsquo;s rare genetic condition, and hospital operations to name a few&amp;mdash;this year targeted the gap between machine learning efforts now and actually improving health care. With more clinicians attending and presenting, we avoided an adversarial &lt;a href=&#34;https://spectrum.ieee.org/static/ai-vs-doctors&#34;&gt;doctors vs AI framework&lt;/a&gt; and instead focused on common goals.&lt;/p&gt;
+
+&lt;h2 id=&#34;capturing-patient-stories&#34;&gt;Capturing patient stories&lt;/h2&gt;
+
+&lt;p&gt;As the kickoff keynote, &lt;a href=&#34;https://abrahamverghese.com/&#34;&gt;Abraham Verghese&lt;/a&gt; from Stanford set the tone by advocating for a renewed emphasis on the patient narrative. He noted that for every 1 hour of patient time, clinicians currently spend roughly 2 hours on the electronic health records (EHR). Although he acknowledged EHRs are necessary for billing, he harkened back to the painting &lt;a href=&#34;https://en.wikipedia.org/wiki/The_Doctor_(painting)&#34;&gt;The Doctor&lt;/a&gt;, notable for the titular subject&amp;rsquo;s intense visual focus on the sickly child. When asked in a later question, Dr. Verghese clarified that he doesn&amp;rsquo;t believe clinical notes capture the entire patient story.&lt;/p&gt;
+
+&lt;p&gt;Despite the limitations of clinical notes, presenters at the conference unveiled research towards better understanding clinical notes including using &lt;a href=&#34;https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/5b7373da03ce645e7ad379d4/1534292955612/31.pdf&#34;&gt;multi-task learning on clinical notes to predict chronic conditions&lt;/a&gt;, generating &lt;a href=&#34;https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/5b737288575d1f627e5a09bd/1534292618033/8.pdf&#34;&gt;topic distributions of discharge notes&lt;/a&gt;, leveraging &lt;a href=&#34;https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/5b7373cc032be4fab0075363/1534292941994/30.pdf&#34;&gt;multi-label learning with a convolutional residual model&lt;/a&gt;, and integrating &lt;a href=&#34;https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/5b73736688251beb6017ebd1/1534292838886/23.pdf&#34;&gt;expert knowledge with machine-learned diagnoses&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In a slightly different angle, keynote speaker &lt;a href=&#34;http://ihpi.umich.edu/our-experts/joyclee&#34;&gt;Joyce Lee&lt;/a&gt; from University of Michigan motivated the need to consider the patient&amp;rsquo;s perspective through her expertise as a pediatric endocrinologist. When patients&amp;mdash;especially younger patients&amp;mdash;need to closely monitor their glucose levels to adapt insulin dosage, the combination of data silos, reporting bias, and outdated technology can hinder a patient&amp;rsquo;s experience and caused at least one patient to hack his own wearable solution to measure his own insulin. Comparing the patient record to &amp;ldquo;Microsoft Word meets Pinterest&amp;rdquo; because the long text of clinical notes can be peppered with lab tests, imaging, and other additions, Dr. Lee noted that even with the perfect algorithm, the healthcare system itself is imperfect and must be accounted for.&lt;/p&gt;
+
+&lt;h2 id=&#34;model-robustness-matters-more-and-more&#34;&gt;Model robustness matters more and more&lt;/h2&gt;
+
+&lt;p&gt;As the aphorism goes, all models are wrong, but some are useful. Keynote speaker &lt;a href=&#34;https://rgreiner6.wixsite.com/greiner&#34;&gt;Russell Greiner&lt;/a&gt; from University of Alberta devoted a significant portion of his talk to important considerations of effective models. Association between one biomarker and outcome can be much less powerful than a predictive algorithm that draws on a wider set of features. Even features themselves can be selected with care as subjective symptoms may vary based on the treated clinicians whereas quantitative measurements are easier to use reliably in models. Additionally, models trained on one distribution and tested on another may suffer from covariate shift&amp;mdash;although data can be reweighted with some success.&lt;/p&gt;
+
+&lt;p&gt;Amongst the papers presented, I was heartened to see thoughtful investigations into confounding factors beyond straightforward supervised learning on medical tasks. For example, &lt;a href=&#34;https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/5b7372.28c2241bffdd42772c/1534292521653/2.pdf&#34;&gt;racial disparities and mistrust in doctors can lead to differing end-of-life care&lt;/a&gt;. Even the missingness or existence of a measurement of EHR data can give additional signal that can be used to &lt;a href=&#34;https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/5b73727baa4a99b17021e4c6/1534292604780/7.pdf&#34;&gt;reconstruct monitor readings for EHR patients&lt;/a&gt;. On an orthogonal note, if researchers won&amp;rsquo;t or can&amp;rsquo;t share code and data, &lt;a href=&#34;https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/5b7372be03ce645e7ad36d8a/1534292671844/11.pdf&#34;&gt;reproducibility becomes incredibly hard even on widely used datasets&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Since widely available datasets are key to reproducibility and therefore robustness, keynote speaker &lt;a href=&#34;http://mcircc.umich.edu/mohammed-saeed-md-phd-1/&#34;&gt;Mohammed Saeed&lt;/a&gt; of University of Michigan described the process in making MIMIC-II, an open, large, and extensive dataset of intensive care unit (ICU) stays and one of the most impactful contributions to the field of machine learning for healthcare. Most notably, Dr. Saeed credits the ability to de-identify the dataset as key to its proliferation as well as the community of researchers who take extensive privacy training before receiving access. Sadly, Dr. Saeed also shared that since MIMIC-II, no other hospitals have been willing to create a dataset nearly as impactful.&lt;/p&gt;
+
+&lt;p&gt;Every year the conference invites a &amp;ldquo;slightly different&amp;rdquo; keynote in order to expand the scope of the topics. This year, &lt;a href=&#34;https://www.seas.harvard.edu/directory/dwork&#34;&gt;Cynthia Dwork&lt;/a&gt; of Harvard raised salient points about privacy and fairness, both fields to which she&amp;rsquo;s contributed immensely. Defining a method as preserving privacy if the model learns the same as if one individual were replaced with another, she explains how differential privacy neutralizes the risk of adaptivity. In her section on fairness, she outlined several viable definitions of fairness and corresponding flaws: fairness through blindness might still discriminate based on proxy features, &lt;a href=&#34;http://blog.mrtz.org/2016/09/06/approaching-fairness.html&#34;&gt;demographic parity&lt;/a&gt; can&amp;rsquo;t be reached even with a completely accurate model if the two groups have different base rates, and individual fairness requires a similarity function which can be hard to define.&lt;/p&gt;
+
+&lt;h2 id=&#34;actually-useful-models-for-patients-and-clinicians&#34;&gt;Actually useful models for patients and clinicians&lt;/h2&gt;
+
+&lt;p&gt;When examining actually useful models, keynote speaker &lt;a href=&#34;https://www.imperial.ac.uk/people/d.belgrave&#34;&gt;Danielle Belgrave&lt;/a&gt; introduced endotypes, a form of subtyping on underlying pathophysiological mechanisms. In a talk most relevant to my own research, Dr. Belgrave demonstrated probabilistic programming methods to build causal methods for asthma patients. Specifically, structure learning through model evidence allows for recovering causal links from eczema to asthma and then hay fever &amp;mdash; rather than just associative. This causal link then allows public health officials to launch initiatives to prevent eczema and therefore asthma and hay fever.&lt;/p&gt;
+
+&lt;p&gt;In general, making machine learning models useful for clinicians was a strong theme in several talks. Dr. Verghese&amp;rsquo;s earlier talk included a plea to help clinicians (for example, decreasing keystrokes) to prevent further clinician burnout. Dr. Saeed also mentioned how clinicians suffer from too many false alarms, which one paper at the conference addressed &lt;a href=&#34;https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/5b7372fe8a922d4ae6311c35/1534292736579/15.pdf&#34;&gt;through representation learning with a modified objective function on ECG waveforms&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The clinical abstracts also highlighted the challenges when actually deploying systems. Although I had to take a meeting during these presentations, skimming through the abstracts was exciting for the glimpse into real world applications.&lt;/p&gt;
+
+&lt;h2 id=&#34;expanding-the-team-beyond-clinicians-and-machine-learners&#34;&gt;Expanding the team beyond clinicians and machine learners&lt;/h2&gt;
+
+&lt;p&gt;The last keynote featured &lt;a href=&#34;http://www.andrewng.org/&#34;&gt;Andrew Ng&lt;/a&gt;, a man who needs almost no introduction. It was very clever to have him go last to keep people around until the end of the conference. In contrast to the more structured slides of talks before, Dr. Ng&amp;rsquo;s talk featured white board drawings on his iPad that he projected onto the screen and with short project presentations from his graduate students. He urged for more collaborations beyond clinicians and machine learning researchers including ethicists, software engineers, and business people, which would help with actual deployments. In particular, he named trust as a huge blocker to getting people on board, and efforts including interpretability, uncertainty estimates, and accuracy can help with that.&lt;/p&gt;
+
+&lt;h2 id=&#34;potpourri&#34;&gt;Potpourri&lt;/h2&gt;
+
+&lt;p&gt;Other papers I enjoyed include
+ * &lt;a href=&#34;https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/5b737347c2241bffdd429089/1534292807543/21.pdf&#34;&gt;Deep Survival Analysis: Nonparametrics and Missingness&lt;/a&gt; extends on prior work to approximate any survival function and to model the generative process of missingness.
+ * &lt;a href=&#34;https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/5b7372dc1ae6cf102e27b7e7/1534292701747/13.pdf&#34;&gt;Disease-Atlas: Navigating Disease Trajectories using Deep Learning&lt;/a&gt; uses a RNN and multi-task learning approach to forecast disease trajectories for cystic fibrosis.
+ * &lt;a href=&#34;https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/5b73739b40ec9a45a95436a1/1534292893333/27.pdf&#34;&gt;Phenotyping Endometriosis through Mixed Membership
+Models of Self-Tracking Data&lt;/a&gt; used a type of Bayesian generative model (mixed membership models) to overcome self-reporting bias in endometriosis data.&lt;/p&gt;
+
+&lt;p&gt;Blockchain came up multiple times&amp;mdash;in audience questions and in an off-hand comment from a presenter&amp;mdash;as a potential way to increase trust or track patient data. Each time, the presenter expressed skepticism about the usefulness of blockchain since the main concern is the control of the data itself and risk minimization.&lt;/p&gt;
+
+&lt;p&gt;Venn diagrams are basically the unofficial figure of the conference since they appeared in 3+ keynote talks!&lt;/p&gt;
+
+&lt;p&gt;Overall the conference was incredibly well run. Everything started reasonably on time. Childcare was provided. Talks were live streamed. Every paper got time to present. Tutorials were offered for clinicians and machine learning researchers. A research guidelines panel offered best practices. As a PhD student early in my career, I very much felt a sense of community.&lt;/p&gt;
+
+&lt;p&gt;See everyone next year at MLHC 2019 at University of Michigan!&lt;/p&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;p&gt;Mike Hughes gave a great tutorial &lt;a href=&#34;http://www.michaelchughes.com/mlhc2018_tutorial.html&#34;&gt;Machine Learning for Clinicians: Advances for Multi-Modal Health Data&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, I couldn&amp;rsquo;t find other slides or videos available. If you find them, let me know and I will add them here.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Many thanks to Christina Ji for helpful comments on an earlier draft.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;meta name=&#34;twitter:card&#34; content=&#34;summary&#34; /&gt;
+&lt;!-- &lt;meta name=&#34;twitter:image&#34; content=&#34;http://irenechen.net/irene.jpg&#34; /&gt; --&gt;
+&lt;meta name=&#34;twitter:site&#34; content=&#34;@irenetrampoline&#34; /&gt;
+&lt;meta name=&#34;twitter:title&#34; content=&#34;MLHC 2018 Recap&#34; /&gt;
+&lt;meta name=&#34;twitter:description&#34; content=&#34;Over 300 clinicians and machine learning researchers met in Palo Alto for three days of tutorials, keynotes, and papers.&#34; /&gt;
+&lt;meta name=&#34;twitter:image:src&#34; content=&#34;http://irenechen.net/assets/mlhc2018_group.jpg&#34; /&gt;&lt;/p&gt;
+
+&lt;!-- 
+ &lt;meta name=&#34;twitter:card&#34; content=&#34;summary&#34; /&gt;
+&lt;meta name=&#34;twitter:site&#34; content=&#34;@flickr&#34; /&gt;
+&lt;meta name=&#34;twitter:title&#34; content=&#34;Small Island Developing States Photo Submission&#34; /&gt;
+&lt;meta name=&#34;twitter:description&#34; content=&#34;View the album on Flickr.&#34; /&gt;
+&lt;meta name=&#34;twitter:image&#34; content=&#34;https://farm6.staticflickr.com/5510/14338202952_93595258ff_z.jpg&#34; /&gt;
+ --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>30 things I learned at MLHC 2017</title>
+      <link>https://irenechen.net/2017/08/30-things-i-learned-at-mlhc-2017/</link>
+      <pubDate>Tue, 22 Aug 2017 23:27:55 -0400</pubDate>
+      
+      <guid>https://irenechen.net/2017/08/30-things-i-learned-at-mlhc-2017/</guid>
+      <description>&lt;p&gt;This past weekend, I learned a lot about machine learning and healthcare at &lt;a href=&#34;http://mucmd.org/&#34;&gt;MLHC 2017&lt;/a&gt;. Here are 30 thoughts and findings that I could squeeze into bullet points.&lt;/p&gt;
+
+&lt;p&gt;Please excuse (and contact me about) any errors in summarization or attribution.&lt;/p&gt;
+
+&lt;h3 id=&#34;what-s-special-about-healthcare&#34;&gt;What&amp;rsquo;s special about healthcare?&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Data are numerous but hard to access! Beth Israel Deaconess Medical Center handles 7 petabytes of patient data. And yet many papers presented handle datasets with patients in the thousands or even dozens due to data availability challenges or targeting rare diseases. &lt;a href=&#34;http://geekdoctor.blogspot.com/&#34;&gt;&lt;i class=&#34;fa fa-user&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;FDA approval is hard but important. Although the initial process is arduous, minor updates (e.g. retraining deep learning models) only need notification but new models need reapproval. One method of convincing the FDA involves showing model accuracy fits within the variance of human experts. &lt;a href=&#34;https://www.linkedin.com/in/daniel-golden-7b881859/&#34;&gt;&lt;i class=&#34;fa fa-user&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Freely accessible massive datasets have accelerated machine learning research in healthcare with many accepted papers using &lt;a href=&#34;https://mimic.physionet.org/&#34;&gt;MIMIC data&lt;/a&gt;. &lt;a href=&#34;http://mucmd.org/CameraReadySubmissions/65%5CCameraReadySubmission%5Cclinical-intervention-prediction%20(4).pdf&#34;&gt;&lt;i class=&#34;fa fa-user&#34;&gt;&lt;/i&gt;&lt;/a&gt; &lt;a href=&#34;
+http://mucmd.org/CameraReadySubmissions/34%5CCameraReadySubmission%5Ccontinuous-state-space%20_FINAL.pdf&#34;&gt;&lt;i class=&#34;fa fa-user&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Validity and reproducibility are of immediate concern in this growing field. Researchers reproducing datasets from 38 experiments using MIMIC data found half the experiments had listed cohort sizes and reproduced cohort sizes differing by more than 25%. &lt;a href=&#34;http://mucmd.org/CameraReadySubmissions/77_reproducibility-critical-care.pdf&#34;&gt;&lt;i class=&#34;fa fa-user&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;interpretability-is-important&#34;&gt;Interpretability is important&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;Rationales&amp;rdquo; are short, coherent, and predictive phrases that may explain beer reviews and pathology reports. Although beer reviews make for great annotated data, healthcare professionals care especially about understanding the &lt;em&gt;why&lt;/em&gt; for black-box methods applied to pathology reports. &lt;a href=&#34;http://people.csail.mit.edu/regina/&#34;&gt;&lt;i class=&#34;fa fa-user&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;You can take interpretability even further and argue that interpretable models &amp;ldquo;should fit on a Powerpoint slide and can be calculated without a calculator.&amp;rdquo; Extending the &lt;a href=&#34;https://en.wikipedia.org/wiki/Rashomon_effect&#34;&gt;Rashomon Effect&lt;/a&gt;, multiple models can have similar performance but different interpretability level. Why not find a model with high performance &lt;em&gt;and&lt;/em&gt; high interpretability? &lt;a href=&#34;https://users.cs.duke.edu/~cynthia/&#34;&gt;&lt;i class=&#34;fa fa-user&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;healthcare-includes-hospital-operations&#34;&gt;Healthcare includes hospital operations&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Monitoring hand hygiene with depth sensors can lead to prevention of hospital acquired infections&amp;mdash;which affect 1 in 25 patients. Anonymized depth-perceived humans were assessed for correctly following hand hygiene protocol before entering and after leaving a patient room. &lt;a href=&#34;http://mucmd.org/CameraReadySubmissions/23%5CCameraReadySubmission%5C0023.pdf&#34;&gt;&lt;i class=&#34;fa fa-user&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Better predicting surgery duration helps increase hospital efficiency as well as balance costs: extra downtime is not as bad as scheduling collisions. &lt;a href=&#34;http://mucmd.org/CameraReadySubmissions/26%5CCameraReadySubmission%5Ccamera-ready-predicting(3).pdf&#34;&gt;&lt;i class=&#34;fa fa-user&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Even seemingly simple machine learning methods can greatly improve hospital processes, like using &lt;a href=&#34;https://en.wikipedia.org/wiki/Optical_character_recognition&#34;&gt;OCR&lt;/a&gt; on incoming consent forms to direct them into the right patient file. &lt;a href=&#34;http://geekdoctor.blogspot.com/&#34;&gt;&lt;i class=&#34;fa fa-user&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;An hour of untreated stroke ages a brain 3.6 years, which heightens the importance of treating patients who receive strokes while in the hospital. &lt;a href=&#34;http://www.nyp.org/physician/parks&#34;&gt;&lt;i class=&#34;fa fa-user&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;reinforcement-learning-making-moves&#34;&gt;Reinforcement learning making moves&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;In the application of mobile health, one has to balance timely interventions with annoying notifications. A reinforcement learning (RL) approach can adapt to a user&amp;rsquo;s preferences and recommend activity suggestions and motivation messages. Among many statistical subtleties, RL must balance negative immediate effects of the treatment and potentially large delayed benefits. We can combat this by reducing the posterior mean for treatment by proportional feedback control. &lt;a href=&#34;https://dl.dropboxusercontent.com/u/16868661/index.html&#34;&gt;&lt;i class=&#34;fa fa-user&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Due to logistics, approval, and ethics, it can be difficult to conduct controlled trials. It is possible to learn treatment policies over continuous state spaces from observational data to mimic the repeated experiments of RL. &lt;a href=&#34;https://arxiv.org/pdf/1705.08422.pdf&#34;&gt;&lt;i class=&#34;fa fa-user&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;In a randomized trial, patients receiving Ranolazine found no difference in death rates; using a dedicated treatment strategy for high risk patients, however, showed tremendous difference in results. RL has shown success in constructing the optimal policy of treatment. &lt;a href=&#34;http://imes.mit.edu/people/faculty/stultz-collin/&#34;&gt;&lt;i class=&#34;fa fa-user&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;computer-vision-victories&#34;&gt;Computer vision victories&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Video recordings can accelerate and standardize diagnosis for movement disorders such as &lt;a href=&#34;http://www.mayoclinic.org/diseases-conditions/parkinsons-disease/basics/definition/con-20028488&#34;&gt;Parkinson&amp;rsquo;s disease&lt;/a&gt; and &lt;a href=&#34;http://www.mayoclinic.org/diseases-conditions/ataxia/home/ovc-20311863&#34;&gt;ataxia&lt;/a&gt; using neural network-based pose estimation. &lt;a href=&#34;http://mucmd.org/CameraReadySubmissions/46%5CCameraReadySubmission%5Cmain.pdf&#34;&gt;&lt;i class=&#34;fa fa-user&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Another useful application of pose estimation is assessing surgeon technical skill using Hourglass Networks with workers from &lt;a href=&#34;https://www.mturk.com/mturk/welcome&#34;&gt;Mechanical Turk&lt;/a&gt; providing annotated data through ensemble voting. &lt;a href=&#34;http://mucmd.org/CameraReadySubmissions/25%5CCameraReadySubmission%5Csample.pdf&#34;&gt;&lt;i class=&#34;fa fa-user&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Segmenting heart sonograms using a CNN allows cardiologists to save time and mental stamina. &lt;a href=&#34;https://www.linkedin.com/in/daniel-golden-7b881859/&#34;&gt;&lt;i class=&#34;fa fa-user&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;creative-approaches&#34;&gt;Creative approaches&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Social media post history embeddings can capture attributes of mental health and homophilic relations between users. &lt;a href=&#34;
+http://mucmd.org/CameraReadySubmissions/63%5CCameraReadySubmission%5Cmlhc_2017.pdf&#34;&gt;&lt;i class=&#34;fa fa-user&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;A &lt;a href=&#34;http://matt.might.net/articles/my-sons-killer/&#34;&gt;viral blog post&lt;/a&gt; and aggressive search engine optimization allowed one researcher to find other patients with the same genetic disease as his infant son. &lt;a href=&#34;matt.might.net&#34;&gt;&lt;i class=&#34;fa fa-user&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Crowd sourcing annotations of scientific articles can help create a knowledge graph of gene mutations and therapies. Approximately 6 laypeople are able to annotate with the ability of 1 expert. &lt;a href=&#34;http://matt.might.net/&#34;&gt;&lt;i class=&#34;fa fa-user&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;It is especially crucial to use psychology in convincing clinicians to adopt systems: repeated positive feedback helps ease resistance to new systems or increased logging mechanisms. &lt;a href=&#34;http://www.nyp.org/physician/parks&#34;&gt;&lt;i class=&#34;fa fa-user&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;miscellaneous-ml-methods&#34;&gt;Miscellaneous ML methods&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;To deal with partially missing data labels, only backpropagate loss from subset of pieces which are annotated. &lt;a href=&#34;https://www.linkedin.com/in/daniel-golden-7b881859/&#34;&gt;&lt;i class=&#34;fa fa-user&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Heteroscedasticity&#34;&gt;Heteroscedasticity&lt;/a&gt; refers to the phenomenon when the variability of a variable is unequal across the range of values of a second variable that predicts it. Surgery durations will never go negative, so we would not expect variability of the errors to follow something like a Gaussian. Using a multilayer perceptron, we can estimate variance and mean of each prediction point. &lt;a href=&#34;http://mucmd.org/CameraReadySubmissions/26%5CCameraReadySubmission%5Ccamera-ready-predicting(3).pdf&#34;&gt;&lt;i class=&#34;fa fa-user&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;odds-and-ends&#34;&gt;Odds and ends&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Special thanks to &lt;a href=&#34;https://stuhlmueller.org/&#34;&gt;Andreas Stuhlmuller&lt;/a&gt; for inspiring this piece with his &lt;a href=&#34;https://blog.ought.com/nips-2016-875bb8fadb8c&#34;&gt;summary of NIPS 2016&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;aws.amazon.com&#34;&gt;AWS&lt;/a&gt; got a hilarious amount of shoutouts for its ease of use and HIPAA compliance security. &lt;a href=&#34;http://geekdoctor.blogspot.com/&#34;&gt;&lt;i class=&#34;fa fa-user&#34;&gt;&lt;/i&gt;&lt;/a&gt; &lt;a href=&#34;https://www.linkedin.com/in/daniel-golden-7b881859/&#34;&gt;&lt;i class=&#34;fa fa-user&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;As with most conferences, MLHC had &lt;a href=&#34;https://twitter.com/hashtag/MLHC2017&#34;&gt;an active Twitter presence&lt;/a&gt;, which is how I met &lt;a href=&#34;http://zacklipton.com/&#34;&gt;Zachary Lipton&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://flourbakery.com/&#34;&gt;Flour Bakery&lt;/a&gt; continues to have delicious sandwiches and scrumptious cookies.&lt;/li&gt;
+&lt;li&gt;I&amp;rsquo;ll be curious to see where MLHC 2017 goes from here. I loved the format of every paper getting screen time with big name speakers anchoring each half-day. The conference has grown from 11 people several years ago to 270 attendees, with the audience mix skewing towards machine learning researchers. Onwards!&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to make this blog</title>
+      <link>https://irenechen.net/2017/07/how-to-make-this-blog/</link>
+      <pubDate>Fri, 28 Jul 2017 23:27:55 -0400</pubDate>
+      
+      <guid>https://irenechen.net/2017/07/how-to-make-this-blog/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Disclaimer: When written, this blog was using a different theme. The same principles still apply.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;For a long time, I thought creating a personal website was too intimidating, too cumbersome, or too much trouble. When I read other people&amp;rsquo;s blogs, the authors never mentioned how they made the blog, which made me think it was effortless for them.&lt;/p&gt;
+
+&lt;p&gt;No more! Certainly every blog is different, but here&amp;rsquo;s how I made this one.&lt;/p&gt;
+
+&lt;p&gt;If I can do it, you (yes you!) can make a blog too.&lt;/p&gt;
+
+&lt;h2 id=&#34;envy-is-a-great-motivator&#34;&gt;Envy is a great motivator&lt;/h2&gt;
+
+&lt;p&gt;If you&amp;rsquo;re nervous about working with code, feel free to check out &lt;a href=&#34;medium.com&#34;&gt;Medium&lt;/a&gt; or &lt;a href=&#34;wordpress.com&#34;&gt;Wordpress&lt;/a&gt;. But if you want more freedom&amp;mdash;to make things simpler or more complicated&amp;mdash;read on.&lt;/p&gt;
+
+&lt;p&gt;Thanks to open source communities, we can now shamelessly rip off other people&amp;rsquo;s blogs. In particular, &lt;a href=&#34;https://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt; has become a popular static site generator useful for building websites out of Markdown and sharing them with others.&lt;/p&gt;
+
+&lt;p&gt;This &lt;a href=&#34;https://github.com/swanson/lagom&#34;&gt;Lagom template&lt;/a&gt; is courtesy of &lt;a href=&#34;https://mdswanson.com/about/&#34;&gt;Matt Swanson&lt;/a&gt;, an Indiana software engineer.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.imgur.com/Pmzk4j1.png&#34; width=&#34;600&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;I chose Matt&amp;rsquo;s template because of a few key factors:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;it&amp;rsquo;s beautiful&lt;/li&gt;
+&lt;li&gt;more specifically, clean, readable format&lt;/li&gt;
+&lt;li&gt;the ability to list all blog posts on one page&lt;/li&gt;
+&lt;li&gt;clear instructions on how to install the blog&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The last one is particularly important since previous attempts to set up a blog derailed based on unclear instructions. We all start somewhere, and if you don&amp;rsquo;t have a good guide, you&amp;rsquo;ll end up with a half-built website.&lt;/p&gt;
+
+&lt;p&gt;Look around the web for &lt;a href=&#34;https://jekyllthemes.io/&#34;&gt;other Jekyll themes&lt;/a&gt; you like. All Jekyll sites have similar installation instructions; the best way to motivate yourself through the agony that is front-end development is to have a beautiful website that you&amp;rsquo;re working towards.&lt;/p&gt;
+
+&lt;h2 id=&#34;start-borrowing&#34;&gt;Start &amp;ldquo;borrowing&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Let&amp;rsquo;s start stealing! I mean, downloading through open source. Note that we are assuming that you have &lt;a href=&#34;https://github.com/&#34;&gt;Github&lt;/a&gt; at this point.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/swanson/lagom/fork&#34;&gt;Fork the repo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Clone it: &lt;code&gt;git clone https://github.com/YOUR-GITHUB-USERNAME/lagom&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Install the &lt;a href=&#34;http://pages.github.com/&#34;&gt;GitHub Pages gem&lt;/a&gt; which includes Jekyll: &lt;code&gt;bundle install&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Run the Jekyll server: &lt;code&gt;jekyll serve&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Go to your favorite web browser and type in the server address that Jekyll tells you to. For me, it&amp;rsquo;s usually &lt;code&gt;http://0.0.0.0:4000&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/1630275/28757171-2ee0eaac-754b-11e7-9f7f-366996583031.png&#34; width=&#34;600&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;If any part of that went wrong, don&amp;rsquo;t be afraid to Google the problem since thousands of people have probably ahd the same problem.&lt;/p&gt;
+
+&lt;p&gt;In the spirit of transparency, here are a list of problems I ran into at this point&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Because I had installed two versions of Jekyll (one a long time ago), &lt;code&gt;jekyll serve&lt;/code&gt; did not work, and the program got confused&lt;/li&gt;
+&lt;li&gt;I cloned the repo into the wrong directory, which messed up some of the git references, making version control very tangled&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;the-fun-part&#34;&gt;The fun part&lt;/h2&gt;
+
+&lt;p&gt;At this point, you have a working website on your local computer. I&amp;rsquo;ll pause here for you to do a little dance.&lt;/p&gt;
+
+&lt;p&gt;You now get to make the website more &amp;ldquo;you.&amp;rdquo; Love orange? Change the theme color to orange. Most of the customizations you want are in &lt;a href=&#34;https://github.com/swanson/lagom/blob/master/_data/theme.yml&#34;&gt;_data/theme.yml&lt;/a&gt; like name, accent color, and social media links.&lt;/p&gt;
+
+&lt;p&gt;You might also want to change the sidebar in &lt;a href=&#34;https://github.com/swanson/lagom/blob/master/_includes/sidebar.html&#34;&gt;_includes/sidebar.html&lt;/a&gt; to add your bio and a logo. Because graphic design completely bores me, I uploaded a doodle of &lt;a href=&#34;http://irenechen.net/logo.png&#34;&gt;a robot reading a book&lt;/a&gt; instead.&lt;/p&gt;
+
+&lt;p&gt;Beyond the basic changes, you can consider more advanced modifications&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Adding &lt;a href=&#34;http://sgeos.github.io/jekyll/disqus/2016/02/14/adding-disqus-to-a-jekyll-blog.html&#34;&gt;Disqus commenting&lt;/a&gt; so that viewers can join the conversation&lt;/li&gt;
+&lt;li&gt;Adding more static pages like an About page or a Contact page using the &lt;code&gt;404.html&lt;/code&gt; page as a template&lt;/li&gt;
+&lt;li&gt;Pagination support&lt;/li&gt;
+&lt;li&gt;Add &lt;a href=&#34;http://gastonsanchez.com/visually-enforced/opinion/2014/02/16/Mathjax-with-jekyll/&#34;&gt;MathJax&lt;/a&gt; to be able to type math&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;bring-it-online&#34;&gt;Bring it online&lt;/h2&gt;
+
+&lt;p&gt;There are a couple ways to take this beautiful site that exists on your computer onto the internet. One option here is to deploy it using &lt;a href=&#34;http://pages.github.com/&#34;&gt;Github Pages&lt;/a&gt;, which is easy and free. Simply rename the repository on Github to be &lt;code&gt;YOUR-GITHUB-USERNAME.github.io&lt;/code&gt;, and you&amp;rsquo;ll be able to see your site live.&lt;/p&gt;
+
+&lt;p&gt;Another slightly more pro-option is to host it on your own domain. That&amp;rsquo;s what &lt;code&gt;irenechen.net&lt;/code&gt; is doing for me. It is not free ($12/year for me) and a tiny bit harder.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Buy an available domain from &lt;a href=&#34;domains.google.com&#34;&gt;any&lt;/a&gt; &lt;a href=&#34;https://www.namesilo.com/&#34;&gt;domain&lt;/a&gt; &lt;a href=&#34;godaddy.com&#34;&gt;registrar&lt;/a&gt;. I personally use &lt;a href=&#34;domains.google.com&#34;&gt;Google Domains&lt;/a&gt; and will attach screenshots accordingly.&lt;/li&gt;
+&lt;li&gt;Change the &lt;code&gt;CNAME&lt;/code&gt; file in your repo to have one line. For me, this file only contains &lt;code&gt;irenechen.net&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;On your domain registrar, go into the DNS settings.
+&lt;img src=&#34;https://user-images.githubusercontent.com/1630275/28757047-ef154ed8-7548-11e7-850a-90705a5864ac.png&#34; width=&#34;600&#34;&gt;&lt;/li&gt;
+&lt;li&gt;Add the following two &amp;ldquo;custom resource records&amp;rdquo;
+
+&lt;ul&gt;
+&lt;li&gt;Name: &lt;code&gt;@&lt;/code&gt;, Type: &lt;code&gt;A&lt;/code&gt;, IPv4 address: &lt;code&gt;192.30.252.153&lt;/code&gt; and &lt;code&gt;192.30.252.154&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Name: &lt;code&gt;www&lt;/code&gt;, Type: &lt;code&gt;CNAME&lt;/code&gt;, Domain name: &lt;code&gt;YOUR-GITHUB-USERNAME.github.io&lt;/code&gt;
+&lt;img src=&#34;https://user-images.githubusercontent.com/1630275/28757072-392f80f6-7549-11e7-91fe-3b504060cd5e.png&#34; width=&#34;600&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Wait a &lt;strong&gt;loooooong&lt;/strong&gt; time. For me, this meant several hours. Do not panic.&lt;/li&gt;
+&lt;li&gt;Visit your website (aka &lt;code&gt;irenechen.net&lt;/code&gt;) to view the finished product!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;celebrate&#34;&gt;Celebrate&lt;/h2&gt;
+
+&lt;p&gt;And that&amp;rsquo;s it! In the end, web development and deploying your website is not difficult for the brain, just difficult for the patience. You will have your website crash or deviate from these &amp;ldquo;simple&amp;rdquo; instructions. Don&amp;rsquo;t be afraid to take a deep breath or even start from the beginning.&lt;/p&gt;
+
+&lt;p&gt;Now that you&amp;rsquo;ve made a website, nothing can stop you.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
