@@ -145,6 +145,35 @@
     </item>
     
     <item>
+      <title>Talks</title>
+      <link>https://irenechen.net/talks/</link>
+      <pubDate>Sun, 28 Jul 2019 23:19:53 -0400</pubDate>
+      
+      <guid>https://irenechen.net/talks/</guid>
+      <description>&lt;p&gt;Here are the slides from my presentations. When similar talks are given, only one representative slide deck will be posted.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Robust Machine Learning&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mlhc19mit/recitations/blob/master/rec6-slides.pdf&#34;&gt;&amp;ldquo;Causal Inference Case Studies&amp;rdquo;&lt;/a&gt;, MIT 6.S897/HST.956 Recitation, April 2019.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mlhc19mit/recitations/blob/master/rec7-slides.pdf&#34;&gt;&amp;ldquo;Clinical Reinforcement Learning&amp;rdquo;&lt;/a&gt;, MIT 6.S897/HST.956 Recitation, April 2019.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;./2019-02_msr-robust.pdf&#34;&gt;&amp;ldquo;Robust Machine Learning for Healthcare&amp;rdquo;&lt;/a&gt;, CSAIL - Microsoft Research Trustworthy and Robust AI Initiative, February 2019.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Ethics and Fairness&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;./2019-01_fairness-ethics.pdf&#34;&gt;&amp;ldquo;Fairness, Ethics, and Bias in Healthcare&amp;rdquo;&lt;/a&gt;, University of Toronto Guest Lecture, January 2019.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;./2018-12_neurips-discrim.pdf&#34;&gt;&amp;ldquo;Why is My Classifier Discriminatory?&amp;rdquo;&lt;/a&gt;, NeurIPS, December 2018.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- **Other**
+
+ * [&#34;Machine Learning for Healthcare Professionals&#34;](https://twitter.com), DiME Society Webinar, September 2019. --&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Bio</title>
       <link>https://irenechen.net/bio/</link>
       <pubDate>Sun, 28 Jul 2019 23:19:45 -0400</pubDate>
