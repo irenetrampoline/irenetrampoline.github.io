@@ -51,7 +51,7 @@ if (!doNotTrack) {
 	<div style="text-align: bottom">
 		<a href="https://irenechen.net/" style="float: left;" class="namelogo">Irene Chen</a>
 	
-	&nbsp;&nbsp;<a href="https://irenechen.net/blog/" style="color:#777;">Blog</a>&nbsp;&nbsp;<a href="https://irenechen.net/talks/" style="color:#777;">Talks</a>&nbsp;&nbsp;<a href="https://irenechen.net/resources/" style="color:#777;">Resources</a>&nbsp;&nbsp;<a href="https://irenechen.net/reading/" style="color:#777;">Reading List</a>
+	&nbsp;&nbsp;<a href="https://irenechen.net/blog/" style="color:#777;">Blog</a>&nbsp;&nbsp;<a href="https://irenechen.net/talks/" style="color:#777;">Talks</a>&nbsp;&nbsp;<a href="https://irenechen.net/resources/" style="color:#777;">Resources</a>&nbsp;&nbsp;<a href="https://irenechen.net/reading-list/" style="color:#777;">Reading List</a>
 
 	
 	
@@ -75,18 +75,42 @@ if (!doNotTrack) {
 
 <p><br></p>
 
-<h2 id="papers">Papers</h2>
+<h2 id="publications">Publications</h2>
 
-<script>
+<p><script>
 function absCHF() {
-    var x = document.getElementById("abs-fairness");
-    if (x.style.display === "none") {
-        x.style.display = "block";
+    var x = document.getElementById(&ldquo;abs-fairness&rdquo;);
+    if (x.style.display === &ldquo;none&rdquo;) {
+        x.style.display = &ldquo;block&rdquo;;
     } else {
-        x.style.display = "none";
+        x.style.display = &ldquo;none&rdquo;;
     }
 }
-</script>
+</script></p>
+
+<h4 id="conferences">Conferences</h4>
+
+<p><strong>Robustly Extracting Medical Knowledge from EHRs: A Case Study of Learning a Health Knowledge Graph.</strong>
+<br>
+Irene Y. Chen, Monica Agrawal, David Sontag.
+<br>
+<em>In submission.</em></p>
+
+<p><strong>Why Is My Classifier Discriminatory?</strong>
+<br>
+Irene Y. Chen, Fredrik D. Johansson, David Sontag.
+<br>
+<em>NeurIPS 2018</em>, <b><font color="#B03A2E">Spotlight Presentation (top 4% of submitted papers)</font></b>.
+<br>
+[<a id="abs-fairness-button" onclick="absCHF()">abstract</a>, <a href="https://arxiv.org/abs/1805.12002">pdf</a>, <a href="/assets/neurips18_slides.pdf">slides</a>, <a href="/assets/neurips18_poster.pdf">poster</a>]</p>
+
+<div id="abs-fairness" style="display:none;">
+<blockquote>Recent attempts to achieve fairness in predictive models focus on the balance between fairness and accuracy. In sensitive applications such as healthcare or criminal justice, this trade-off is often undesirable as any increase in prediction error could have devastating consequences. In this work, we argue that the fairness of predictions should be evaluated in context of the data, and that unfairness induced by inadequate samples sizes or unmeasured predictive variables should be addressed through data collection, rather than by constraining the model. We decompose cost-based metrics of discrimination into bias, variance, and noise, and propose actions aimed at estimating and reducing each term. Finally, we perform case-studies on prediction of income, mortality, and review ratings, confirming the value of this analysis. We find that data collection is often a means to reduce discrimination without sacrificing accuracy.</blockquote>
+</div>
+
+<p><strong>Sources of Unfairness in Intensive Care Unit Mortality Scores.</strong> <br>Irene Y. Chen, Fredrik D. Johansson, David Sontag. <br> <em>Women in Machine Learning Workshop at NeurIPS 2017.</em></p>
+
+<h4 id="journals">Journals</h4>
 
 <!-- **Learning Patient Alignment and Disease Hetereogeneity from Longitudinal Data.** 
 <br>
@@ -95,11 +119,8 @@ Irene Y. Chen, Rahul G. Krisnan, David Sontag.
 [[pdf](https://journalofethics.ama-assn.org/article/can-ai-help-reduce-disparities-general-medical-and-mental-health-care/2019-02)]
  -->
 
-<p><strong>Robustly Extracting Medical Knowledge from EHRs: A Case Study of Learning a Health Knowledge Graph.</strong>
-<br>
-Irene Y. Chen, Monica Agrawal, David Sontag.
 <!-- <br>
-[[pdf](https://journalofethics.ama-assn.org/article/can-ai-help-reduce-disparities-general-medical-and-mental-health-care/2019-02)] --></p>
+[[pdf](https://journalofethics.ama-assn.org/article/can-ai-help-reduce-disparities-general-medical-and-mental-health-care/2019-02)] -->
 
 <p><strong>Practical guidance on artificial intelligence for health-care data.</strong>
 <br>
@@ -117,23 +138,17 @@ Irene Y. Chen, Peter Szolovits, Marzyeh Ghassemi.
 <br>
 [<a href="https://journalofethics.ama-assn.org/article/can-ai-help-reduce-disparities-general-medical-and-mental-health-care/2019-02">pdf</a>]</p>
 
-<p><strong>Why Is My Classifier Discriminatory?</strong>
+<h4 id="other">Other</h4>
+
+<p><strong>We should treat algorithms like prescription drugs.</strong>
 <br>
-Irene Y. Chen, Fredrik D. Johansson, David Sontag.
+Andy Coravos, Irene Chen, Ankit Gordhandas, Ariel Dora Stern.
 <br>
-<em>NeurIPS 2018</em>, <b><font color="#B03A2E">Spotlight Presentation (top 4% of submitted papers)</font></b>.
+<em>Quartz</em>, February 14, 2019.
 <br>
-[<a id="abs-fairness-button" onclick="absCHF()">abstract</a>, <a href="https://arxiv.org/abs/1805.12002">pdf</a>, <a href="/assets/neurips18_slides.pdf">slides</a>, <a href="/assets/neurips18_poster.pdf">poster</a>]</p>
+[<a href="https://qz.com/1540594/treating-algorithms-like-prescription-drugs-could-reduce-ai-bias/">link</a>]</p>
 
-<div id="abs-fairness" style="display:none;">
-<blockquote>Recent attempts to achieve fairness in predictive models focus on the balance between fairness and accuracy. In sensitive applications such as healthcare or criminal justice, this trade-off is often undesirable as any increase in prediction error could have devastating consequences. In this work, we argue that the fairness of predictions should be evaluated in context of the data, and that unfairness induced by inadequate samples sizes or unmeasured predictive variables should be addressed through data collection, rather than by constraining the model. We decompose cost-based metrics of discrimination into bias, variance, and noise, and propose actions aimed at estimating and reducing each term. Finally, we perform case-studies on prediction of income, mortality, and review ratings, confirming the value of this analysis. We find that data collection is often a means to reduce discrimination without sacrificing accuracy.</blockquote>
-</div>
-
-<p><strong>Sources of Unfairness in Intensive Care Unit Mortality Scores.</strong> <br>Irene Y. Chen, Fredrik D. Johansson, David Sontag. <br> <em>Women in Machine Learning Workshop at NeurIPS 2017.</em></p>
-
-<!-- ### Other work
-
-**[We should treat algorithms like prescription drugs.](https://qz.com/1540594/treating-algorithms-like-prescription-drugs-could-reduce-ai-bias/)** Andy Coravos, Irene Chen, Ankit Gordhandas & Ariel Dora Stern. Quartz, February 14, 2019. -->
+<p><br></p>
 
 <h2 id="teaching">Teaching</h2>
 
@@ -149,6 +164,8 @@ Irene Y. Chen, Fredrik D. Johansson, David Sontag.
 <li>Linear Algebra and Real Analysis I, Paul Bamberg</li>
 <li>Linear Algebra and Real Analysis II, Paul Bamberg</li>
 </ul>
+
+<p><br></p>
 
 <h2 id="selected-press">Selected Press</h2>
 
