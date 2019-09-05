@@ -189,10 +189,6 @@ a:hover {
 	text-decoration: underline;
 }
 
-p a {
-	color: #0366d6;
-}
-
 code,
 pre {
 	font-family: Menlo, Monaco, 'Courier New', monospace;
