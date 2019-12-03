@@ -181,11 +181,14 @@
 &lt;li&gt;&lt;a href=&#34;./2018-12_neurips-discrim.pdf&#34;&gt;Why is My Classifier Discriminatory?&lt;/a&gt;, NeurIPS Spotlight Paper, December 2018.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;Introductory Materials&lt;/strong&gt;
- * &lt;a href=&#34;./2019-09_ML_health_professionals.pdf&#34;&gt;Machine Learning for Healthcare Professionals&lt;/a&gt;, DiME Society Webinar, September 2019.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Introductory Materials&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;./2019-09_ML_health_professionals.pdf&#34;&gt;Machine Learning for Healthcare Professionals&lt;/a&gt;, DiME Society Webinar, September 2019.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;!-- **Other**
-
+ * [Bias for Predictive Healthcare Algorithms]
  * [&#34;Machine Learning for Healthcare Professionals&#34;](https://twitter.com), DiME Society Webinar, September 2019. --&gt;
 </description>
     </item>
