@@ -62,6 +62,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://jxyzabc.blogspot.com/2012/10/faq-applying-to-graduate-school-for.html&#34;&gt;Applications for computer science PhD&lt;/a&gt; &amp;ndash; by Jean Yang (&lt;a href=&#34;http://twitter.com/jeanqasaur&#34;&gt;@jeanqasaur&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/roydanroy/status/1177578807152250881?s=20&#34;&gt;Emailing professors&lt;/a&gt; &amp;ndash; by Dan Roy (&lt;a href=&#34;http://twitter.com/roydanroy&#34;&gt;@roydanroy&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://twitter.com/ngehlenborg/status/1088193307619049472?s=21&#34;&gt;Interviewing for PhD programs&lt;/a&gt; &amp;ndash;  by Nils Gehlenborg (&lt;a href=&#34;http://twitter.com/ngehlenborg&#34;&gt;@ngehlenborg&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://titleix.mit.edu/faculty/procedures&#34;&gt;MIT reporting procedures for sexual misconduct, intimate partner violence, or stalking&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://mybiasedcoin.blogspot.com/2008/12/what-should-grad-students-be-learning.html&#34;&gt;What should grad students be learning?&lt;/a&gt; &amp;ndash; by Michael Mitzenmacher&lt;/li&gt;
@@ -73,6 +74,14 @@
 &lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/u/1/d/e/2PACX-1vSeOnC_QdaJVc3OuuMfDHVlk3QotUxvghytRFaDsrdA0uovD5axQjp8kJCM4Evu1cCf9Hg_u_Stabu1/pub&#34;&gt;Academic job search in 10 questions&lt;/a&gt; &amp;ndash; by Elissa Redmiles (&lt;a href=&#34;https://twitter.com/eredmil1&#34;&gt;@eredmil1&lt;/a&gt;) and Nicolas Papernot (&lt;a href=&#34;https://twitter.com/NicolasPapernot&#34;&gt;@NicolasPapernot&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://web.eecs.umich.edu/~weimerw/grad-job-guide/guide/index.html&#34;&gt;Another academic job search guide&lt;/a&gt; &amp;ndash; by Westley Weimer&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;!-- **Oddities of machine learning, medical data, and other fields**
+
+ - [ER doctors have preferences in which patients they see](https://twitter.com/oziadias/status/1221531710820454400) -- by Ziad Obermeyer (&lt;a href=&#34;https://twitter.com/oziadias&#34;&gt;@oziadias&lt;/a&gt;)
+ - [Algorithm learns that skin lesions with rulers next to them are more likely to be malignant](https://www.thedailybeast.com/why-doctors-arent-afraid-of-better-more-efficient-ai-diagnosing-cancer)
+ - [Judges overrule risk assessment default more for black defendents](https://thelittledataset.com/about_files/albright_judge_score.pdf) -- by Alex Albright (&lt;a href=&#34;https://twitter.com/allbriteallday&#34;&gt;@AllbriteAllday&lt;/a&gt;)
+ - [Models trained and validated on historical data decay in performance for updated data](https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/5d47335deebdc300017528a8/1564947317706/Nestor.pdf) -- by Marzyeh Ghassemi (&lt;a href=&#34;https://twitter.com/MarzyehGhassemi&#34;&gt;@MarzyehGhassemi&lt;/a&gt;)
+ - [AI is much better at predicting collapsed lung in post-treatment patients](https://twitter.com/DrLukeOR/status/1184084935339954176?s=20) -- by Luke Oakden-Rayner (&lt;a href=&#34;https://twitter.com/DrLukeOR&#34;&gt;@DrLukeOR&lt;/a&gt;) --&gt;
 </description>
     </item>
     
