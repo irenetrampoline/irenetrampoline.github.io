@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Irene Chen</title>
@@ -12,20 +11,11 @@
     
     
     <item>
-      <title>Blog</title>
+      <title>blog --&gt;</title>
       <link>https://irenechen.net/categories/blog/</link>
       <pubDate>Fri, 17 Aug 2018 23:27:55 -0400</pubDate>
       
       <guid>https://irenechen.net/categories/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Blog   </title>
-      <link>https://irenechen.net/categories/blog---/</link>
-      <pubDate>Sat, 30 Sep 2017 23:27:55 -0400</pubDate>
-      
-      <guid>https://irenechen.net/categories/blog---/</guid>
       <description></description>
     </item>
     
