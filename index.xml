@@ -35,7 +35,7 @@
 &lt;li&gt;&lt;a href=&#34;https://www.fairmlforhealth.com/&#34;&gt;Fair ML for Health Workshop at NeurIPS&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://ml4health.github.io/&#34;&gt;Machine Learning for Health (ML4H) Workshop at NeurIPS&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- raw HTML omitted --&gt;
+ &lt;!-- - [FAT* Conference](https://fatconference.org) --&gt;
 &lt;p&gt;&lt;strong&gt;Representative Machine Learning&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://wimlworkshop.org/&#34;&gt;Women in Machine Learning&lt;/a&gt;&lt;/li&gt;
@@ -52,29 +52,36 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Advice for aspiring and current ML researchers&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://jxyzabc.blogspot.com/2012/10/faq-applying-to-graduate-school-for.html&#34;&gt;Applications for computer science PhD&lt;/a&gt; &amp;ndash; by Jean Yang (&lt;!-- raw HTML omitted --&gt;@jeanqasaur&lt;!-- raw HTML omitted --&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://twitter.com/roydanroy/status/1177578807152250881?s=20&#34;&gt;Emailing professors&lt;/a&gt; &amp;ndash; by Dan Roy (&lt;!-- raw HTML omitted --&gt;@roydanroy&lt;!-- raw HTML omitted --&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://twitter.com/ngehlenborg/status/1088193307619049472?s=21&#34;&gt;Interviewing for PhD programs&lt;/a&gt; &amp;ndash;  by Nils Gehlenborg (&lt;!-- raw HTML omitted --&gt;@ngehlenborg&lt;!-- raw HTML omitted --&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://jxyzabc.blogspot.com/2012/10/faq-applying-to-graduate-school-for.html&#34;&gt;Applications for computer science PhD&lt;/a&gt; &amp;ndash; by Jean Yang (&lt;a href=&#34;http://twitter.com/jeanqasaur&#34;&gt;@jeanqasaur&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/roydanroy/status/1177578807152250881?s=20&#34;&gt;Emailing professors&lt;/a&gt; &amp;ndash; by Dan Roy (&lt;a href=&#34;http://twitter.com/roydanroy&#34;&gt;@roydanroy&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/ngehlenborg/status/1088193307619049472?s=21&#34;&gt;Interviewing for PhD programs&lt;/a&gt; &amp;ndash;  by Nils Gehlenborg (&lt;a href=&#34;http://twitter.com/ngehlenborg&#34;&gt;@ngehlenborg&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://titleix.mit.edu/faculty/procedures&#34;&gt;MIT reporting procedures for sexual misconduct, intimate partner violence, or stalking&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://mybiasedcoin.blogspot.com/2008/12/what-should-grad-students-be-learning.html&#34;&gt;What should grad students be learning?&lt;/a&gt; &amp;ndash; by Michael Mitzenmacher&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://matt.might.net/articles/phd-commandments/&#34;&gt;Expectations for advisors and students&lt;/a&gt; &amp;ndash; by John Regehr (&lt;!-- raw HTML omitted --&gt;@johnregehr&lt;!-- raw HTML omitted --&gt;), Suresh Venkatasubramanian (&lt;!-- raw HTML omitted --&gt;@geomblog&lt;!-- raw HTML omitted --&gt;), and Matt Might (&lt;!-- raw HTML omitted --&gt;@mattmight&lt;!-- raw HTML omitted --&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://matt.might.net/articles/phd-commandments/&#34;&gt;Expectations for advisors and students&lt;/a&gt; &amp;ndash; by John Regehr (&lt;a href=&#34;http://twitter.com/johnregehr&#34;&gt;@johnregehr&lt;/a&gt;), Suresh Venkatasubramanian (&lt;a href=&#34;http://twitter.com/geomblog&#34;&gt;@geomblog&lt;/a&gt;), and Matt Might (&lt;a href=&#34;https://twitter.com/mattmight&#34;&gt;@mattmight&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.math.ucsd.edu/~fan/teach/add.htm&#34;&gt;Handling math bullies&lt;/a&gt; &amp;ndash; by Fan Chung Graham&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.devinguillory.com/files/AI_Anti_Blackness.pdf&#34;&gt;Combatting Anti-Blackness in the AI Community&lt;/a&gt; &amp;ndash; by Devin Guillory (&lt;!-- raw HTML omitted --&gt;@databoydg&lt;!-- raw HTML omitted --&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.devinguillory.com/files/AI_Anti_Blackness.pdf&#34;&gt;Combatting Anti-Blackness in the AI Community&lt;/a&gt; &amp;ndash; by Devin Guillory (&lt;a href=&#34;https://twitter.com/databoydg&#34;&gt;@databoydg&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://jsteinhardt.wordpress.com/2017/02/28/advice-for-authors/&#34;&gt;Paper writing tips&lt;/a&gt; &amp;ndash; by Jacob Steinhardt&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://medium.com/@deviparikh/shortening-papers-to-fit-page-limits-97601318681d&#34;&gt;Shortening papers&lt;/a&gt; &amp;ndash; by Devi Parikh (&lt;!-- raw HTML omitted --&gt;@deviparikh&lt;!-- raw HTML omitted --&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://matt.might.net/articles/peer-review-rebuttals/&#34;&gt;Responding to peer feedback&lt;/a&gt; &amp;ndash; by Matt Might (&lt;!-- raw HTML omitted --&gt;@mattmight&lt;!-- raw HTML omitted --&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://medium.com/@deviparikh/how-we-write-rebuttals-dc84742fece1&#34;&gt;Writing conference rebuttals&lt;/a&gt; &amp;ndash; by Devi Parikh (&lt;!-- raw HTML omitted --&gt;@deviparikh&lt;!-- raw HTML omitted --&gt;), Dhruv Batra (&lt;!-- raw HTML omitted --&gt;@DhruvBatraDB&lt;!-- raw HTML omitted --&gt;), Stefan Lee (&lt;!-- raw HTML omitted --&gt;@stefmlee&lt;!-- raw HTML omitted --&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://colinraffel.com/blog/reviewing-criteria.html&#34;&gt;Reviewing conference papers&lt;/a&gt; &amp;ndash; by Colin Raffel (&lt;!-- raw HTML omitted --&gt;@colinraffel&lt;!-- raw HTML omitted --&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@deviparikh/shortening-papers-to-fit-page-limits-97601318681d&#34;&gt;Shortening papers&lt;/a&gt; &amp;ndash; by Devi Parikh (&lt;a href=&#34;https://twitter.com/deviparikh&#34;&gt;@deviparikh&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://matt.might.net/articles/peer-review-rebuttals/&#34;&gt;Responding to peer feedback&lt;/a&gt; &amp;ndash; by Matt Might (&lt;a href=&#34;https://twitter.com/mattmight&#34;&gt;@mattmight&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@deviparikh/how-we-write-rebuttals-dc84742fece1&#34;&gt;Writing conference rebuttals&lt;/a&gt; &amp;ndash; by Devi Parikh (&lt;a href=&#34;https://twitter.com/deviparikh&#34;&gt;@deviparikh&lt;/a&gt;), Dhruv Batra (&lt;a href=&#34;https://twitter.com/DhruvBatraDB&#34;&gt;@DhruvBatraDB&lt;/a&gt;), Stefan Lee (&lt;a href=&#34;https://twitter.com/stefmlee&#34;&gt;@stefmlee&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://colinraffel.com/blog/reviewing-criteria.html&#34;&gt;Reviewing conference papers&lt;/a&gt; &amp;ndash; by Colin Raffel (&lt;a href=&#34;https://twitter.com/colinraffel&#34;&gt;@colinraffel&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://sites.google.com/view/making-reviews-great-again/&#34;&gt;How to write a good conference review&lt;/a&gt; &amp;ndash; CVPR 2020 Tutorial&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/u/1/d/e/2PACX-1vSeOnC_QdaJVc3OuuMfDHVlk3QotUxvghytRFaDsrdA0uovD5axQjp8kJCM4Evu1cCf9Hg_u_Stabu1/pub&#34;&gt;Academic job search in 10 questions&lt;/a&gt; &amp;ndash; by Elissa Redmiles (&lt;!-- raw HTML omitted --&gt;@eredmil1&lt;!-- raw HTML omitted --&gt;) and Nicolas Papernot (&lt;!-- raw HTML omitted --&gt;@NicolasPapernot&lt;!-- raw HTML omitted --&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/u/1/d/e/2PACX-1vSeOnC_QdaJVc3OuuMfDHVlk3QotUxvghytRFaDsrdA0uovD5axQjp8kJCM4Evu1cCf9Hg_u_Stabu1/pub&#34;&gt;Academic job search in 10 questions&lt;/a&gt; &amp;ndash; by Elissa Redmiles (&lt;a href=&#34;https://twitter.com/eredmil1&#34;&gt;@eredmil1&lt;/a&gt;) and Nicolas Papernot (&lt;a href=&#34;https://twitter.com/NicolasPapernot&#34;&gt;@NicolasPapernot&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://web.eecs.umich.edu/~weimerw/grad-job-guide/guide/index.html&#34;&gt;Another academic job search guide&lt;/a&gt; &amp;ndash; by Westley Weimer&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://twitter.com/psyscisar/status/1227469486711869440&#34;&gt;How to reject a candidate&lt;/a&gt; &amp;ndash; by Sara Davis (&lt;!-- raw HTML omitted --&gt;@PsySciSar&lt;!-- raw HTML omitted --&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/psyscisar/status/1227469486711869440&#34;&gt;How to reject a candidate&lt;/a&gt; &amp;ndash; by Sara Davis (&lt;a href=&#34;https://twitter.com/PsySciSar&#34;&gt;@PsySciSar&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;blockquote&gt;
+&lt;!-- **Oddities of machine learning, medical data, and other fields**
+
+ - [ER doctors have preferences in which patients they see](https://twitter.com/oziadias/status/1221531710820454400) -- by Ziad Obermeyer (&lt;a href=&#34;https://twitter.com/oziadias&#34;&gt;@oziadias&lt;/a&gt;)
+ - [Algorithm learns that skin lesions with rulers next to them are more likely to be malignant](https://www.thedailybeast.com/why-doctors-arent-afraid-of-better-more-efficient-ai-diagnosing-cancer)
+ - [Judges overrule risk assessment default more for black defendents](https://thelittledataset.com/about_files/albright_judge_score.pdf) -- by Alex Albright (&lt;a href=&#34;https://twitter.com/allbriteallday&#34;&gt;@AllbriteAllday&lt;/a&gt;)
+ - [Models trained and validated on historical data decay in performance for updated data](https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/5d47335deebdc300017528a8/1564947317706/Nestor.pdf) -- by Marzyeh Ghassemi (&lt;a href=&#34;https://twitter.com/MarzyehGhassemi&#34;&gt;@MarzyehGhassemi&lt;/a&gt;)
+ - [AI is much better at predicting collapsed lung in post-treatment patients](https://twitter.com/DrLukeOR/status/1184084935339954176?s=20) -- by Luke Oakden-Rayner (&lt;a href=&#34;https://twitter.com/DrLukeOR&#34;&gt;@DrLukeOR&lt;/a&gt;) --&gt;
+&lt;!-- **General interest reading**
+
+Invisible Women
+Automating Inequality
+ --&gt;&lt;blockquote&gt;
 &lt;/blockquote&gt;
 </description>
     </item>
@@ -120,7 +127,7 @@
 &lt;li&gt;&lt;a href=&#34;https://bookshop.org/a/10961/9781501133510&#34;&gt;Big Summer&lt;/a&gt;, Jennifer Weiner&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://bookshop.org/a/10961/9780062868930&#34;&gt;The Guest List&lt;/a&gt;, Lucy Foley&lt;/li&gt;
 &lt;/ol&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;!-- 6. [Unbearable Lightness of Being](https://www.amazon.com/Unbearable-Lightness-Being-Perennial-Classics/dp/0061148520/), Milan Kundera --&gt;
 &lt;h3 id=&#34;2019&#34;&gt;2019&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;https://bookshop.org/a/10961/9780451499066&#34;&gt;Conversations with Friends&lt;/a&gt;, Sally Rooney&lt;/li&gt;
@@ -210,9 +217,9 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;./2019-09_ML_health_professionals.pdf&#34;&gt;Machine Learning for Healthcare Professionals&lt;/a&gt;, DiME Society Webinar, September 2019.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;blockquote&gt;
+&lt;!-- **Other**
+ * [Bias for Predictive Healthcare Algorithms]
+ * [&#34;Machine Learning for Healthcare Professionals&#34;](https://twitter.com), DiME Society Webinar, September 2019. --&gt;&lt;blockquote&gt;
 &lt;/blockquote&gt;
 </description>
     </item>
