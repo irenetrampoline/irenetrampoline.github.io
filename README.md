@@ -1,4 +1,4 @@
-personal_website
+Person Website
 ================
 
-This holds the code for my personal website at https://homes.cs.washington.edu/~axz/.
+Code for my personal website, heavily borrowed from [Amy Zhang](https://github.com/amyxzhang/personal_website)
