@@ -1,3 +1,0 @@
-
-
-$("#mygallery").justifiedGallery();
